@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "testing.dtd">
+
+<suite name = "OrangeHRMSuite">
+	<test name = "OrangeHRMTest">
+		<classes>
+			<class name = "com.orangehrm.test.DummyClassTest"></class>
+			<class name = "com.orangehrm.test.DummyClassTest2"></class>
+		</classes>
+	</test>
+</suite>
