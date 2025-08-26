@@ -13,11 +13,13 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.BeforeSuite;
+import com.orangehrm.actiondriver.ActionDriver;
 
 public class BaseClass {
 
 	protected static Properties prop;
 	protected static WebDriver driver;
+	private static ActionDriver actionDriver;
 
 	/*
 	 * Load the Configuration File
@@ -35,6 +37,12 @@ public class BaseClass {
 		launchBrowser();
 		configureBrowser();
 		staticWait(3);
+		
+		// Initialize the actionDriver only once
+		if(actionDriver == null) {
+		actionDriver = new ActionDriver(driver);
+		System.out.println("ActionDriver instance is created");
+		}
 	}
 	
 	/*
@@ -85,11 +93,29 @@ public class BaseClass {
 				System.out.println("unable to quit the driver:" + e.getMessage());
 			}
 		}
+		System.out.println("WebDriver instance is closed");
+		driver = null;
+		actionDriver = null;
 	}
 	
-	// Driver getter method
+	// getter method for Driver
 	public WebDriver getDriver() {
+		
+		if(driver==null) {
+			System.out.println("WebDriver is not initialized");
+			throw new IllegalStateException("Webdriver is not initialized");
+		}
 		return driver;
+	}
+	
+	// getter method for ActionDriver
+	public static ActionDriver getActionDriver() {
+		
+		if(actionDriver==null) {
+			System.out.println("ActionDriver is not initialized");
+			throw new IllegalStateException("Actiondriver is not initialized");
+		}
+		return actionDriver;
 	}
 	
 	// Driver setter method
