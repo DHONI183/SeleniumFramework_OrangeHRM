@@ -97,6 +97,12 @@ public class BaseClass {
 		this.driver = driver;
 	}
 	
+	// Prop getter method
+	public static Properties getProp() {
+		return prop;	
+	}
+	
+	
 	// Static wait for pause
 	public void staticWait(int seconds) {
 		LockSupport.parkNanos(TimeUnit.SECONDS.toNanos(seconds));

@@ -4,8 +4,8 @@
 <suite name = "OrangeHRMSuite">
 	<test name = "OrangeHRMTest">
 		<classes>
-			<class name = "com.orangehrm.test.DummyClassTest"></class>
-			<class name = "com.orangehrm.test.DummyClassTest2"></class>
+			<class name = "com.orangehrm.test.LoginPageTest"></class>
+			<class name = "com.orangehrm.test.HomePageTest"></class>
 		</classes>
 	</test>
 </suite>
