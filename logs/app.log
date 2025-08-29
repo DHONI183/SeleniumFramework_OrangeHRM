@@ -1,0 +1,223 @@
+2025-08-28 00:42:32 [main] INFO  com.orangehrm.base.BaseClass - config.properties file loaded
+2025-08-28 00:42:39 [main] INFO  com.orangehrm.base.BaseClass - WebDriver Initialized and Browser Maximized
+2025-08-28 00:42:39 [main] ERROR com.orangehrm.base.BaseClass - This is a error message
+2025-08-28 00:42:39 [main] DEBUG com.orangehrm.base.BaseClass - This is a debug message
+2025-08-28 00:42:39 [main] FATAL com.orangehrm.base.BaseClass - This is a fatal message
+2025-08-28 00:42:39 [main] WARN  com.orangehrm.base.BaseClass - This is a warm message
+2025-08-28 00:42:39 [main] INFO  com.orangehrm.actiondriver.ActionDriver - WebDriver instance is created
+2025-08-28 00:42:39 [main] INFO  com.orangehrm.base.BaseClass - ActionDriver instance is created
+2025-08-28 00:42:39 [main] INFO  com.orangehrm.actiondriver.ActionDriver - Typed 'admin' into element: By.name: username
+2025-08-28 00:42:39 [main] INFO  com.orangehrm.actiondriver.ActionDriver - Typed 'admin' into element: By.cssSelector: input[type='password']
+2025-08-28 00:42:39 [main] INFO  com.orangehrm.actiondriver.ActionDriver - Clicked on element: By.xpath: //button[text()=' Login ']
+2025-08-28 00:42:40 [main] INFO  com.orangehrm.actiondriver.ActionDriver - Text from element By.xpath: //p[text()='Invalid credentials'] is: Invalid credentials
+2025-08-28 00:42:40 [main] INFO  com.orangehrm.actiondriver.ActionDriver - Text Matching
+2025-08-28 00:42:43 [main] INFO  com.orangehrm.base.BaseClass - WebDriver instance is closed
+2025-08-28 00:42:49 [main] INFO  com.orangehrm.base.BaseClass - WebDriver Initialized and Browser Maximized
+2025-08-28 00:42:49 [main] ERROR com.orangehrm.base.BaseClass - This is a error message
+2025-08-28 00:42:49 [main] DEBUG com.orangehrm.base.BaseClass - This is a debug message
+2025-08-28 00:42:49 [main] FATAL com.orangehrm.base.BaseClass - This is a fatal message
+2025-08-28 00:42:49 [main] WARN  com.orangehrm.base.BaseClass - This is a warm message
+2025-08-28 00:42:49 [main] INFO  com.orangehrm.actiondriver.ActionDriver - WebDriver instance is created
+2025-08-28 00:42:49 [main] INFO  com.orangehrm.base.BaseClass - ActionDriver instance is created
+2025-08-28 00:42:49 [main] INFO  com.orangehrm.actiondriver.ActionDriver - Typed 'admin' into element: By.name: username
+2025-08-28 00:42:49 [main] INFO  com.orangehrm.actiondriver.ActionDriver - Typed 'admin123' into element: By.cssSelector: input[type='password']
+2025-08-28 00:42:51 [main] INFO  com.orangehrm.actiondriver.ActionDriver - Clicked on element: By.xpath: //button[text()=' Login ']
+2025-08-28 00:42:51 [main] INFO  com.orangehrm.actiondriver.ActionDriver - Clicked on element: By.className: oxd-userdropdown-name
+2025-08-28 00:42:53 [main] INFO  com.orangehrm.actiondriver.ActionDriver - Clicked on element: By.xpath: //a[text()='Logout']
+2025-08-28 00:42:55 [main] INFO  com.orangehrm.base.BaseClass - WebDriver instance is closed
+2025-08-28 00:43:03 [main] INFO  com.orangehrm.base.BaseClass - WebDriver Initialized and Browser Maximized
+2025-08-28 00:43:03 [main] ERROR com.orangehrm.base.BaseClass - This is a error message
+2025-08-28 00:43:03 [main] DEBUG com.orangehrm.base.BaseClass - This is a debug message
+2025-08-28 00:43:03 [main] FATAL com.orangehrm.base.BaseClass - This is a fatal message
+2025-08-28 00:43:03 [main] WARN  com.orangehrm.base.BaseClass - This is a warm message
+2025-08-28 00:43:03 [main] INFO  com.orangehrm.actiondriver.ActionDriver - WebDriver instance is created
+2025-08-28 00:43:03 [main] INFO  com.orangehrm.base.BaseClass - ActionDriver instance is created
+2025-08-28 00:43:03 [main] INFO  com.orangehrm.actiondriver.ActionDriver - Typed 'admin' into element: By.name: username
+2025-08-28 00:43:03 [main] INFO  com.orangehrm.actiondriver.ActionDriver - Typed 'admin123' into element: By.cssSelector: input[type='password']
+2025-08-28 00:43:03 [main] INFO  com.orangehrm.actiondriver.ActionDriver - Clicked on element: By.xpath: //button[text()=' Login ']
+2025-08-28 00:43:05 [main] INFO  com.orangehrm.base.BaseClass - WebDriver instance is closed
+2025-08-28 00:47:40 [main] INFO  com.orangehrm.base.BaseClass - config.properties file loaded
+2025-08-28 00:47:50 [main] INFO  com.orangehrm.base.BaseClass - WebDriver Initialized and Browser Maximized
+2025-08-28 00:47:50 [main] ERROR com.orangehrm.base.BaseClass - This is a error message
+2025-08-28 00:47:50 [main] DEBUG com.orangehrm.base.BaseClass - This is a debug message
+2025-08-28 00:47:50 [main] FATAL com.orangehrm.base.BaseClass - This is a fatal message
+2025-08-28 00:47:50 [main] WARN  com.orangehrm.base.BaseClass - This is a warm message
+2025-08-28 00:47:50 [main] INFO  com.orangehrm.actiondriver.ActionDriver - WebDriver instance is created
+2025-08-28 00:47:50 [main] INFO  com.orangehrm.base.BaseClass - ActionDriver instance is created
+2025-08-28 00:47:50 [main] INFO  com.orangehrm.actiondriver.ActionDriver - Typed 'admin' into element: By.name: username
+2025-08-28 00:47:50 [main] INFO  com.orangehrm.actiondriver.ActionDriver - Typed 'admin' into element: By.cssSelector: input[type='password']
+2025-08-28 00:47:52 [main] INFO  com.orangehrm.actiondriver.ActionDriver - Clicked on element: By.xpath: //button[text()=' Login ']
+2025-08-28 00:47:52 [main] INFO  com.orangehrm.actiondriver.ActionDriver - Text from element By.xpath: //p[text()='Invalid credentials'] is: Invalid credentials
+2025-08-28 00:47:52 [main] INFO  com.orangehrm.actiondriver.ActionDriver - Text Matching
+2025-08-28 00:47:55 [main] INFO  com.orangehrm.base.BaseClass - WebDriver instance is closed
+2025-08-28 00:48:03 [main] INFO  com.orangehrm.base.BaseClass - WebDriver Initialized and Browser Maximized
+2025-08-28 00:48:03 [main] ERROR com.orangehrm.base.BaseClass - This is a error message
+2025-08-28 00:48:03 [main] DEBUG com.orangehrm.base.BaseClass - This is a debug message
+2025-08-28 00:48:03 [main] FATAL com.orangehrm.base.BaseClass - This is a fatal message
+2025-08-28 00:48:03 [main] WARN  com.orangehrm.base.BaseClass - This is a warm message
+2025-08-28 00:48:03 [main] INFO  com.orangehrm.actiondriver.ActionDriver - WebDriver instance is created
+2025-08-28 00:48:03 [main] INFO  com.orangehrm.base.BaseClass - ActionDriver instance is created
+2025-08-28 00:48:03 [main] INFO  com.orangehrm.actiondriver.ActionDriver - Typed 'admin' into element: By.name: username
+2025-08-28 00:48:03 [main] INFO  com.orangehrm.actiondriver.ActionDriver - Typed 'admin123' into element: By.cssSelector: input[type='password']
+2025-08-28 00:48:04 [main] INFO  com.orangehrm.actiondriver.ActionDriver - Clicked on element: By.xpath: //button[text()=' Login ']
+2025-08-28 00:48:04 [main] INFO  com.orangehrm.actiondriver.ActionDriver - Clicked on element: By.className: oxd-userdropdown-name
+2025-08-28 00:48:07 [main] INFO  com.orangehrm.actiondriver.ActionDriver - Clicked on element: By.xpath: //a[text()='Logout']
+2025-08-28 00:48:09 [main] INFO  com.orangehrm.base.BaseClass - WebDriver instance is closed
+2025-08-28 00:51:03 [main] INFO  com.orangehrm.base.BaseClass - config.properties file loaded
+2025-08-28 00:51:11 [main] INFO  com.orangehrm.base.BaseClass - WebDriver Initialized and Browser Maximized
+2025-08-28 00:51:11 [main] ERROR com.orangehrm.base.BaseClass - This is a error message
+2025-08-28 00:51:11 [main] DEBUG com.orangehrm.base.BaseClass - This is a debug message
+2025-08-28 00:51:11 [main] FATAL com.orangehrm.base.BaseClass - This is a fatal message
+2025-08-28 00:51:11 [main] WARN  com.orangehrm.base.BaseClass - This is a warm message
+2025-08-28 00:51:11 [main] INFO  com.orangehrm.actiondriver.ActionDriver - WebDriver instance is created
+2025-08-28 00:51:11 [main] INFO  com.orangehrm.base.BaseClass - ActionDriver instance is created
+2025-08-28 00:51:11 [main] INFO  com.orangehrm.actiondriver.ActionDriver - Typed 'admin' into element: By.name: username
+2025-08-28 00:51:11 [main] INFO  com.orangehrm.actiondriver.ActionDriver - Typed 'admin123' into element: By.cssSelector: input[type='password']
+2025-08-28 00:51:12 [main] INFO  com.orangehrm.actiondriver.ActionDriver - Clicked on element: By.xpath: //button[text()=' Login ']
+2025-08-28 00:51:12 [main] INFO  com.orangehrm.base.BaseClass - WebDriver instance is closed
+2025-08-28 00:54:26 [main] INFO  com.orangehrm.base.BaseClass - config.properties file loaded
+2025-08-28 00:54:33 [main] INFO  com.orangehrm.base.BaseClass - WebDriver Initialized and Browser Maximized
+2025-08-28 00:54:33 [main] ERROR com.orangehrm.base.BaseClass - This is a error message
+2025-08-28 00:54:33 [main] DEBUG com.orangehrm.base.BaseClass - This is a debug message
+2025-08-28 00:54:33 [main] FATAL com.orangehrm.base.BaseClass - This is a fatal message
+2025-08-28 00:54:33 [main] WARN  com.orangehrm.base.BaseClass - This is a warm message
+2025-08-28 00:54:33 [main] INFO  com.orangehrm.actiondriver.ActionDriver - WebDriver instance is created
+2025-08-28 00:54:33 [main] INFO  com.orangehrm.base.BaseClass - ActionDriver instance is created
+2025-08-28 00:54:33 [main] INFO  com.orangehrm.actiondriver.ActionDriver - Typed 'admin' into element: By.name: username
+2025-08-28 00:54:33 [main] INFO  com.orangehrm.actiondriver.ActionDriver - Typed 'admin123' into element: By.cssSelector: input[type='password']
+2025-08-28 00:54:34 [main] INFO  com.orangehrm.actiondriver.ActionDriver - Clicked on element: By.xpath: //button[text()=' Login ']
+2025-08-28 00:54:35 [main] INFO  com.orangehrm.base.BaseClass - WebDriver instance is closed
+2025-08-28 00:55:12 [main] INFO  com.orangehrm.base.BaseClass - config.properties file loaded
+2025-08-28 00:55:19 [main] INFO  com.orangehrm.base.BaseClass - WebDriver Initialized and Browser Maximized
+2025-08-28 00:55:19 [main] ERROR com.orangehrm.base.BaseClass - This is a error message
+2025-08-28 00:55:19 [main] DEBUG com.orangehrm.base.BaseClass - This is a debug message
+2025-08-28 00:55:19 [main] FATAL com.orangehrm.base.BaseClass - This is a fatal message
+2025-08-28 00:55:19 [main] WARN  com.orangehrm.base.BaseClass - This is a warm message
+2025-08-28 00:55:19 [main] INFO  com.orangehrm.actiondriver.ActionDriver - WebDriver instance is created
+2025-08-28 00:55:19 [main] INFO  com.orangehrm.base.BaseClass - ActionDriver instance is created
+2025-08-28 00:55:19 [main] INFO  com.orangehrm.actiondriver.ActionDriver - Typed 'admin' into element: By.name: username
+2025-08-28 00:55:19 [main] INFO  com.orangehrm.actiondriver.ActionDriver - Typed 'admin123' into element: By.cssSelector: input[type='password']
+2025-08-28 00:55:20 [main] INFO  com.orangehrm.actiondriver.ActionDriver - Clicked on element: By.xpath: //button[text()=' Login ']
+2025-08-28 00:55:20 [main] INFO  com.orangehrm.base.BaseClass - WebDriver instance is closed
+2025-08-28 00:55:42 [main] INFO  com.orangehrm.base.BaseClass - config.properties file loaded
+2025-08-28 00:55:49 [main] INFO  com.orangehrm.base.BaseClass - WebDriver Initialized and Browser Maximized
+2025-08-28 00:55:49 [main] ERROR com.orangehrm.base.BaseClass - This is a error message
+2025-08-28 00:55:49 [main] DEBUG com.orangehrm.base.BaseClass - This is a debug message
+2025-08-28 00:55:49 [main] FATAL com.orangehrm.base.BaseClass - This is a fatal message
+2025-08-28 00:55:49 [main] WARN  com.orangehrm.base.BaseClass - This is a warm message
+2025-08-28 00:55:49 [main] INFO  com.orangehrm.actiondriver.ActionDriver - WebDriver instance is created
+2025-08-28 00:55:49 [main] INFO  com.orangehrm.base.BaseClass - ActionDriver instance is created
+2025-08-28 00:55:49 [main] INFO  com.orangehrm.actiondriver.ActionDriver - Typed 'admin' into element: By.name: username
+2025-08-28 00:55:49 [main] INFO  com.orangehrm.actiondriver.ActionDriver - Typed 'admin123' into element: By.cssSelector: input[type='password']
+2025-08-28 00:55:50 [main] INFO  com.orangehrm.actiondriver.ActionDriver - Clicked on element: By.xpath: //button[text()=' Login ']
+2025-08-28 00:55:51 [main] INFO  com.orangehrm.base.BaseClass - WebDriver instance is closed
+2025-08-28 00:59:17 [main] INFO  com.orangehrm.base.BaseClass - config.properties file loaded
+2025-08-28 00:59:26 [main] INFO  com.orangehrm.base.BaseClass - WebDriver Initialized and Browser Maximized
+2025-08-28 00:59:26 [main] DEBUG com.orangehrm.base.BaseClass - This is a debug message
+2025-08-28 00:59:26 [main] WARN  com.orangehrm.base.BaseClass - This is a warm message
+2025-08-28 00:59:26 [main] INFO  com.orangehrm.actiondriver.ActionDriver - WebDriver instance is created
+2025-08-28 00:59:26 [main] INFO  com.orangehrm.base.BaseClass - ActionDriver instance is created
+2025-08-28 00:59:26 [main] INFO  com.orangehrm.actiondriver.ActionDriver - Typed 'admin' into element: By.name: username
+2025-08-28 00:59:26 [main] INFO  com.orangehrm.actiondriver.ActionDriver - Typed 'admin123' into element: By.cssSelector: input[type='password']
+2025-08-28 00:59:27 [main] INFO  com.orangehrm.actiondriver.ActionDriver - Clicked on element: By.xpath: //button[text()=' Login ']
+2025-08-28 00:59:28 [main] INFO  com.orangehrm.base.BaseClass - WebDriver instance is closed
+2025-08-28 14:31:46 [main] INFO  com.orangehrm.base.BaseClass - config.properties file loaded
+2025-08-28 14:31:58 [main] INFO  com.orangehrm.base.BaseClass - WebDriver Initialized and Browser Maximized
+2025-08-28 14:31:58 [main] DEBUG com.orangehrm.base.BaseClass - This is a debug message
+2025-08-28 14:31:58 [main] WARN  com.orangehrm.base.BaseClass - This is a warm message
+2025-08-28 14:31:58 [main] INFO  com.orangehrm.actiondriver.ActionDriver - WebDriver instance is created
+2025-08-28 14:31:58 [main] INFO  com.orangehrm.base.BaseClass - ActionDriver instance is created
+2025-08-28 14:31:58 [main] INFO  com.orangehrm.actiondriver.ActionDriver - Typed 'admin' into element: By.name: username
+2025-08-28 14:31:58 [main] INFO  com.orangehrm.actiondriver.ActionDriver - Typed 'admin123' into element: By.cssSelector: input[type='password']
+2025-08-28 14:32:10 [main] INFO  com.orangehrm.actiondriver.ActionDriver - Clicked on element: Unable to describe the Element: By.xpath: //button[text()=' Login ']
+2025-08-28 14:32:10 [main] INFO  com.orangehrm.base.BaseClass - WebDriver instance is closed
+2025-08-28 14:34:58 [main] INFO  com.orangehrm.base.BaseClass - config.properties file loaded
+2025-08-28 14:35:07 [main] INFO  com.orangehrm.base.BaseClass - WebDriver Initialized and Browser Maximized
+2025-08-28 14:35:07 [main] DEBUG com.orangehrm.base.BaseClass - This is a debug message
+2025-08-28 14:35:07 [main] WARN  com.orangehrm.base.BaseClass - This is a warm message
+2025-08-28 14:35:07 [main] INFO  com.orangehrm.actiondriver.ActionDriver - WebDriver instance is created
+2025-08-28 14:35:07 [main] INFO  com.orangehrm.base.BaseClass - ActionDriver instance is created
+2025-08-28 14:35:07 [main] INFO  com.orangehrm.actiondriver.ActionDriver - Typed 'admin' into element: By.name: username
+2025-08-28 14:35:08 [main] INFO  com.orangehrm.actiondriver.ActionDriver - Typed 'admin123' into element: By.cssSelector: input[type='password']
+2025-08-28 14:35:19 [main] INFO  com.orangehrm.actiondriver.ActionDriver - Clicked on element: Unable to describe the Element: By.xpath: //button[text()=' Login ']
+2025-08-28 14:35:19 [main] INFO  com.orangehrm.base.BaseClass - WebDriver instance is closed
+2025-08-28 14:37:08 [main] INFO  com.orangehrm.base.BaseClass - config.properties file loaded
+2025-08-28 14:37:20 [main] INFO  com.orangehrm.base.BaseClass - WebDriver Initialized and Browser Maximized
+2025-08-28 14:37:20 [main] DEBUG com.orangehrm.base.BaseClass - This is a debug message
+2025-08-28 14:37:20 [main] WARN  com.orangehrm.base.BaseClass - This is a warm message
+2025-08-28 14:37:20 [main] INFO  com.orangehrm.actiondriver.ActionDriver - WebDriver instance is created
+2025-08-28 14:37:20 [main] INFO  com.orangehrm.base.BaseClass - ActionDriver instance is created
+2025-08-28 14:37:21 [main] INFO  com.orangehrm.actiondriver.ActionDriver - Typed 'admin' into element: By.name: username
+2025-08-28 14:37:21 [main] INFO  com.orangehrm.actiondriver.ActionDriver - Typed 'admin' into element: By.cssSelector: input[type='password']
+2025-08-28 14:37:23 [main] INFO  com.orangehrm.actiondriver.ActionDriver - Clicked on element: Element with text: Login
+2025-08-28 14:37:23 [main] INFO  com.orangehrm.actiondriver.ActionDriver - Text from element By.xpath: //p[text()='Invalid credentials'] is: Invalid credentials
+2025-08-28 14:37:23 [main] INFO  com.orangehrm.actiondriver.ActionDriver - Text Matching
+2025-08-28 14:37:25 [main] INFO  com.orangehrm.base.BaseClass - WebDriver instance is closed
+2025-08-28 14:37:34 [main] INFO  com.orangehrm.base.BaseClass - WebDriver Initialized and Browser Maximized
+2025-08-28 14:37:34 [main] DEBUG com.orangehrm.base.BaseClass - This is a debug message
+2025-08-28 14:37:34 [main] WARN  com.orangehrm.base.BaseClass - This is a warm message
+2025-08-28 14:37:34 [main] INFO  com.orangehrm.actiondriver.ActionDriver - WebDriver instance is created
+2025-08-28 14:37:34 [main] INFO  com.orangehrm.base.BaseClass - ActionDriver instance is created
+2025-08-28 14:37:34 [main] INFO  com.orangehrm.actiondriver.ActionDriver - Typed 'admin' into element: By.name: username
+2025-08-28 14:37:34 [main] INFO  com.orangehrm.actiondriver.ActionDriver - Typed 'admin123' into element: By.cssSelector: input[type='password']
+2025-08-28 14:37:46 [main] INFO  com.orangehrm.actiondriver.ActionDriver - Clicked on element: Unable to describe the Element: By.xpath: //button[text()=' Login ']
+2025-08-28 14:37:46 [main] INFO  com.orangehrm.actiondriver.ActionDriver - Clicked on element: Element with text: manda user
+2025-08-28 14:37:58 [main] INFO  com.orangehrm.actiondriver.ActionDriver - Clicked on element: Unable to describe the Element: By.xpath: //a[text()='Logout']
+2025-08-28 14:38:00 [main] INFO  com.orangehrm.base.BaseClass - WebDriver instance is closed
+2025-08-28 14:38:06 [main] INFO  com.orangehrm.base.BaseClass - WebDriver Initialized and Browser Maximized
+2025-08-28 14:38:06 [main] DEBUG com.orangehrm.base.BaseClass - This is a debug message
+2025-08-28 14:38:06 [main] WARN  com.orangehrm.base.BaseClass - This is a warm message
+2025-08-28 14:38:06 [main] INFO  com.orangehrm.actiondriver.ActionDriver - WebDriver instance is created
+2025-08-28 14:38:06 [main] INFO  com.orangehrm.base.BaseClass - ActionDriver instance is created
+2025-08-28 14:38:07 [main] INFO  com.orangehrm.actiondriver.ActionDriver - Typed 'admin' into element: By.name: username
+2025-08-28 14:38:07 [main] INFO  com.orangehrm.actiondriver.ActionDriver - Typed 'admin123' into element: By.cssSelector: input[type='password']
+2025-08-28 14:38:19 [main] INFO  com.orangehrm.actiondriver.ActionDriver - Clicked on element: Unable to describe the Element: By.xpath: //button[text()=' Login ']
+2025-08-28 14:38:19 [main] INFO  com.orangehrm.base.BaseClass - WebDriver instance is closed
+2025-08-28 14:44:56 [main] INFO  com.orangehrm.base.BaseClass - config.properties file loaded
+2025-08-28 14:45:06 [main] INFO  com.orangehrm.base.BaseClass - WebDriver Initialized and Browser Maximized
+2025-08-28 14:45:06 [main] DEBUG com.orangehrm.base.BaseClass - This is a debug message
+2025-08-28 14:45:06 [main] WARN  com.orangehrm.base.BaseClass - This is a warm message
+2025-08-28 14:45:06 [main] INFO  com.orangehrm.actiondriver.ActionDriver - WebDriver instance is created
+2025-08-28 14:45:06 [main] INFO  com.orangehrm.base.BaseClass - ActionDriver instance is created
+2025-08-28 14:45:06 [main] INFO  com.orangehrm.actiondriver.ActionDriver - Typed 'admin' into element: By.name: username
+2025-08-28 14:45:06 [main] INFO  com.orangehrm.actiondriver.ActionDriver - Typed 'admin123' into element: By.cssSelector: input[type='password']
+2025-08-28 14:45:18 [main] INFO  com.orangehrm.actiondriver.ActionDriver - Clicked on element: Unable to describe the Element: By.xpath: //button[text()=' Login ']
+2025-08-28 14:45:18 [main] INFO  com.orangehrm.base.BaseClass - WebDriver instance is closed
+2025-08-28 14:47:24 [main] INFO  com.orangehrm.base.BaseClass - config.properties file loaded
+2025-08-28 14:47:31 [main] INFO  com.orangehrm.base.BaseClass - WebDriver Initialized and Browser Maximized
+2025-08-28 14:47:31 [main] DEBUG com.orangehrm.base.BaseClass - This is a debug message
+2025-08-28 14:47:31 [main] WARN  com.orangehrm.base.BaseClass - This is a warm message
+2025-08-28 14:47:31 [main] INFO  com.orangehrm.actiondriver.ActionDriver - WebDriver instance is created
+2025-08-28 14:47:31 [main] INFO  com.orangehrm.base.BaseClass - ActionDriver instance is created
+2025-08-28 14:47:32 [main] INFO  com.orangehrm.actiondriver.ActionDriver - Typed 'admin' into element: By.name: username
+2025-08-28 14:47:32 [main] INFO  com.orangehrm.actiondriver.ActionDriver - Typed 'admin123' into element: By.cssSelector: input[type='password']
+2025-08-28 14:47:44 [main] INFO  com.orangehrm.actiondriver.ActionDriver - Clicked on element: Unable to describe the Element: By.xpath: //button[text()=' Login ']
+2025-08-28 14:47:44 [main] INFO  com.orangehrm.base.BaseClass - WebDriver instance is closed
+2025-08-28 15:07:45 [main] INFO  com.orangehrm.base.BaseClass - config.properties file loaded
+2025-08-28 15:07:55 [main] INFO  com.orangehrm.base.BaseClass - WebDriver Initialized and Browser Maximized
+2025-08-28 15:07:55 [main] DEBUG com.orangehrm.base.BaseClass - This is a debug message
+2025-08-28 15:07:55 [main] WARN  com.orangehrm.base.BaseClass - This is a warm message
+2025-08-28 15:07:55 [main] INFO  com.orangehrm.actiondriver.ActionDriver - WebDriver instance is created
+2025-08-28 15:07:55 [main] INFO  com.orangehrm.base.BaseClass - ActionDriver instance is created
+2025-08-28 15:07:55 [main] INFO  com.orangehrm.actiondriver.ActionDriver - Typed 'admin' into element: By.name: username
+2025-08-28 15:07:55 [main] INFO  com.orangehrm.actiondriver.ActionDriver - Typed 'admin123' into element: By.cssSelector: input[type='password']
+2025-08-28 15:08:07 [main] INFO  com.orangehrm.actiondriver.ActionDriver - Clicked on element: Unable to describe element due to error: no such element: Unable to locate element: {"method":"xpath","selector":"//button[text()=' Login ']"}
+  (Session info: chrome=139.0.7258.139)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.27.0', revision: 'd6e718d134'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.6'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [d3c7ffc8e6484e48802733210b7f2a4d, findElement {value=//button[text()=' Login '], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 139.0.7258.139, chrome: {chromedriverVersion: 139.0.7258.154 (9e0d6b2b47f..., userDataDir: C:\Users\ASUS\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64762}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:64762/devtoo..., se:cdpVersion: 139.0.7258.139, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: d3c7ffc8e6484e48802733210b7f2a4d
+2025-08-28 15:08:07 [main] INFO  com.orangehrm.base.BaseClass - WebDriver instance is closed
+2025-08-28 15:10:10 [main] INFO  com.orangehrm.base.BaseClass - config.properties file loaded
+2025-08-28 15:10:20 [main] INFO  com.orangehrm.base.BaseClass - WebDriver Initialized and Browser Maximized
+2025-08-28 15:10:20 [main] DEBUG com.orangehrm.base.BaseClass - This is a debug message
+2025-08-28 15:10:20 [main] WARN  com.orangehrm.base.BaseClass - This is a warm message
+2025-08-28 15:10:20 [main] INFO  com.orangehrm.actiondriver.ActionDriver - WebDriver instance is created
+2025-08-28 15:10:20 [main] INFO  com.orangehrm.base.BaseClass - ActionDriver instance is created
+2025-08-28 15:10:20 [main] INFO  com.orangehrm.actiondriver.ActionDriver - Typed 'admin' into element: By.name: username
+2025-08-28 15:10:20 [main] INFO  com.orangehrm.actiondriver.ActionDriver - Typed 'admin123' into element: By.cssSelector: input[type='password']
+2025-08-28 15:10:22 [main] INFO  com.orangehrm.actiondriver.ActionDriver - Clicked on element: Element with text: Login
+2025-08-28 15:10:22 [main] INFO  com.orangehrm.base.BaseClass - WebDriver instance is closed

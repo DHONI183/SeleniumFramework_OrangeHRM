@@ -1,6 +1,8 @@
 package com.orangehrm.actiondriver;
 
 import java.time.Duration;
+
+import org.apache.logging.log4j.Logger;
 import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
@@ -8,11 +10,13 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import com.orangehrm.base.BaseClass;
+import com.orangehrm.utilities.LoggerManager;
 
 public class ActionDriver {
 
 	private WebDriver driver;
 	private WebDriverWait wait;
+	public static final Logger logger = LoggerManager.getLogger(ActionDriver.class);
 	
 
 	public ActionDriver(WebDriver driver) {
@@ -20,7 +24,7 @@ public class ActionDriver {
 		String s = BaseClass.getProp().getProperty("explicitWait");
 		int a = Integer.parseInt(s);
 		this.wait = new WebDriverWait(driver, Duration.ofSeconds(a));
-		System.out.println("WebDriver instance is created");
+		logger.info("WebDriver instance is created");
 	}
 
 	// Wait for element to be clickable
@@ -28,7 +32,7 @@ public class ActionDriver {
 		try {
 			return wait.until(ExpectedConditions.elementToBeClickable(by));
 		} catch (Exception e) {
-			System.out.println("Element not clickable: " + by + " | Error: " + e.getMessage());
+			logger.error("Element not clickable: " + by + " | Error: " + e.getMessage());
 			return null;
 		}
 	}
@@ -38,21 +42,23 @@ public class ActionDriver {
 		try {
 			return wait.until(ExpectedConditions.visibilityOfElementLocated(by));
 		} catch (Exception e) {
-			System.out.println("Element not visible: " + by + " | Error: " + e.getMessage());
+			logger.error("Element not visible: " + by + " | Error: " + e.getMessage());
 			return null;
 		}
 	}
 
 	// Click on element (with wait)
 	public void click(By by) {
+		
+		String elementDescription = getElementDescription(by);
 		try {
 			WebElement element = waitForElementToBeClickable(by);
 			if (element != null) {
 				element.click();
-				System.out.println("Clicked on element: " + by);
+				logger.info("Clicked on element: " + elementDescription);
 			}
 		} catch (Exception e) {
-			System.out.println("Unable to click element: " + by + " | Error: " + e.getMessage());
+			logger.error("Unable to click element: " + elementDescription + " | Error: " + e.getMessage());
 		}
 	}
 
@@ -63,10 +69,10 @@ public class ActionDriver {
 			if (element != null) {
 				element.clear();
 				element.sendKeys(text);
-				System.out.println("Typed '" + text + "' into element: " + by);
+				logger.info("Typed '" + text + "' into element: " + by);
 			}
 		} catch (Exception e) {
-			System.out.println("Unable to type into element: " + by + " | Error: " + e.getMessage());
+			logger.error("Unable to type into element: " + by + " | Error: " + e.getMessage());
 		}
 	}
 
@@ -76,11 +82,11 @@ public class ActionDriver {
 			WebElement element = waitForElementToBeVisible(by);
 			if (element != null) {
 				String text = element.getText();
-				System.out.println("Text from element " + by + " is: " + text);
+				logger.info("Text from element " + by + " is: " + text);
 				return text;
 			}
 		} catch (Exception e) {
-			System.out.println("Unable to get text from element: " + by + " | Error: " + e.getMessage());
+			logger.error("Unable to get text from element: " + by + " | Error: " + e.getMessage());
 		}
 		return null;
 	}
@@ -91,7 +97,7 @@ public class ActionDriver {
 			WebElement element = waitForElementToBeVisible(by);
 			return element != null && element.isDisplayed();
 		} catch (Exception e) {
-			System.out.println("Element not displayed: " + by + " | Error: " + e.getMessage());
+			logger.error("Element not displayed: " + by + " | Error: " + e.getMessage());
 			return false;
 		}
 	}
@@ -99,36 +105,25 @@ public class ActionDriver {
 	// Compare Two Text
 	public void compareText(By by1, By by2) {
 		if (getText(by1).equals(getText(by2))) {
-			System.out.println("Text Matching");
+			logger.info("Text Matching");
 		} else {
-			System.out.println("Text Not Matching");
+			logger.error("Text Not Matching");
 		}
 	}
-/*	
-	// Wait for the page to load
-		public void waitForPageLoad(int timeOutInSec) {
-			try {
-				wait.withTimeout(Duration.ofSeconds(timeOutInSec)).until(WebDriver -> ((JavascriptExecutor) WebDriver)
-						.executeScript("return document.readyState").equals("complete"));
-				logger.info("Page loaded successfully.");
-			} catch (Exception e) {
-				logger.error("Page did not load within " + timeOutInSec + " seconds. Exception: " + e.getMessage());
-			}
-		}
-*/
+
 	
 	// Compare Two Text
 	public boolean compareText(String ExpectedString, By by) {
 		try {
 			if(getText(by).equals(ExpectedString)) {
-				System.out.println("Text Matching");
+				logger.info("Text Matching");
 				return true ;
 			}else {
-				System.out.println("Text Not Matching");
+				logger.error("Text Not Matching");
 				return false;
 			}
 		} catch (Exception e) {
-			System.out.println("Unable to Compare Text " + e.getMessage());
+			logger.error("Unable to Compare Text " + e.getMessage());
 			return false;
 		}
 	}
@@ -137,14 +132,14 @@ public class ActionDriver {
 	public boolean compareText(By by,String ExpectedString) {
 		try {
 			if(getText(by).equals(ExpectedString)) {
-				System.out.println("Text Matching");
+				logger.info("Text Matching");
 				return true ;
 			}else {
-				System.out.println("Text Not Matching");
+				logger.error("Text Not Matching");
 				return false;
 			}
 		} catch (Exception e) {
-			System.out.println("Unable to Compare Text " + e.getMessage());
+			logger.error("Unable to Compare Text " + e.getMessage());
 			return false;
 		}
 	}
@@ -156,10 +151,70 @@ public class ActionDriver {
 			WebElement element = driver.findElement(by);
 			js.executeScript("arguments[0],scrollIntoViw(true);", element);
 		} catch (Exception e) {
-			System.out.println("Unable to locate element: "+ e.getMessage());
+			logger.error("Unable to locate element: "+ e.getMessage());
 		}
 	}
 	
-	
+	// Method to get the description of an element using By locator
 
+	/*
+	 * 
+	 */
+	public String getElementDescription(By locator) {
+		// Check for null driver or locator to avoid NullPointerException
+		if (driver == null) {
+			return "Driver is not initialized.";
+		}
+		if (locator == null) {
+			return "Locator is null.";
+		}
+
+		try {
+			// Find the element using the locator
+			WebElement element = driver.findElement(locator);
+
+			// Get element attributes
+			String name = element.getDomProperty("name");
+			String id = element.getDomProperty("id");
+			String text = element.getText();
+			String className = element.getDomProperty("class");
+			String placeholder = element.getDomProperty("placeholder");
+
+			// Return a description based on available attributes
+			if (isNotEmpty(name)) {
+				return "Element with name: " + name;
+			} else if (isNotEmpty(id)) {
+				return "Element with ID: " + id;
+			} else if (isNotEmpty(text)) {
+				return "Element with text: " + truncate(text, 50);
+			} else if (isNotEmpty(className)) {
+				return "Element with class: " + className;
+			} else if (isNotEmpty(placeholder)) {
+				return "Element with placeholder: " + placeholder;
+			} else {
+				return "Element located using: " + locator.toString();
+			}
+		} catch (Exception e) {
+			return "Unable to describe element due to error: " + e.getMessage();
+		}
+	}
+
+	
+	// Utility method to check a String is not Null or empty
+	private boolean isNotEmpty(String value) {
+		return value!=null && !value.isEmpty();
+	}
+	
+	// Utility Method to truncate long String
+	private String truncate(String value , int maxLength) {
+		if(value == null || value.length()<=maxLength) {
+			return value;
+		}
+		return value.substring(0,maxLength) + "....";
+	}
+	
+	
+	
+	
+	
 }

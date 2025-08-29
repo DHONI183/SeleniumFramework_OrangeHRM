@@ -1,1 +1,54 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<configuration status="WARN">
+    <appenders>
+        <!-- Console Appender with colors -->
+        <Console name="Console" target="SYSTEM_OUT">
+            <PatternLayout
+                pattern="%d{yyyy-MM-dd HH:mm:ss} [%t] %highlight{%-5level}{FATAL=bg_red, ERROR=red, WARN=yellow, INFO=green, DEBUG=blue, TRACE=cyan} %logger{36} - %msg%n"
+                disableAnsi="false"
+                noConsoleNoAnsi="false"/>
+        </Console>
+
+        <!-- Rolling File Appender for general logs (no ERROR/FATAL) -->
+        <RollingFile name="FileLogger" fileName="logs/app.log"
+                     filePattern="logs/app-%d{yyyy-MM-dd}-%i.log.gz">
+            <PatternLayout pattern="%d{yyyy-MM-dd HH:mm:ss} [%t] %-5level %logger{36} - %msg%n"/>
+            <Policies>
+                <TimeBasedTriggeringPolicy interval="1" modulate="true"/>
+                <SizeBasedTriggeringPolicy size="10MB"/>
+            </Policies>
+            <Filters>
+                <!-- Exclude ERROR and FATAL -->
+                <ThresholdFilter level="error" onMatch="DENY" onMismatch="ACCEPT"/>
+            </Filters>
+        </RollingFile>
+
+        <!-- Rolling File Appender for error logs (only ERROR/FATAL) -->
+        <RollingFile name="ErrorFileLogger" fileName="logs/error.log"
+                     filePattern="logs/error-%d{yyyy-MM-dd}-%i.log.gz">
+            <PatternLayout pattern="%d{yyyy-MM-dd HH:mm:ss} [%t] %-5level %logger{36} - %msg%n"/>
+            <Policies>
+                <TimeBasedTriggeringPolicy interval="1" modulate="true"/>
+                <SizeBasedTriggeringPolicy size="5MB"/>
+            </Policies>
+            <Filters>
+                <!-- Only ERROR and FATAL -->
+                <ThresholdFilter level="error" onMatch="ACCEPT" onMismatch="DENY"/>
+            </Filters>
+        </RollingFile>
+    </appenders>
+
+    <loggers>
+        <!-- Logger for your project -->
+        <logger name="com.orangehrm" level="debug" additivity="false">
+            <appenderref ref="Console"/>
+            <appenderref ref="FileLogger"/>
+            <appenderref ref="ErrorFileLogger"/>
+        </logger>
+
+        <!-- Root Logger as fallback -->
+        <root level="info">
+            <appenderref ref="Console"/>
+        </root>
+    </loggers>
+</configuration>
