@@ -1,251 +1,758 @@
-2025-08-31 14:30:13 [main] INFO  com.orangehrm.base.BaseClass - config.properties file loaded
-2025-08-31 14:30:24 [TestNG-test-OrangeHRMTest_chrome-1] INFO  com.orangehrm.base.BaseClass - WebDriver Initialized and Browser Maximized
-2025-08-31 14:30:24 [TestNG-test-OrangeHRMTest_chrome-1] INFO  com.orangehrm.actiondriver.ActionDriver - WebDriver instance is created
-2025-08-31 14:30:24 [TestNG-test-OrangeHRMTest_chrome-1] INFO  com.orangehrm.base.BaseClass - ActionDriver instance is created.47
-2025-08-31 14:30:24 [TestNG-test-OrangeHRMTest_chrome-1] INFO  com.orangehrm.actiondriver.ActionDriver - Typed 'admin' into element: By.name: username
-2025-08-31 14:30:24 [TestNG-test-OrangeHRMTest_chrome-1] INFO  com.orangehrm.actiondriver.ActionDriver - Typed 'admin' into element: By.cssSelector: input[type='password']
-2025-08-31 14:30:24 [TestNG-test-OrangeHRMTest_chrome-1] INFO  com.orangehrm.actiondriver.ActionDriver - Clicked on element: Element with text: Login
-2025-08-31 14:30:25 [TestNG-test-OrangeHRMTest_chrome-2] INFO  com.orangehrm.base.BaseClass - WebDriver Initialized and Browser Maximized
-2025-08-31 14:30:26 [TestNG-test-OrangeHRMTest_chrome-1] INFO  com.orangehrm.actiondriver.ActionDriver - Text from element By.xpath: //p[text()='Invalid credentials'] is: Invalid credentials
-2025-08-31 14:30:26 [TestNG-test-OrangeHRMTest_chrome-1] INFO  com.orangehrm.actiondriver.ActionDriver - Text Matching
-2025-08-31 14:30:26 [TestNG-test-OrangeHRMTest_chrome-2] INFO  com.orangehrm.actiondriver.ActionDriver - Typed 'admin' into element: By.name: username
-2025-08-31 14:30:26 [TestNG-test-OrangeHRMTest_chrome-2] INFO  com.orangehrm.actiondriver.ActionDriver - Typed 'admin123' into element: By.cssSelector: input[type='password']
-2025-08-31 14:30:26 [TestNG-test-OrangeHRMTest_chrome-2] INFO  com.orangehrm.actiondriver.ActionDriver - Clicked on element: Element with text: Login
-2025-08-31 14:30:26 [TestNG-test-OrangeHRMTest_chrome-2] INFO  com.orangehrm.base.BaseClass - WebDriver instance is closed
-2025-08-31 14:30:28 [TestNG-test-OrangeHRMTest_chrome-1] INFO  com.orangehrm.base.BaseClass - WebDriver instance is closed
-2025-08-31 14:30:37 [TestNG-test-OrangeHRMTest_chrome-1] INFO  com.orangehrm.base.BaseClass - WebDriver Initialized and Browser Maximized
-2025-08-31 14:30:37 [TestNG-test-OrangeHRMTest_chrome-1] INFO  com.orangehrm.actiondriver.ActionDriver - WebDriver instance is created
-2025-08-31 14:30:37 [TestNG-test-OrangeHRMTest_chrome-1] INFO  com.orangehrm.base.BaseClass - ActionDriver instance is created.47
-2025-08-31 14:30:37 [TestNG-test-OrangeHRMTest_chrome-1] INFO  com.orangehrm.actiondriver.ActionDriver - Typed 'admin' into element: By.name: username
-2025-08-31 14:30:37 [TestNG-test-OrangeHRMTest_chrome-1] INFO  com.orangehrm.actiondriver.ActionDriver - Typed 'admin123' into element: By.cssSelector: input[type='password']
-2025-08-31 14:30:37 [TestNG-test-OrangeHRMTest_chrome-1] INFO  com.orangehrm.actiondriver.ActionDriver - Clicked on element: Element with text: Login
-2025-08-31 14:30:39 [TestNG-test-OrangeHRMTest_chrome-1] INFO  com.orangehrm.actiondriver.ActionDriver - Clicked on element: Element with text: Manual QA
-2025-08-31 14:30:50 [TestNG-test-OrangeHRMTest_chrome-1] INFO  com.orangehrm.actiondriver.ActionDriver - Clicked on element: Element located using: By.xpath: //a[text()='Logout']
-2025-08-31 14:30:52 [TestNG-test-OrangeHRMTest_chrome-1] INFO  com.orangehrm.base.BaseClass - WebDriver instance is closed
-2025-08-31 14:49:22 [main] INFO  com.orangehrm.base.BaseClass - config.properties file loaded
-2025-08-31 14:49:30 [TestNG-test-OrangeHRMTest_chrome-1] INFO  com.orangehrm.base.BaseClass - WebDriver Initialized and Browser Maximized
-2025-08-31 14:49:30 [TestNG-test-OrangeHRMTest_chrome-1] INFO  com.orangehrm.actiondriver.ActionDriver - WebDriver instance is created
-2025-08-31 14:49:30 [TestNG-test-OrangeHRMTest_chrome-1] INFO  com.orangehrm.base.BaseClass - ActionDriver instance is created.45
-2025-08-31 14:49:30 [TestNG-test-OrangeHRMTest_chrome-1] INFO  com.orangehrm.actiondriver.ActionDriver - Typed 'admin' into element: By.name: username
-2025-08-31 14:49:30 [TestNG-test-OrangeHRMTest_chrome-1] INFO  com.orangehrm.actiondriver.ActionDriver - Typed 'admin' into element: By.cssSelector: input[type='password']
-2025-08-31 14:49:30 [TestNG-test-OrangeHRMTest_chrome-1] INFO  com.orangehrm.actiondriver.ActionDriver - Clicked on element: Element with text: Login
-2025-08-31 14:49:30 [TestNG-test-OrangeHRMTest_chrome-2] INFO  com.orangehrm.base.BaseClass - WebDriver Initialized and Browser Maximized
-2025-08-31 14:49:32 [TestNG-test-OrangeHRMTest_chrome-1] INFO  com.orangehrm.actiondriver.ActionDriver - Text from element By.xpath: //p[text()='Invalid credentials'] is: Invalid credentials
-2025-08-31 14:49:32 [TestNG-test-OrangeHRMTest_chrome-1] INFO  com.orangehrm.actiondriver.ActionDriver - Text Matching
-2025-08-31 14:49:32 [TestNG-test-OrangeHRMTest_chrome-2] INFO  com.orangehrm.actiondriver.ActionDriver - Typed 'admin' into element: By.name: username
-2025-08-31 14:49:32 [TestNG-test-OrangeHRMTest_chrome-2] INFO  com.orangehrm.actiondriver.ActionDriver - Typed 'admin123' into element: By.cssSelector: input[type='password']
-2025-08-31 14:49:32 [TestNG-test-OrangeHRMTest_chrome-2] INFO  com.orangehrm.actiondriver.ActionDriver - Clicked on element: Element with text: Login
-2025-08-31 14:49:32 [TestNG-test-OrangeHRMTest_chrome-2] INFO  com.orangehrm.base.BaseClass - WebDriver instance is closed
-2025-08-31 14:49:34 [TestNG-test-OrangeHRMTest_chrome-1] INFO  com.orangehrm.base.BaseClass - WebDriver instance is closed
-2025-08-31 14:49:50 [TestNG-test-OrangeHRMTest_chrome-1] INFO  com.orangehrm.base.BaseClass - WebDriver Initialized and Browser Maximized
-2025-08-31 14:49:50 [TestNG-test-OrangeHRMTest_chrome-1] INFO  com.orangehrm.actiondriver.ActionDriver - WebDriver instance is created
-2025-08-31 14:49:50 [TestNG-test-OrangeHRMTest_chrome-1] INFO  com.orangehrm.base.BaseClass - ActionDriver instance is created.45
-2025-08-31 14:49:50 [TestNG-test-OrangeHRMTest_chrome-1] INFO  com.orangehrm.actiondriver.ActionDriver - Typed 'admin' into element: By.name: username
-2025-08-31 14:49:50 [TestNG-test-OrangeHRMTest_chrome-1] INFO  com.orangehrm.actiondriver.ActionDriver - Typed 'admin123' into element: By.cssSelector: input[type='password']
-2025-08-31 14:49:52 [TestNG-test-OrangeHRMTest_chrome-1] INFO  com.orangehrm.actiondriver.ActionDriver - Clicked on element: Element with text: Login
-2025-08-31 14:49:52 [TestNG-test-OrangeHRMTest_chrome-1] INFO  com.orangehrm.actiondriver.ActionDriver - Clicked on element: Element with text: rohit QA
-2025-08-31 14:49:57 [TestNG-test-OrangeHRMTest_chrome-1] INFO  com.orangehrm.actiondriver.ActionDriver - Clicked on element: Element located using: By.xpath: //a[text()='Logout']
-2025-08-31 14:49:59 [TestNG-test-OrangeHRMTest_chrome-1] INFO  com.orangehrm.base.BaseClass - WebDriver instance is closed
-2025-08-31 15:59:26 [main] INFO  com.orangehrm.base.BaseClass - config.properties file loaded
-2025-08-31 15:59:44 [TestNG-test-OrangeHRMTest_chrome-2] INFO  com.orangehrm.base.BaseClass - WebDriver Initialized and Browser Maximized
-2025-08-31 15:59:44 [TestNG-test-OrangeHRMTest_chrome-2] INFO  com.orangehrm.actiondriver.ActionDriver - WebDriver instance is created
-2025-08-31 15:59:44 [TestNG-test-OrangeHRMTest_chrome-2] INFO  com.orangehrm.base.BaseClass - ActionDriver initialized for thread: 46
-2025-08-31 15:59:44 [TestNG-test-OrangeHRMTest_chrome-2] INFO  com.orangehrm.actiondriver.ActionDriver - Typed 'admin' into element: By.name: username
-2025-08-31 15:59:44 [TestNG-test-OrangeHRMTest_chrome-2] INFO  com.orangehrm.actiondriver.ActionDriver - Typed 'admin123' into element: By.cssSelector: input[type='password']
-2025-08-31 15:59:44 [TestNG-test-OrangeHRMTest_chrome-1] INFO  com.orangehrm.base.BaseClass - WebDriver Initialized and Browser Maximized
-2025-08-31 15:59:44 [TestNG-test-OrangeHRMTest_chrome-1] INFO  com.orangehrm.actiondriver.ActionDriver - WebDriver instance is created
-2025-08-31 15:59:44 [TestNG-test-OrangeHRMTest_chrome-1] INFO  com.orangehrm.base.BaseClass - ActionDriver initialized for thread: 45
-2025-08-31 15:59:44 [TestNG-test-OrangeHRMTest_chrome-2] INFO  com.orangehrm.actiondriver.ActionDriver - Clicked on element: Element with text: Login
-2025-08-31 15:59:44 [TestNG-test-OrangeHRMTest_chrome-1] INFO  com.orangehrm.actiondriver.ActionDriver - Typed 'admin' into element: By.name: username
-2025-08-31 15:59:45 [TestNG-test-OrangeHRMTest_chrome-2] INFO  com.orangehrm.base.BaseClass - WebDriver instance is closed
-2025-08-31 15:59:45 [TestNG-test-OrangeHRMTest_chrome-1] INFO  com.orangehrm.actiondriver.ActionDriver - Typed 'admin' into element: By.cssSelector: input[type='password']
-2025-08-31 15:59:46 [TestNG-test-OrangeHRMTest_chrome-1] INFO  com.orangehrm.actiondriver.ActionDriver - Clicked on element: Element with text: Login
-2025-08-31 15:59:46 [TestNG-test-OrangeHRMTest_chrome-1] INFO  com.orangehrm.actiondriver.ActionDriver - Text from element By.xpath: //p[text()='Invalid credentials'] is: Invalid credentials
-2025-08-31 15:59:46 [TestNG-test-OrangeHRMTest_chrome-1] INFO  com.orangehrm.actiondriver.ActionDriver - Text Matching
-2025-08-31 15:59:49 [TestNG-test-OrangeHRMTest_chrome-1] INFO  com.orangehrm.base.BaseClass - WebDriver instance is closed
-2025-08-31 15:59:58 [TestNG-test-OrangeHRMTest_chrome-1] INFO  com.orangehrm.base.BaseClass - WebDriver Initialized and Browser Maximized
-2025-08-31 15:59:58 [TestNG-test-OrangeHRMTest_chrome-1] INFO  com.orangehrm.actiondriver.ActionDriver - WebDriver instance is created
-2025-08-31 15:59:58 [TestNG-test-OrangeHRMTest_chrome-1] INFO  com.orangehrm.base.BaseClass - ActionDriver initialized for thread: 45
-2025-08-31 15:59:58 [TestNG-test-OrangeHRMTest_chrome-1] INFO  com.orangehrm.actiondriver.ActionDriver - Typed 'admin' into element: By.name: username
-2025-08-31 15:59:58 [TestNG-test-OrangeHRMTest_chrome-1] INFO  com.orangehrm.actiondriver.ActionDriver - Typed 'admin123' into element: By.cssSelector: input[type='password']
-2025-08-31 16:00:00 [TestNG-test-OrangeHRMTest_chrome-1] INFO  com.orangehrm.actiondriver.ActionDriver - Clicked on element: Element with text: Login
-2025-08-31 16:00:00 [TestNG-test-OrangeHRMTest_chrome-1] INFO  com.orangehrm.actiondriver.ActionDriver - Clicked on element: Element with text: mandaK userSri
-2025-08-31 16:00:04 [TestNG-test-OrangeHRMTest_chrome-1] INFO  com.orangehrm.actiondriver.ActionDriver - Clicked on element: Element located using: By.xpath: //a[text()='Logout']
-2025-08-31 16:00:06 [TestNG-test-OrangeHRMTest_chrome-1] INFO  com.orangehrm.base.BaseClass - WebDriver instance is closed
-2025-08-31 16:02:03 [main] INFO  com.orangehrm.base.BaseClass - config.properties file loaded
-2025-08-31 16:02:14 [TestNG-test-OrangeHRMTest_chrome-2] INFO  com.orangehrm.base.BaseClass - WebDriver Initialized and Browser Maximized
-2025-08-31 16:02:14 [TestNG-test-OrangeHRMTest_chrome-2] INFO  com.orangehrm.actiondriver.ActionDriver - WebDriver instance is created
-2025-08-31 16:02:14 [TestNG-test-OrangeHRMTest_chrome-2] INFO  com.orangehrm.base.BaseClass - ActionDriver initialized for thread: 49
-2025-08-31 16:02:14 [TestNG-test-OrangeHRMTest_chrome-2] INFO  com.orangehrm.actiondriver.ActionDriver - Typed 'admin' into element: By.name: username
-2025-08-31 16:02:14 [TestNG-test-OrangeHRMTest_chrome-2] INFO  com.orangehrm.actiondriver.ActionDriver - Typed 'admin' into element: By.cssSelector: input[type='password']
-2025-08-31 16:02:15 [TestNG-test-OrangeHRMTest_chrome-1] INFO  com.orangehrm.base.BaseClass - WebDriver Initialized and Browser Maximized
-2025-08-31 16:02:15 [TestNG-test-OrangeHRMTest_chrome-1] INFO  com.orangehrm.actiondriver.ActionDriver - WebDriver instance is created
-2025-08-31 16:02:15 [TestNG-test-OrangeHRMTest_chrome-1] INFO  com.orangehrm.base.BaseClass - ActionDriver initialized for thread: 48
-2025-08-31 16:02:15 [TestNG-test-OrangeHRMTest_chrome-3] INFO  com.orangehrm.base.BaseClass - WebDriver Initialized and Browser Maximized
-2025-08-31 16:02:15 [TestNG-test-OrangeHRMTest_chrome-3] INFO  com.orangehrm.actiondriver.ActionDriver - WebDriver instance is created
-2025-08-31 16:02:15 [TestNG-test-OrangeHRMTest_chrome-3] INFO  com.orangehrm.base.BaseClass - ActionDriver initialized for thread: 50
-2025-08-31 16:02:15 [TestNG-test-OrangeHRMTest_chrome-2] INFO  com.orangehrm.actiondriver.ActionDriver - Clicked on element: Element with text: Login
-2025-08-31 16:02:15 [TestNG-test-OrangeHRMTest_chrome-3] INFO  com.orangehrm.actiondriver.ActionDriver - Typed 'admin' into element: By.name: username
-2025-08-31 16:02:15 [TestNG-test-OrangeHRMTest_chrome-1] INFO  com.orangehrm.base.BaseClass - WebDriver instance is closed
-2025-08-31 16:02:15 [TestNG-test-OrangeHRMTest_chrome-3] INFO  com.orangehrm.actiondriver.ActionDriver - Typed 'admin123' into element: By.cssSelector: input[type='password']
-2025-08-31 16:02:16 [TestNG-test-OrangeHRMTest_chrome-2] INFO  com.orangehrm.actiondriver.ActionDriver - Text from element By.xpath: //p[text()='Invalid credentials'] is: Invalid credentials
-2025-08-31 16:02:16 [TestNG-test-OrangeHRMTest_chrome-2] INFO  com.orangehrm.actiondriver.ActionDriver - Text Matching
-2025-08-31 16:02:18 [TestNG-test-OrangeHRMTest_chrome-2] INFO  com.orangehrm.base.BaseClass - WebDriver instance is closed
-2025-08-31 16:02:18 [TestNG-test-OrangeHRMTest_chrome-3] INFO  com.orangehrm.actiondriver.ActionDriver - Clicked on element: Element with text: Login
-2025-08-31 16:02:19 [TestNG-test-OrangeHRMTest_chrome-3] INFO  com.orangehrm.base.BaseClass - WebDriver instance is closed
-2025-08-31 16:02:24 [TestNG-test-OrangeHRMTest_chrome-2] INFO  com.orangehrm.base.BaseClass - WebDriver Initialized and Browser Maximized
-2025-08-31 16:02:24 [TestNG-test-OrangeHRMTest_chrome-2] INFO  com.orangehrm.actiondriver.ActionDriver - WebDriver instance is created
-2025-08-31 16:02:24 [TestNG-test-OrangeHRMTest_chrome-2] INFO  com.orangehrm.base.BaseClass - ActionDriver initialized for thread: 49
-2025-08-31 16:02:24 [TestNG-test-OrangeHRMTest_chrome-2] INFO  com.orangehrm.actiondriver.ActionDriver - Typed 'admin' into element: By.name: username
-2025-08-31 16:02:24 [TestNG-test-OrangeHRMTest_chrome-2] INFO  com.orangehrm.actiondriver.ActionDriver - Typed 'admin123' into element: By.cssSelector: input[type='password']
-2025-08-31 16:02:26 [TestNG-test-OrangeHRMTest_chrome-2] INFO  com.orangehrm.actiondriver.ActionDriver - Clicked on element: Element with text: Login
-2025-08-31 16:02:26 [TestNG-test-OrangeHRMTest_chrome-2] INFO  com.orangehrm.actiondriver.ActionDriver - Clicked on element: Element with text: mandaK userSri
-2025-08-31 16:02:29 [TestNG-test-OrangeHRMTest_chrome-2] INFO  com.orangehrm.actiondriver.ActionDriver - Clicked on element: Element with text: Logout
-2025-08-31 16:02:31 [TestNG-test-OrangeHRMTest_chrome-2] INFO  com.orangehrm.base.BaseClass - WebDriver instance is closed
-2025-08-31 16:07:48 [main] INFO  com.orangehrm.base.BaseClass - config.properties file loaded
-2025-08-31 16:07:55 [TestNG-test-OrangeHRMTest_chrome-4] INFO  com.orangehrm.base.BaseClass - WebDriver Initialized and Browser Maximized
-2025-08-31 16:07:55 [TestNG-test-OrangeHRMTest_chrome-3] INFO  com.orangehrm.base.BaseClass - WebDriver Initialized and Browser Maximized
-2025-08-31 16:07:55 [TestNG-test-OrangeHRMTest_chrome-3] INFO  com.orangehrm.actiondriver.ActionDriver - WebDriver instance is created
-2025-08-31 16:07:55 [TestNG-test-OrangeHRMTest_chrome-4] INFO  com.orangehrm.actiondriver.ActionDriver - WebDriver instance is created
-2025-08-31 16:07:55 [TestNG-test-OrangeHRMTest_chrome-4] INFO  com.orangehrm.base.BaseClass - ActionDriver initialized for thread: 50
-2025-08-31 16:07:55 [TestNG-test-OrangeHRMTest_chrome-3] INFO  com.orangehrm.base.BaseClass - ActionDriver initialized for thread: 49
-2025-08-31 16:07:55 [TestNG-test-OrangeHRMTest_chrome-1] INFO  com.orangehrm.base.BaseClass - WebDriver Initialized and Browser Maximized
-2025-08-31 16:07:55 [TestNG-test-OrangeHRMTest_chrome-1] INFO  com.orangehrm.actiondriver.ActionDriver - WebDriver instance is created
-2025-08-31 16:07:55 [TestNG-test-OrangeHRMTest_chrome-1] INFO  com.orangehrm.base.BaseClass - ActionDriver initialized for thread: 47
-2025-08-31 16:07:56 [TestNG-test-OrangeHRMTest_chrome-4] INFO  com.orangehrm.actiondriver.ActionDriver - Typed 'admin' into element: By.name: username
-2025-08-31 16:07:56 [TestNG-test-OrangeHRMTest_chrome-4] INFO  com.orangehrm.actiondriver.ActionDriver - Typed 'admin123' into element: By.cssSelector: input[type='password']
-2025-08-31 16:07:56 [TestNG-test-OrangeHRMTest_chrome-4] INFO  com.orangehrm.actiondriver.ActionDriver - Clicked on element: Element with text: Login
-2025-08-31 16:07:57 [TestNG-test-OrangeHRMTest_chrome-4] INFO  com.orangehrm.base.BaseClass - WebDriver instance is closed
-2025-08-31 16:07:57 [TestNG-test-OrangeHRMTest_chrome-1] INFO  com.orangehrm.base.BaseClass - WebDriver instance is closed
-2025-08-31 16:07:57 [TestNG-test-OrangeHRMTest_chrome-3] INFO  com.orangehrm.actiondriver.ActionDriver - Typed 'admin' into element: By.name: username
-2025-08-31 16:07:58 [TestNG-test-OrangeHRMTest_chrome-3] INFO  com.orangehrm.actiondriver.ActionDriver - Typed 'admin123' into element: By.cssSelector: input[type='password']
-2025-08-31 16:07:58 [TestNG-test-OrangeHRMTest_chrome-2] INFO  com.orangehrm.base.BaseClass - WebDriver Initialized and Browser Maximized
-2025-08-31 16:07:58 [TestNG-test-OrangeHRMTest_chrome-2] INFO  com.orangehrm.actiondriver.ActionDriver - WebDriver instance is created
-2025-08-31 16:07:58 [TestNG-test-OrangeHRMTest_chrome-2] INFO  com.orangehrm.base.BaseClass - ActionDriver initialized for thread: 48
-2025-08-31 16:07:58 [TestNG-test-OrangeHRMTest_chrome-2] INFO  com.orangehrm.actiondriver.ActionDriver - Typed 'admin' into element: By.name: username
-2025-08-31 16:07:58 [TestNG-test-OrangeHRMTest_chrome-2] INFO  com.orangehrm.actiondriver.ActionDriver - Typed 'admin' into element: By.cssSelector: input[type='password']
-2025-08-31 16:07:59 [TestNG-test-OrangeHRMTest_chrome-3] INFO  com.orangehrm.actiondriver.ActionDriver - Clicked on element: Element with text: Login
-2025-08-31 16:07:59 [TestNG-test-OrangeHRMTest_chrome-2] INFO  com.orangehrm.actiondriver.ActionDriver - Clicked on element: Element with text: Login
-2025-08-31 16:08:09 [TestNG-test-OrangeHRMTest_chrome-2] INFO  com.orangehrm.actiondriver.ActionDriver - Text from element By.xpath: //p[text()='Invalid credentials'] is: Invalid credentials
-2025-08-31 16:08:09 [TestNG-test-OrangeHRMTest_chrome-2] INFO  com.orangehrm.actiondriver.ActionDriver - Text Matching
-2025-08-31 16:08:15 [TestNG-test-OrangeHRMTest_chrome-2] INFO  com.orangehrm.base.BaseClass - WebDriver instance is closed
-2025-08-31 16:08:16 [TestNG-test-OrangeHRMTest_chrome-3] INFO  com.orangehrm.base.BaseClass - WebDriver instance is closed
-2025-08-31 16:10:00 [main] INFO  com.orangehrm.base.BaseClass - config.properties file loaded
-2025-08-31 16:10:06 [TestNG-test-OrangeHRMTest_chrome-1] INFO  com.orangehrm.base.BaseClass - WebDriver Initialized and Browser Maximized
-2025-08-31 16:10:06 [TestNG-test-OrangeHRMTest_chrome-1] INFO  com.orangehrm.actiondriver.ActionDriver - WebDriver instance is created
-2025-08-31 16:10:06 [TestNG-test-OrangeHRMTest_chrome-1] INFO  com.orangehrm.base.BaseClass - ActionDriver initialized for thread: 48
-2025-08-31 16:10:07 [TestNG-test-OrangeHRMTest_chrome-4] INFO  com.orangehrm.base.BaseClass - WebDriver Initialized and Browser Maximized
-2025-08-31 16:10:07 [TestNG-test-OrangeHRMTest_chrome-4] INFO  com.orangehrm.actiondriver.ActionDriver - WebDriver instance is created
-2025-08-31 16:10:07 [TestNG-test-OrangeHRMTest_chrome-4] INFO  com.orangehrm.base.BaseClass - ActionDriver initialized for thread: 51
-2025-08-31 16:10:09 [TestNG-test-OrangeHRMTest_chrome-3] INFO  com.orangehrm.base.BaseClass - WebDriver Initialized and Browser Maximized
-2025-08-31 16:10:09 [TestNG-test-OrangeHRMTest_chrome-3] INFO  com.orangehrm.actiondriver.ActionDriver - WebDriver instance is created
-2025-08-31 16:10:09 [TestNG-test-OrangeHRMTest_chrome-3] INFO  com.orangehrm.base.BaseClass - ActionDriver initialized for thread: 50
-2025-08-31 16:10:10 [TestNG-test-OrangeHRMTest_chrome-4] INFO  com.orangehrm.actiondriver.ActionDriver - Typed 'admin' into element: By.name: username
-2025-08-31 16:10:10 [TestNG-test-OrangeHRMTest_chrome-3] INFO  com.orangehrm.actiondriver.ActionDriver - Typed 'admin' into element: By.name: username
-2025-08-31 16:10:10 [TestNG-test-OrangeHRMTest_chrome-4] INFO  com.orangehrm.actiondriver.ActionDriver - Typed 'admin123' into element: By.cssSelector: input[type='password']
-2025-08-31 16:10:10 [TestNG-test-OrangeHRMTest_chrome-3] INFO  com.orangehrm.actiondriver.ActionDriver - Typed 'admin123' into element: By.cssSelector: input[type='password']
-2025-08-31 16:10:10 [TestNG-test-OrangeHRMTest_chrome-4] INFO  com.orangehrm.actiondriver.ActionDriver - Clicked on element: Element with text: Login
-2025-08-31 16:10:10 [TestNG-test-OrangeHRMTest_chrome-3] INFO  com.orangehrm.actiondriver.ActionDriver - Clicked on element: Element with text: Login
-2025-08-31 16:10:10 [TestNG-test-OrangeHRMTest_chrome-4] INFO  com.orangehrm.base.BaseClass - WebDriver instance is closed
-2025-08-31 16:10:11 [TestNG-test-OrangeHRMTest_chrome-1] INFO  com.orangehrm.base.BaseClass - WebDriver instance is closed
-2025-08-31 16:10:12 [TestNG-test-OrangeHRMTest_chrome-2] INFO  com.orangehrm.base.BaseClass - WebDriver Initialized and Browser Maximized
-2025-08-31 16:10:12 [TestNG-test-OrangeHRMTest_chrome-2] INFO  com.orangehrm.actiondriver.ActionDriver - WebDriver instance is created
-2025-08-31 16:10:12 [TestNG-test-OrangeHRMTest_chrome-2] INFO  com.orangehrm.base.BaseClass - ActionDriver initialized for thread: 49
-2025-08-31 16:10:12 [TestNG-test-OrangeHRMTest_chrome-2] INFO  com.orangehrm.actiondriver.ActionDriver - Typed 'admin' into element: By.name: username
-2025-08-31 16:10:12 [TestNG-test-OrangeHRMTest_chrome-3] INFO  com.orangehrm.actiondriver.ActionDriver - Clicked on element: Element with text: mandaK userSri
-2025-08-31 16:10:12 [TestNG-test-OrangeHRMTest_chrome-2] INFO  com.orangehrm.actiondriver.ActionDriver - Typed 'admin' into element: By.cssSelector: input[type='password']
-2025-08-31 16:10:12 [TestNG-test-OrangeHRMTest_chrome-2] INFO  com.orangehrm.actiondriver.ActionDriver - Clicked on element: Element with text: Login
-2025-08-31 16:10:14 [TestNG-test-OrangeHRMTest_chrome-2] INFO  com.orangehrm.actiondriver.ActionDriver - Text from element By.xpath: //p[text()='Invalid credentials'] is: Invalid credentials
-2025-08-31 16:10:14 [TestNG-test-OrangeHRMTest_chrome-2] INFO  com.orangehrm.actiondriver.ActionDriver - Text Matching
-2025-08-31 16:10:14 [TestNG-test-OrangeHRMTest_chrome-3] INFO  com.orangehrm.actiondriver.ActionDriver - Clicked on element: Element with text: Logout
-2025-08-31 16:10:16 [TestNG-test-OrangeHRMTest_chrome-2] INFO  com.orangehrm.base.BaseClass - WebDriver instance is closed
-2025-08-31 16:10:17 [TestNG-test-OrangeHRMTest_chrome-3] INFO  com.orangehrm.base.BaseClass - WebDriver instance is closed
-2025-08-31 16:19:07 [main] INFO  com.orangehrm.base.BaseClass - config.properties file loaded
-2025-08-31 16:19:14 [TestNG-test-OrangeHRMTest_chrome-1] INFO  com.orangehrm.base.BaseClass - WebDriver Initialized and Browser Maximized
-2025-08-31 16:19:14 [TestNG-test-OrangeHRMTest_chrome-1] INFO  com.orangehrm.actiondriver.ActionDriver - WebDriver instance is created
-2025-08-31 16:19:14 [TestNG-test-OrangeHRMTest_chrome-1] INFO  com.orangehrm.base.BaseClass - ActionDriver initialized for thread: 47
-2025-08-31 16:19:14 [TestNG-test-OrangeHRMTest_chrome-2] INFO  com.orangehrm.base.BaseClass - WebDriver Initialized and Browser Maximized
-2025-08-31 16:19:14 [TestNG-test-OrangeHRMTest_chrome-2] INFO  com.orangehrm.actiondriver.ActionDriver - WebDriver instance is created
-2025-08-31 16:19:14 [TestNG-test-OrangeHRMTest_chrome-2] INFO  com.orangehrm.base.BaseClass - ActionDriver initialized for thread: 48
-2025-08-31 16:19:16 [TestNG-test-OrangeHRMTest_chrome-2] INFO  com.orangehrm.actiondriver.ActionDriver - Typed 'admin' into element: By.name: username
-2025-08-31 16:19:16 [TestNG-test-OrangeHRMTest_chrome-2] INFO  com.orangehrm.actiondriver.ActionDriver - Typed 'admin' into element: By.cssSelector: input[type='password']
-2025-08-31 16:19:16 [TestNG-test-OrangeHRMTest_chrome-2] INFO  com.orangehrm.actiondriver.ActionDriver - Clicked on element: Element with text: Login
-2025-08-31 16:19:17 [TestNG-test-OrangeHRMTest_chrome-1] INFO  com.orangehrm.base.BaseClass - WebDriver instance is closed
-2025-08-31 16:19:17 [TestNG-test-OrangeHRMTest_chrome-2] INFO  com.orangehrm.actiondriver.ActionDriver - Text from element By.xpath: //p[text()='Invalid credentials'] is: Invalid credentials
-2025-08-31 16:19:17 [TestNG-test-OrangeHRMTest_chrome-2] INFO  com.orangehrm.actiondriver.ActionDriver - Text Matching
-2025-08-31 16:19:20 [TestNG-test-OrangeHRMTest_chrome-4] INFO  com.orangehrm.base.BaseClass - WebDriver Initialized and Browser Maximized
-2025-08-31 16:19:20 [TestNG-test-OrangeHRMTest_chrome-4] INFO  com.orangehrm.actiondriver.ActionDriver - WebDriver instance is created
-2025-08-31 16:19:20 [TestNG-test-OrangeHRMTest_chrome-4] INFO  com.orangehrm.base.BaseClass - ActionDriver initialized for thread: 50
-2025-08-31 16:19:20 [TestNG-test-OrangeHRMTest_chrome-4] INFO  com.orangehrm.actiondriver.ActionDriver - Typed 'admin' into element: By.name: username
-2025-08-31 16:19:20 [TestNG-test-OrangeHRMTest_chrome-4] INFO  com.orangehrm.actiondriver.ActionDriver - Typed 'admin123' into element: By.cssSelector: input[type='password']
-2025-08-31 16:19:20 [TestNG-test-OrangeHRMTest_chrome-4] INFO  com.orangehrm.actiondriver.ActionDriver - Clicked on element: Element with text: Login
-2025-08-31 16:19:20 [TestNG-test-OrangeHRMTest_chrome-4] INFO  com.orangehrm.base.BaseClass - WebDriver instance is closed
-2025-08-31 16:19:21 [TestNG-test-OrangeHRMTest_chrome-3] INFO  com.orangehrm.base.BaseClass - WebDriver Initialized and Browser Maximized
-2025-08-31 16:19:21 [TestNG-test-OrangeHRMTest_chrome-3] INFO  com.orangehrm.actiondriver.ActionDriver - WebDriver instance is created
-2025-08-31 16:19:21 [TestNG-test-OrangeHRMTest_chrome-3] INFO  com.orangehrm.base.BaseClass - ActionDriver initialized for thread: 49
-2025-08-31 16:19:22 [TestNG-test-OrangeHRMTest_chrome-3] INFO  com.orangehrm.actiondriver.ActionDriver - Typed 'admin' into element: By.name: username
-2025-08-31 16:19:22 [TestNG-test-OrangeHRMTest_chrome-3] INFO  com.orangehrm.actiondriver.ActionDriver - Typed 'admin123' into element: By.cssSelector: input[type='password']
-2025-08-31 16:19:22 [TestNG-test-OrangeHRMTest_chrome-2] INFO  com.orangehrm.base.BaseClass - WebDriver instance is closed
-2025-08-31 16:19:23 [TestNG-test-OrangeHRMTest_chrome-3] INFO  com.orangehrm.actiondriver.ActionDriver - Clicked on element: Element with text: Login
-2025-08-31 16:19:24 [TestNG-test-OrangeHRMTest_chrome-3] INFO  com.orangehrm.actiondriver.ActionDriver - Clicked on element: Element with text: Arka Paul
-2025-08-31 16:19:26 [TestNG-test-OrangeHRMTest_chrome-3] INFO  com.orangehrm.actiondriver.ActionDriver - Clicked on element: Element with text: Logout
-2025-08-31 16:19:29 [TestNG-test-OrangeHRMTest_chrome-3] INFO  com.orangehrm.base.BaseClass - WebDriver instance is closed
-2025-08-31 16:30:24 [main] INFO  com.orangehrm.base.BaseClass - config.properties file loaded
-2025-08-31 16:30:36 [TestNG-tests-1] INFO  com.orangehrm.base.BaseClass - WebDriver Initialized and Browser Maximized
-2025-08-31 16:30:36 [TestNG-tests-1] INFO  com.orangehrm.actiondriver.ActionDriver - WebDriver instance is created
-2025-08-31 16:30:36 [TestNG-tests-1] INFO  com.orangehrm.base.BaseClass - ActionDriver initialized for thread: 48
-2025-08-31 16:30:36 [TestNG-tests-2] INFO  com.orangehrm.base.BaseClass - WebDriver Initialized and Browser Maximized
-2025-08-31 16:30:36 [TestNG-tests-2] INFO  com.orangehrm.actiondriver.ActionDriver - WebDriver instance is created
-2025-08-31 16:30:36 [TestNG-tests-2] INFO  com.orangehrm.base.BaseClass - ActionDriver initialized for thread: 49
-2025-08-31 16:30:36 [TestNG-tests-1] INFO  com.orangehrm.base.BaseClass - WebDriver instance is closed
-2025-08-31 16:30:36 [TestNG-tests-2] INFO  com.orangehrm.base.BaseClass - WebDriver instance is closed
-2025-08-31 16:30:42 [TestNG-tests-1] INFO  com.orangehrm.base.BaseClass - WebDriver Initialized and Browser Maximized
-2025-08-31 16:30:42 [TestNG-tests-1] INFO  com.orangehrm.actiondriver.ActionDriver - WebDriver instance is created
-2025-08-31 16:30:42 [TestNG-tests-1] INFO  com.orangehrm.base.BaseClass - ActionDriver initialized for thread: 48
-2025-08-31 16:30:43 [TestNG-tests-1] INFO  com.orangehrm.actiondriver.ActionDriver - Typed 'admin' into element: By.name: username
-2025-08-31 16:30:43 [TestNG-tests-1] INFO  com.orangehrm.actiondriver.ActionDriver - Typed 'admin' into element: By.cssSelector: input[type='password']
-2025-08-31 16:30:43 [TestNG-tests-1] INFO  com.orangehrm.actiondriver.ActionDriver - Clicked on element: Element with text: Login
-2025-08-31 16:30:44 [TestNG-tests-2] INFO  com.orangehrm.base.BaseClass - WebDriver Initialized and Browser Maximized
-2025-08-31 16:30:44 [TestNG-tests-2] INFO  com.orangehrm.actiondriver.ActionDriver - WebDriver instance is created
-2025-08-31 16:30:44 [TestNG-tests-2] INFO  com.orangehrm.base.BaseClass - ActionDriver initialized for thread: 49
-2025-08-31 16:30:44 [TestNG-tests-2] INFO  com.orangehrm.actiondriver.ActionDriver - Typed 'admin' into element: By.name: username
-2025-08-31 16:30:45 [TestNG-tests-2] INFO  com.orangehrm.actiondriver.ActionDriver - Typed 'admin' into element: By.cssSelector: input[type='password']
-2025-08-31 16:30:45 [TestNG-tests-1] INFO  com.orangehrm.actiondriver.ActionDriver - Text from element By.xpath: //p[text()='Invalid credentials'] is: Invalid credentials
-2025-08-31 16:30:45 [TestNG-tests-1] INFO  com.orangehrm.actiondriver.ActionDriver - Text Matching
-2025-08-31 16:30:45 [TestNG-tests-2] INFO  com.orangehrm.actiondriver.ActionDriver - Clicked on element: Element with text: Login
-2025-08-31 16:30:46 [TestNG-tests-2] INFO  com.orangehrm.actiondriver.ActionDriver - Text from element By.xpath: //p[text()='Invalid credentials'] is: Invalid credentials
-2025-08-31 16:30:46 [TestNG-tests-2] INFO  com.orangehrm.actiondriver.ActionDriver - Text Matching
-2025-08-31 16:30:47 [TestNG-tests-1] INFO  com.orangehrm.base.BaseClass - WebDriver instance is closed
-2025-08-31 16:30:48 [TestNG-tests-2] INFO  com.orangehrm.base.BaseClass - WebDriver instance is closed
-2025-08-31 16:30:55 [TestNG-tests-1] INFO  com.orangehrm.base.BaseClass - WebDriver Initialized and Browser Maximized
-2025-08-31 16:30:55 [TestNG-tests-1] INFO  com.orangehrm.actiondriver.ActionDriver - WebDriver instance is created
-2025-08-31 16:30:55 [TestNG-tests-1] INFO  com.orangehrm.base.BaseClass - ActionDriver initialized for thread: 48
-2025-08-31 16:30:55 [TestNG-tests-1] INFO  com.orangehrm.actiondriver.ActionDriver - Typed 'admin' into element: By.name: username
-2025-08-31 16:30:56 [TestNG-tests-1] INFO  com.orangehrm.actiondriver.ActionDriver - Typed 'admin123' into element: By.cssSelector: input[type='password']
-2025-08-31 16:30:57 [TestNG-tests-1] INFO  com.orangehrm.actiondriver.ActionDriver - Clicked on element: Element with text: Login
-2025-08-31 16:30:57 [TestNG-tests-2] INFO  com.orangehrm.base.BaseClass - WebDriver Initialized and Browser Maximized
-2025-08-31 16:30:57 [TestNG-tests-2] INFO  com.orangehrm.actiondriver.ActionDriver - WebDriver instance is created
-2025-08-31 16:30:57 [TestNG-tests-2] INFO  com.orangehrm.base.BaseClass - ActionDriver initialized for thread: 49
-2025-08-31 16:30:57 [TestNG-tests-2] INFO  com.orangehrm.actiondriver.ActionDriver - Typed 'admin' into element: By.name: username
-2025-08-31 16:30:57 [TestNG-tests-2] INFO  com.orangehrm.actiondriver.ActionDriver - Typed 'admin123' into element: By.cssSelector: input[type='password']
-2025-08-31 16:30:57 [TestNG-tests-1] INFO  com.orangehrm.actiondriver.ActionDriver - Clicked on element: Element with text: аппроо Paul
-2025-08-31 16:31:00 [TestNG-tests-2] INFO  com.orangehrm.actiondriver.ActionDriver - Clicked on element: Element with text: Login
-2025-08-31 16:31:00 [TestNG-tests-2] INFO  com.orangehrm.actiondriver.ActionDriver - Clicked on element: Element with text: аппроо Paul
-2025-08-31 16:31:02 [TestNG-tests-1] INFO  com.orangehrm.actiondriver.ActionDriver - Clicked on element: Element with text: Logout
-2025-08-31 16:31:03 [TestNG-tests-2] INFO  com.orangehrm.actiondriver.ActionDriver - Clicked on element: Element with text: Logout
-2025-08-31 16:31:04 [TestNG-tests-1] INFO  com.orangehrm.base.BaseClass - WebDriver instance is closed
-2025-08-31 16:31:05 [TestNG-tests-2] INFO  com.orangehrm.base.BaseClass - WebDriver instance is closed
-2025-08-31 16:31:13 [TestNG-tests-1] INFO  com.orangehrm.base.BaseClass - WebDriver Initialized and Browser Maximized
-2025-08-31 16:31:13 [TestNG-tests-1] INFO  com.orangehrm.actiondriver.ActionDriver - WebDriver instance is created
-2025-08-31 16:31:13 [TestNG-tests-1] INFO  com.orangehrm.base.BaseClass - ActionDriver initialized for thread: 48
-2025-08-31 16:31:14 [TestNG-tests-1] INFO  com.orangehrm.actiondriver.ActionDriver - Typed 'admin' into element: By.name: username
-2025-08-31 16:31:14 [TestNG-tests-2] INFO  com.orangehrm.base.BaseClass - WebDriver Initialized and Browser Maximized
-2025-08-31 16:31:14 [TestNG-tests-2] INFO  com.orangehrm.actiondriver.ActionDriver - WebDriver instance is created
-2025-08-31 16:31:14 [TestNG-tests-2] INFO  com.orangehrm.base.BaseClass - ActionDriver initialized for thread: 49
-2025-08-31 16:31:14 [TestNG-tests-1] INFO  com.orangehrm.actiondriver.ActionDriver - Typed 'admin123' into element: By.cssSelector: input[type='password']
-2025-08-31 16:31:14 [TestNG-tests-2] INFO  com.orangehrm.actiondriver.ActionDriver - Typed 'admin' into element: By.name: username
-2025-08-31 16:31:14 [TestNG-tests-2] INFO  com.orangehrm.actiondriver.ActionDriver - Typed 'admin123' into element: By.cssSelector: input[type='password']
-2025-08-31 16:31:14 [TestNG-tests-1] INFO  com.orangehrm.actiondriver.ActionDriver - Clicked on element: Element with text: Login
-2025-08-31 16:31:14 [TestNG-tests-2] INFO  com.orangehrm.actiondriver.ActionDriver - Clicked on element: Element with text: Login
-2025-08-31 16:31:14 [TestNG-tests-1] INFO  com.orangehrm.base.BaseClass - WebDriver instance is closed
-2025-08-31 16:31:14 [TestNG-tests-2] INFO  com.orangehrm.base.BaseClass - WebDriver instance is closed
+2025-09-12 03:48:47 [main] INFO  com.orangehrm.base.BaseClass - config.properties file loaded
+2025-09-12 03:48:59 [TestNG-test-OrangeHRMTest1-2] INFO  com.orangehrm.base.BaseClass - WebDriver Initialized and Browser Maximized
+2025-09-12 03:48:59 [TestNG-test-OrangeHRMTest1-2] INFO  com.orangehrm.actiondriver.ActionDriver - WebDriver instance is created
+2025-09-12 03:48:59 [TestNG-test-OrangeHRMTest1-2] INFO  com.orangehrm.base.BaseClass - ActionDriver initialized for thread: 48
+2025-09-12 03:48:59 [TestNG-test-OrangeHRMTest1-2] INFO  com.orangehrm.base.BaseClass - WebDriver instance is closed
+2025-09-12 03:49:02 [TestNG-test-OrangeHRMTest1-1] INFO  com.orangehrm.base.BaseClass - WebDriver Initialized and Browser Maximized
+2025-09-12 03:49:02 [TestNG-test-OrangeHRMTest1-1] INFO  com.orangehrm.actiondriver.ActionDriver - WebDriver instance is created
+2025-09-12 03:49:02 [TestNG-test-OrangeHRMTest1-1] INFO  com.orangehrm.base.BaseClass - ActionDriver initialized for thread: 47
+2025-09-12 03:49:03 [TestNG-test-OrangeHRMTest1-1] INFO  com.orangehrm.actiondriver.ActionDriver - Entered text on Element with name: username-->admin
+2025-09-12 03:49:03 [TestNG-test-OrangeHRMTest1-1] INFO  com.orangehrm.actiondriver.ActionDriver - Entered text on Element with name: password-->admin
+2025-09-12 03:49:05 [TestNG-test-OrangeHRMTest1-1] INFO  com.orangehrm.base.BaseClass - WebDriver instance is closed
+2025-09-12 03:49:16 [TestNG-test-OrangeHRMTest1-1] INFO  com.orangehrm.base.BaseClass - WebDriver Initialized and Browser Maximized
+2025-09-12 03:49:16 [TestNG-test-OrangeHRMTest1-1] INFO  com.orangehrm.actiondriver.ActionDriver - WebDriver instance is created
+2025-09-12 03:49:16 [TestNG-test-OrangeHRMTest1-1] INFO  com.orangehrm.base.BaseClass - ActionDriver initialized for thread: 47
+2025-09-12 03:49:16 [TestNG-test-OrangeHRMTest1-1] INFO  com.orangehrm.base.BaseClass - WebDriver instance is closed
+2025-09-12 03:50:29 [main] INFO  com.orangehrm.base.BaseClass - config.properties file loaded
+2025-09-12 03:50:35 [main] INFO  com.orangehrm.base.BaseClass - WebDriver Initialized and Browser Maximized
+2025-09-12 03:50:35 [main] INFO  com.orangehrm.actiondriver.ActionDriver - WebDriver instance is created
+2025-09-12 03:50:35 [main] INFO  com.orangehrm.base.BaseClass - ActionDriver initialized for thread: 1
+2025-09-12 03:50:40 [main] INFO  com.orangehrm.actiondriver.ActionDriver - Entered text on Element with name: username-->admin
+2025-09-12 03:50:41 [main] INFO  com.orangehrm.actiondriver.ActionDriver - Entered text on Element with name: password-->admin
+2025-09-12 03:50:42 [main] INFO  com.orangehrm.base.BaseClass - WebDriver instance is closed
+2025-09-12 03:50:55 [main] INFO  com.orangehrm.base.BaseClass - WebDriver Initialized and Browser Maximized
+2025-09-12 03:50:55 [main] INFO  com.orangehrm.actiondriver.ActionDriver - WebDriver instance is created
+2025-09-12 03:50:55 [main] INFO  com.orangehrm.base.BaseClass - ActionDriver initialized for thread: 1
+2025-09-12 03:50:55 [main] INFO  com.orangehrm.base.BaseClass - WebDriver instance is closed
+2025-09-12 03:51:00 [main] INFO  com.orangehrm.base.BaseClass - WebDriver Initialized and Browser Maximized
+2025-09-12 03:51:00 [main] INFO  com.orangehrm.actiondriver.ActionDriver - WebDriver instance is created
+2025-09-12 03:51:00 [main] INFO  com.orangehrm.base.BaseClass - ActionDriver initialized for thread: 1
+2025-09-12 03:51:00 [main] INFO  com.orangehrm.base.BaseClass - WebDriver instance is closed
+2025-09-12 04:00:49 [main] INFO  com.orangehrm.base.BaseClass - config.properties file loaded
+2025-09-12 04:00:58 [TestNG-test-OrangeHRMTest1-1] INFO  com.orangehrm.base.BaseClass - WebDriver Initialized and Browser Maximized
+2025-09-12 04:00:58 [TestNG-test-OrangeHRMTest1-1] INFO  com.orangehrm.actiondriver.ActionDriver - WebDriver instance is created
+2025-09-12 04:00:58 [TestNG-test-OrangeHRMTest1-1] INFO  com.orangehrm.base.BaseClass - ActionDriver initialized for thread: 44
+2025-09-12 04:00:58 [TestNG-test-OrangeHRMTest1-1] INFO  com.orangehrm.actiondriver.ActionDriver - Entered text on Element with name: username-->admin
+2025-09-12 04:00:59 [TestNG-test-OrangeHRMTest1-1] INFO  com.orangehrm.actiondriver.ActionDriver - Entered text on Element with name: password-->admin
+2025-09-12 04:00:59 [TestNG-test-OrangeHRMTest1-1] INFO  com.orangehrm.base.BaseClass - WebDriver instance is closed
+2025-09-12 04:01:04 [TestNG-test-OrangeHRMTest1-1] INFO  com.orangehrm.base.BaseClass - WebDriver Initialized and Browser Maximized
+2025-09-12 04:01:04 [TestNG-test-OrangeHRMTest1-1] INFO  com.orangehrm.actiondriver.ActionDriver - WebDriver instance is created
+2025-09-12 04:01:04 [TestNG-test-OrangeHRMTest1-1] INFO  com.orangehrm.base.BaseClass - ActionDriver initialized for thread: 44
+2025-09-12 04:01:05 [TestNG-test-OrangeHRMTest1-1] INFO  com.orangehrm.base.BaseClass - WebDriver instance is closed
+2025-09-12 04:04:48 [main] INFO  com.orangehrm.base.BaseClass - config.properties file loaded
+2025-09-12 04:04:58 [TestNG-test-OrangeHRMTest1-1] INFO  com.orangehrm.base.BaseClass - WebDriver Initialized and Browser Maximized
+2025-09-12 04:04:59 [TestNG-test-OrangeHRMTest1-1] INFO  com.orangehrm.actiondriver.ActionDriver - WebDriver instance is created
+2025-09-12 04:04:59 [TestNG-test-OrangeHRMTest1-1] INFO  com.orangehrm.base.BaseClass - ActionDriver initialized for thread: 46
+2025-09-12 04:05:00 [TestNG-test-OrangeHRMTest1-1] INFO  com.orangehrm.actiondriver.ActionDriver - Entered text on Element with name: username-->admin
+2025-09-12 04:05:00 [TestNG-test-OrangeHRMTest1-1] INFO  com.orangehrm.actiondriver.ActionDriver - Entered text on Element with name: password-->admin123
+2025-09-12 04:05:02 [TestNG-test-OrangeHRMTest1-1] INFO  com.orangehrm.base.BaseClass - WebDriver instance is closed
+2025-09-12 04:05:14 [TestNG-test-OrangeHRMTest1-1] INFO  com.orangehrm.base.BaseClass - WebDriver Initialized and Browser Maximized
+2025-09-12 04:05:14 [TestNG-test-OrangeHRMTest1-1] INFO  com.orangehrm.actiondriver.ActionDriver - WebDriver instance is created
+2025-09-12 04:05:14 [TestNG-test-OrangeHRMTest1-1] INFO  com.orangehrm.base.BaseClass - ActionDriver initialized for thread: 46
+2025-09-12 04:05:14 [TestNG-test-OrangeHRMTest1-1] INFO  com.orangehrm.base.BaseClass - WebDriver instance is closed
+2025-09-12 04:06:07 [main] INFO  com.orangehrm.base.BaseClass - config.properties file loaded
+2025-09-12 04:06:20 [TestNG-test-OrangeHRMTest1-1] INFO  com.orangehrm.base.BaseClass - WebDriver Initialized and Browser Maximized
+2025-09-12 04:06:20 [TestNG-test-OrangeHRMTest1-1] INFO  com.orangehrm.actiondriver.ActionDriver - WebDriver instance is created
+2025-09-12 04:06:20 [TestNG-test-OrangeHRMTest1-1] INFO  com.orangehrm.base.BaseClass - ActionDriver initialized for thread: 45
+2025-09-12 04:06:20 [TestNG-test-OrangeHRMTest1-1] INFO  com.orangehrm.actiondriver.ActionDriver - Entered text on Element with name: username-->Admin
+2025-09-12 04:06:20 [TestNG-test-OrangeHRMTest1-1] INFO  com.orangehrm.actiondriver.ActionDriver - Entered text on Element with name: password-->admin123
+2025-09-12 04:06:22 [TestNG-test-OrangeHRMTest1-1] INFO  com.orangehrm.base.BaseClass - WebDriver instance is closed
+2025-09-12 04:06:28 [TestNG-test-OrangeHRMTest1-1] INFO  com.orangehrm.base.BaseClass - WebDriver Initialized and Browser Maximized
+2025-09-12 04:06:28 [TestNG-test-OrangeHRMTest1-1] INFO  com.orangehrm.actiondriver.ActionDriver - WebDriver instance is created
+2025-09-12 04:06:28 [TestNG-test-OrangeHRMTest1-1] INFO  com.orangehrm.base.BaseClass - ActionDriver initialized for thread: 45
+2025-09-12 04:06:28 [TestNG-test-OrangeHRMTest1-1] INFO  com.orangehrm.base.BaseClass - WebDriver instance is closed
+2025-09-12 04:09:53 [main] INFO  com.orangehrm.base.BaseClass - config.properties file loaded
+2025-09-12 04:10:00 [TestNG-test-OrangeHRMTest1-1] INFO  com.orangehrm.base.BaseClass - WebDriver Initialized and Browser Maximized
+2025-09-12 04:10:00 [TestNG-test-OrangeHRMTest1-1] INFO  com.orangehrm.actiondriver.ActionDriver - WebDriver instance is created
+2025-09-12 04:10:00 [TestNG-test-OrangeHRMTest1-1] INFO  com.orangehrm.base.BaseClass - ActionDriver initialized for thread: 45
+2025-09-12 04:10:00 [TestNG-test-OrangeHRMTest1-1] INFO  com.orangehrm.actiondriver.ActionDriver - Entered text on Element with name: username-->Admin
+2025-09-12 04:10:00 [TestNG-test-OrangeHRMTest1-1] INFO  com.orangehrm.actiondriver.ActionDriver - Entered text on Element with name: password-->admin123
+2025-09-12 04:10:02 [TestNG-test-OrangeHRMTest1-1] INFO  com.orangehrm.base.BaseClass - WebDriver instance is closed
+2025-09-12 04:10:10 [TestNG-test-OrangeHRMTest1-1] INFO  com.orangehrm.base.BaseClass - WebDriver Initialized and Browser Maximized
+2025-09-12 04:10:10 [TestNG-test-OrangeHRMTest1-1] INFO  com.orangehrm.actiondriver.ActionDriver - WebDriver instance is created
+2025-09-12 04:10:10 [TestNG-test-OrangeHRMTest1-1] INFO  com.orangehrm.base.BaseClass - ActionDriver initialized for thread: 45
+2025-09-12 04:10:10 [TestNG-test-OrangeHRMTest1-1] INFO  com.orangehrm.base.BaseClass - WebDriver instance is closed
+2025-09-12 04:14:16 [main] INFO  com.orangehrm.base.BaseClass - config.properties file loaded
+2025-09-12 04:14:26 [main] INFO  com.orangehrm.base.BaseClass - WebDriver Initialized and Browser Maximized
+2025-09-12 04:14:26 [main] INFO  com.orangehrm.actiondriver.ActionDriver - WebDriver instance is created
+2025-09-12 04:14:26 [main] INFO  com.orangehrm.base.BaseClass - ActionDriver initialized for thread: 1
+2025-09-12 04:14:28 [main] INFO  com.orangehrm.actiondriver.ActionDriver - Entered text on Element with name: username-->Admin
+2025-09-12 04:14:29 [main] INFO  com.orangehrm.actiondriver.ActionDriver - Entered text on Element with name: password-->admin123
+2025-09-12 04:14:29 [main] INFO  com.orangehrm.base.BaseClass - WebDriver instance is closed
+2025-09-12 04:14:38 [main] INFO  com.orangehrm.base.BaseClass - WebDriver Initialized and Browser Maximized
+2025-09-12 04:14:38 [main] INFO  com.orangehrm.actiondriver.ActionDriver - WebDriver instance is created
+2025-09-12 04:14:38 [main] INFO  com.orangehrm.base.BaseClass - ActionDriver initialized for thread: 1
+2025-09-12 04:14:40 [main] INFO  com.orangehrm.base.BaseClass - WebDriver instance is closed
+2025-09-12 04:23:09 [main] INFO  com.orangehrm.base.BaseClass - config.properties file loaded
+2025-09-12 04:23:19 [TestNG-test-OrangeHRMTest1-2] INFO  com.orangehrm.base.BaseClass - WebDriver Initialized and Browser Maximized
+2025-09-12 04:23:19 [TestNG-test-OrangeHRMTest1-2] INFO  com.orangehrm.actiondriver.ActionDriver - WebDriver instance is created
+2025-09-12 04:23:19 [TestNG-test-OrangeHRMTest1-2] INFO  com.orangehrm.base.BaseClass - ActionDriver initialized for thread: 48
+2025-09-12 04:23:19 [TestNG-test-OrangeHRMTest1-2] INFO  com.orangehrm.actiondriver.ActionDriver - Entered text on Element with name: username-->Admin
+2025-09-12 04:23:20 [TestNG-test-OrangeHRMTest1-1] INFO  com.orangehrm.base.BaseClass - WebDriver Initialized and Browser Maximized
+2025-09-12 04:23:20 [TestNG-test-OrangeHRMTest1-1] INFO  com.orangehrm.actiondriver.ActionDriver - WebDriver instance is created
+2025-09-12 04:23:20 [TestNG-test-OrangeHRMTest1-1] INFO  com.orangehrm.base.BaseClass - ActionDriver initialized for thread: 47
+2025-09-12 04:23:20 [TestNG-test-OrangeHRMTest1-2] INFO  com.orangehrm.actiondriver.ActionDriver - Entered text on Element with name: password-->admin123
+2025-09-12 04:23:20 [TestNG-test-OrangeHRMTest1-2] INFO  com.orangehrm.actiondriver.ActionDriver - Clicked on element: Element with text: Login
+2025-09-12 04:23:22 [TestNG-test-OrangeHRMTest1-2] INFO  com.orangehrm.actiondriver.ActionDriver - Element is displayed Element located using: By.xpath: //div[@class='oxd-brand-banner']//img
+2025-09-12 04:23:22 [TestNG-test-OrangeHRMTest1-1] INFO  com.orangehrm.actiondriver.ActionDriver - Entered text on Element with name: username-->Admin
+2025-09-12 04:23:22 [TestNG-test-OrangeHRMTest1-1] INFO  com.orangehrm.actiondriver.ActionDriver - Entered text on Element with name: password-->admin123
+2025-09-12 04:23:22 [TestNG-test-OrangeHRMTest1-1] INFO  com.orangehrm.actiondriver.ActionDriver - Clicked on element: Element with text: Login
+2025-09-12 04:23:23 [TestNG-test-OrangeHRMTest1-2] INFO  com.orangehrm.base.BaseClass - WebDriver instance is closed
+2025-09-12 04:24:06 [TestNG-test-OrangeHRMTest1-1] INFO  com.orangehrm.base.BaseClass - WebDriver instance is closed
+2025-09-12 04:24:12 [TestNG-test-OrangeHRMTest1-1] INFO  com.orangehrm.base.BaseClass - WebDriver Initialized and Browser Maximized
+2025-09-12 04:24:12 [TestNG-test-OrangeHRMTest1-1] INFO  com.orangehrm.actiondriver.ActionDriver - WebDriver instance is created
+2025-09-12 04:24:12 [TestNG-test-OrangeHRMTest1-1] INFO  com.orangehrm.base.BaseClass - ActionDriver initialized for thread: 47
+2025-09-12 04:24:15 [TestNG-test-OrangeHRMTest1-1] INFO  com.orangehrm.actiondriver.ActionDriver - Entered text on Element with name: username-->Admin
+2025-09-12 04:24:15 [TestNG-test-OrangeHRMTest1-1] INFO  com.orangehrm.actiondriver.ActionDriver - Entered text on Element with name: password-->admin123
+2025-09-12 04:24:15 [TestNG-test-OrangeHRMTest1-1] INFO  com.orangehrm.actiondriver.ActionDriver - Clicked on element: Element with text: Login
+2025-09-12 04:24:17 [TestNG-test-OrangeHRMTest1-1] INFO  com.orangehrm.actiondriver.ActionDriver - Element is displayed Element with text: Admin
+2025-09-12 04:24:18 [TestNG-test-OrangeHRMTest1-1] INFO  com.orangehrm.actiondriver.ActionDriver - Clicked on element: Element with text: Alejandra Prueba2
+2025-09-12 04:24:19 [TestNG-test-OrangeHRMTest1-1] INFO  com.orangehrm.actiondriver.ActionDriver - Clicked on element: Element with text: Logout
+2025-09-12 04:24:22 [TestNG-test-OrangeHRMTest1-1] INFO  com.orangehrm.base.BaseClass - WebDriver instance is closed
+2025-09-12 04:25:24 [main] INFO  com.orangehrm.base.BaseClass - config.properties file loaded
+2025-09-12 04:25:35 [TestNG-test-OrangeHRMTest1-2] INFO  com.orangehrm.base.BaseClass - WebDriver Initialized and Browser Maximized
+2025-09-12 04:25:35 [TestNG-test-OrangeHRMTest1-2] INFO  com.orangehrm.actiondriver.ActionDriver - WebDriver instance is created
+2025-09-12 04:25:35 [TestNG-test-OrangeHRMTest1-2] INFO  com.orangehrm.base.BaseClass - ActionDriver initialized for thread: 50
+2025-09-12 04:25:36 [TestNG-test-OrangeHRMTest1-2] INFO  com.orangehrm.actiondriver.ActionDriver - Entered text on Element with name: username-->Admin
+2025-09-12 04:25:36 [TestNG-test-OrangeHRMTest1-2] INFO  com.orangehrm.actiondriver.ActionDriver - Entered text on Element with name: password-->admin123
+2025-09-12 04:25:36 [TestNG-test-OrangeHRMTest1-1] INFO  com.orangehrm.base.BaseClass - WebDriver Initialized and Browser Maximized
+2025-09-12 04:25:36 [TestNG-test-OrangeHRMTest1-1] INFO  com.orangehrm.actiondriver.ActionDriver - WebDriver instance is created
+2025-09-12 04:25:36 [TestNG-test-OrangeHRMTest1-1] INFO  com.orangehrm.base.BaseClass - ActionDriver initialized for thread: 49
+2025-09-12 04:25:37 [TestNG-test-OrangeHRMTest1-2] INFO  com.orangehrm.actiondriver.ActionDriver - Clicked on element: Element with text: Login
+2025-09-12 04:25:38 [TestNG-test-OrangeHRMTest1-2] INFO  com.orangehrm.actiondriver.ActionDriver - Element is displayed Element located using: By.xpath: //div[@class='oxd-brand-banner']//img
+2025-09-12 04:25:39 [TestNG-test-OrangeHRMTest1-1] INFO  com.orangehrm.actiondriver.ActionDriver - Entered text on Element with name: username-->Admin
+2025-09-12 04:25:39 [TestNG-test-OrangeHRMTest1-1] INFO  com.orangehrm.actiondriver.ActionDriver - Entered text on Element with name: password-->admin121
+2025-09-12 04:25:39 [TestNG-test-OrangeHRMTest1-2] INFO  com.orangehrm.base.BaseClass - WebDriver instance is closed
+2025-09-12 04:25:41 [TestNG-test-OrangeHRMTest1-1] INFO  com.orangehrm.actiondriver.ActionDriver - Clicked on element: Element with text: Login
+2025-09-12 04:25:41 [TestNG-test-OrangeHRMTest1-1] INFO  com.orangehrm.actiondriver.ActionDriver - Texts are Matching:Invalid credentials equals Invalid credentials
+2025-09-12 04:25:44 [TestNG-test-OrangeHRMTest1-1] INFO  com.orangehrm.base.BaseClass - WebDriver instance is closed
+2025-09-12 04:25:50 [TestNG-test-OrangeHRMTest1-1] INFO  com.orangehrm.base.BaseClass - WebDriver Initialized and Browser Maximized
+2025-09-12 04:25:50 [TestNG-test-OrangeHRMTest1-1] INFO  com.orangehrm.actiondriver.ActionDriver - WebDriver instance is created
+2025-09-12 04:25:50 [TestNG-test-OrangeHRMTest1-1] INFO  com.orangehrm.base.BaseClass - ActionDriver initialized for thread: 49
+2025-09-12 04:25:53 [TestNG-test-OrangeHRMTest1-1] INFO  com.orangehrm.actiondriver.ActionDriver - Entered text on Element with name: username-->Admin
+2025-09-12 04:25:53 [TestNG-test-OrangeHRMTest1-1] INFO  com.orangehrm.actiondriver.ActionDriver - Entered text on Element with name: password-->admin123
+2025-09-12 04:25:53 [TestNG-test-OrangeHRMTest1-1] INFO  com.orangehrm.actiondriver.ActionDriver - Clicked on element: Element with text: Login
+2025-09-12 04:25:55 [TestNG-test-OrangeHRMTest1-1] INFO  com.orangehrm.actiondriver.ActionDriver - Element is displayed Element with text: Admin
+2025-09-12 04:25:55 [TestNG-test-OrangeHRMTest1-1] INFO  com.orangehrm.actiondriver.ActionDriver - Clicked on element: Element with text: Alejandra Prueba2
+2025-09-12 04:25:56 [TestNG-test-OrangeHRMTest1-1] INFO  com.orangehrm.actiondriver.ActionDriver - Clicked on element: Element with text: Logout
+2025-09-12 04:25:59 [TestNG-test-OrangeHRMTest1-1] INFO  com.orangehrm.base.BaseClass - WebDriver instance is closed
+2025-09-12 06:01:30 [main] INFO  com.orangehrm.base.BaseClass - config.properties file loaded
+2025-09-12 06:01:46 [main] INFO  com.orangehrm.base.BaseClass - WebDriver Initialized and Browser Maximized
+2025-09-12 06:01:46 [main] INFO  com.orangehrm.actiondriver.ActionDriver - WebDriver instance is created
+2025-09-12 06:01:46 [main] INFO  com.orangehrm.base.BaseClass - ActionDriver initialized for thread: 1
+2025-09-12 06:01:46 [main] INFO  com.orangehrm.base.BaseClass - WebDriver instance is closed
+2025-09-12 06:03:00 [main] INFO  com.orangehrm.base.BaseClass - config.properties file loaded
+2025-09-12 06:03:11 [TestNG-test-OrangeHRMTest1-1] INFO  com.orangehrm.base.BaseClass - WebDriver Initialized and Browser Maximized
+2025-09-12 06:03:11 [TestNG-test-OrangeHRMTest1-1] INFO  com.orangehrm.actiondriver.ActionDriver - WebDriver instance is created
+2025-09-12 06:03:11 [TestNG-test-OrangeHRMTest1-1] INFO  com.orangehrm.base.BaseClass - ActionDriver initialized for thread: 46
+2025-09-12 06:03:11 [TestNG-test-OrangeHRMTest1-1] INFO  com.orangehrm.actiondriver.ActionDriver - Entered text on Element with name: username-->Admin
+2025-09-12 06:03:11 [TestNG-test-OrangeHRMTest1-1] INFO  com.orangehrm.actiondriver.ActionDriver - Entered text on Element with name: password-->admin121
+2025-09-12 06:03:11 [TestNG-test-OrangeHRMTest1-1] WARN  com.orangehrm.actiondriver.ActionDriver - failed to apply the border to an elememt : javascript error: Invalid or unexpected token
+  (Session info: chrome=140.0.7339.81)
+Build info: version: '4.27.0', revision: 'd6e718d134'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.6'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [e63a0ac56f0cafab14d55cc7476e0b88, executeScript {args=[{element-6066-11e4-a52e-4f735466cecf=f.A789A2245441236D352C617CF80A5C1F.d.00DE0AC96785EB25EB14E16F90512F92.e.8}], script=arguments[0].apply.border='3px solidgreen }]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 140.0.7339.81, chrome: {chromedriverVersion: 140.0.7339.82 (bc93617e21c3..., userDataDir: C:\Users\ASUS\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56594}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:56594/devtoo..., se:cdpVersion: 140.0.7339.81, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: e63a0ac56f0cafab14d55cc7476e0b88
+2025-09-12 06:03:11 [TestNG-test-OrangeHRMTest1-1] WARN  com.orangehrm.actiondriver.ActionDriver - failed to apply the border to an elememt : javascript error: Invalid or unexpected token
+  (Session info: chrome=140.0.7339.81)
+Build info: version: '4.27.0', revision: 'd6e718d134'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.6'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [e63a0ac56f0cafab14d55cc7476e0b88, executeScript {args=[{element-6066-11e4-a52e-4f735466cecf=f.A789A2245441236D352C617CF80A5C1F.d.00DE0AC96785EB25EB14E16F90512F92.e.8}], script=arguments[0].apply.border='3px solidRed }]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 140.0.7339.81, chrome: {chromedriverVersion: 140.0.7339.82 (bc93617e21c3..., userDataDir: C:\Users\ASUS\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56594}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:56594/devtoo..., se:cdpVersion: 140.0.7339.81, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: e63a0ac56f0cafab14d55cc7476e0b88
+2025-09-12 06:03:12 [TestNG-test-OrangeHRMTest1-2] INFO  com.orangehrm.base.BaseClass - WebDriver Initialized and Browser Maximized
+2025-09-12 06:03:12 [TestNG-test-OrangeHRMTest1-2] INFO  com.orangehrm.actiondriver.ActionDriver - WebDriver instance is created
+2025-09-12 06:03:12 [TestNG-test-OrangeHRMTest1-2] INFO  com.orangehrm.base.BaseClass - ActionDriver initialized for thread: 47
+2025-09-12 06:03:12 [TestNG-test-OrangeHRMTest1-2] INFO  com.orangehrm.actiondriver.ActionDriver - Entered text on Element with name: username-->Admin
+2025-09-12 06:03:13 [TestNG-test-OrangeHRMTest1-1] INFO  com.orangehrm.actiondriver.ActionDriver - Clicked on element: Element with text: Login
+2025-09-12 06:03:13 [TestNG-test-OrangeHRMTest1-2] INFO  com.orangehrm.actiondriver.ActionDriver - Entered text on Element with name: password-->admin123
+2025-09-12 06:03:13 [TestNG-test-OrangeHRMTest1-2] WARN  com.orangehrm.actiondriver.ActionDriver - failed to apply the border to an elememt : javascript error: Invalid or unexpected token
+  (Session info: chrome=140.0.7339.81)
+Build info: version: '4.27.0', revision: 'd6e718d134'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.6'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [e298aa81b40a9335f2fc3cfa5f0921f1, executeScript {args=[{element-6066-11e4-a52e-4f735466cecf=f.25CA5B8BEFD95EB900E1C222A775981D.d.E025E734B4D11A7BF53A59AFD99D8CD9.e.9}], script=arguments[0].apply.border='3px solidgreen }]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 140.0.7339.81, chrome: {chromedriverVersion: 140.0.7339.82 (bc93617e21c3..., userDataDir: C:\Users\ASUS\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56593}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:56593/devtoo..., se:cdpVersion: 140.0.7339.81, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: e298aa81b40a9335f2fc3cfa5f0921f1
+2025-09-12 06:03:13 [TestNG-test-OrangeHRMTest1-2] WARN  com.orangehrm.actiondriver.ActionDriver - failed to apply the border to an elememt : javascript error: Invalid or unexpected token
+  (Session info: chrome=140.0.7339.81)
+Build info: version: '4.27.0', revision: 'd6e718d134'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.6'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [e298aa81b40a9335f2fc3cfa5f0921f1, executeScript {args=[{element-6066-11e4-a52e-4f735466cecf=f.25CA5B8BEFD95EB900E1C222A775981D.d.E025E734B4D11A7BF53A59AFD99D8CD9.e.9}], script=arguments[0].apply.border='3px solidRed }]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 140.0.7339.81, chrome: {chromedriverVersion: 140.0.7339.82 (bc93617e21c3..., userDataDir: C:\Users\ASUS\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56593}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:56593/devtoo..., se:cdpVersion: 140.0.7339.81, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: e298aa81b40a9335f2fc3cfa5f0921f1
+2025-09-12 06:03:13 [TestNG-test-OrangeHRMTest1-1] INFO  com.orangehrm.actiondriver.ActionDriver - Texts are Matching:Invalid credentials equals Invalid credentials
+2025-09-12 06:03:13 [TestNG-test-OrangeHRMTest1-2] INFO  com.orangehrm.actiondriver.ActionDriver - Clicked on element: Element with text: Login
+2025-09-12 06:03:16 [TestNG-test-OrangeHRMTest1-1] INFO  com.orangehrm.base.BaseClass - WebDriver instance is closed
+2025-09-12 06:03:16 [TestNG-test-OrangeHRMTest1-2] INFO  com.orangehrm.actiondriver.ActionDriver - Element is displayed Element located using: By.xpath: //div[@class='oxd-brand-banner']//img
+2025-09-12 06:03:17 [TestNG-test-OrangeHRMTest1-2] INFO  com.orangehrm.base.BaseClass - WebDriver instance is closed
+2025-09-12 06:03:27 [TestNG-test-OrangeHRMTest1-1] INFO  com.orangehrm.base.BaseClass - WebDriver Initialized and Browser Maximized
+2025-09-12 06:03:27 [TestNG-test-OrangeHRMTest1-1] INFO  com.orangehrm.actiondriver.ActionDriver - WebDriver instance is created
+2025-09-12 06:03:27 [TestNG-test-OrangeHRMTest1-1] INFO  com.orangehrm.base.BaseClass - ActionDriver initialized for thread: 46
+2025-09-12 06:03:27 [TestNG-test-OrangeHRMTest1-1] INFO  com.orangehrm.actiondriver.ActionDriver - Entered text on Element with name: username-->Admin
+2025-09-12 06:03:27 [TestNG-test-OrangeHRMTest1-1] INFO  com.orangehrm.actiondriver.ActionDriver - Entered text on Element with name: password-->admin123
+2025-09-12 06:03:27 [TestNG-test-OrangeHRMTest1-1] WARN  com.orangehrm.actiondriver.ActionDriver - failed to apply the border to an elememt : javascript error: Invalid or unexpected token
+  (Session info: chrome=140.0.7339.81)
+Build info: version: '4.27.0', revision: 'd6e718d134'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.6'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [96795b83566beb4cc64b48cfb8d2ea34, executeScript {args=[{element-6066-11e4-a52e-4f735466cecf=f.ED45BC5CE8B43C52981B8853B1E61C0D.d.02B425D009088D1B8276C72769B81FAD.e.8}], script=arguments[0].apply.border='3px solidgreen }]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 140.0.7339.81, chrome: {chromedriverVersion: 140.0.7339.82 (bc93617e21c3..., userDataDir: C:\Users\ASUS\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:60680}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:60680/devtoo..., se:cdpVersion: 140.0.7339.81, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 96795b83566beb4cc64b48cfb8d2ea34
+2025-09-12 06:03:27 [TestNG-test-OrangeHRMTest1-1] WARN  com.orangehrm.actiondriver.ActionDriver - failed to apply the border to an elememt : javascript error: Invalid or unexpected token
+  (Session info: chrome=140.0.7339.81)
+Build info: version: '4.27.0', revision: 'd6e718d134'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.6'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [96795b83566beb4cc64b48cfb8d2ea34, executeScript {args=[{element-6066-11e4-a52e-4f735466cecf=f.ED45BC5CE8B43C52981B8853B1E61C0D.d.02B425D009088D1B8276C72769B81FAD.e.8}], script=arguments[0].apply.border='3px solidRed }]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 140.0.7339.81, chrome: {chromedriverVersion: 140.0.7339.82 (bc93617e21c3..., userDataDir: C:\Users\ASUS\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:60680}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:60680/devtoo..., se:cdpVersion: 140.0.7339.81, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 96795b83566beb4cc64b48cfb8d2ea34
+2025-09-12 06:03:29 [TestNG-test-OrangeHRMTest1-1] INFO  com.orangehrm.actiondriver.ActionDriver - Clicked on element: Element with text: Login
+2025-09-12 06:03:29 [TestNG-test-OrangeHRMTest1-1] INFO  com.orangehrm.actiondriver.ActionDriver - Element is displayed Element with text: Admin
+2025-09-12 06:03:30 [TestNG-test-OrangeHRMTest1-1] WARN  com.orangehrm.actiondriver.ActionDriver - failed to apply the border to an elememt : javascript error: Invalid or unexpected token
+  (Session info: chrome=140.0.7339.81)
+Build info: version: '4.27.0', revision: 'd6e718d134'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.6'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [96795b83566beb4cc64b48cfb8d2ea34, executeScript {args=[{element-6066-11e4-a52e-4f735466cecf=f.ED45BC5CE8B43C52981B8853B1E61C0D.d.4DC395F89BBF5B2B6396AD1D925A6755.e.30}], script=arguments[0].apply.border='3px solidgreen }]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 140.0.7339.81, chrome: {chromedriverVersion: 140.0.7339.82 (bc93617e21c3..., userDataDir: C:\Users\ASUS\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:60680}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:60680/devtoo..., se:cdpVersion: 140.0.7339.81, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 96795b83566beb4cc64b48cfb8d2ea34
+2025-09-12 06:03:30 [TestNG-test-OrangeHRMTest1-1] WARN  com.orangehrm.actiondriver.ActionDriver - failed to apply the border to an elememt : javascript error: Invalid or unexpected token
+  (Session info: chrome=140.0.7339.81)
+Build info: version: '4.27.0', revision: 'd6e718d134'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.6'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [96795b83566beb4cc64b48cfb8d2ea34, executeScript {args=[{element-6066-11e4-a52e-4f735466cecf=f.ED45BC5CE8B43C52981B8853B1E61C0D.d.4DC395F89BBF5B2B6396AD1D925A6755.e.30}], script=arguments[0].apply.border='3px solidRed }]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 140.0.7339.81, chrome: {chromedriverVersion: 140.0.7339.82 (bc93617e21c3..., userDataDir: C:\Users\ASUS\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:60680}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:60680/devtoo..., se:cdpVersion: 140.0.7339.81, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 96795b83566beb4cc64b48cfb8d2ea34
+2025-09-12 06:03:30 [TestNG-test-OrangeHRMTest1-1] INFO  com.orangehrm.actiondriver.ActionDriver - Clicked on element: Element with text: other name cespedes
+2025-09-12 06:03:30 [TestNG-test-OrangeHRMTest1-1] WARN  com.orangehrm.actiondriver.ActionDriver - failed to apply the border to an elememt : javascript error: Invalid or unexpected token
+  (Session info: chrome=140.0.7339.81)
+Build info: version: '4.27.0', revision: 'd6e718d134'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.6'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [96795b83566beb4cc64b48cfb8d2ea34, executeScript {args=[{element-6066-11e4-a52e-4f735466cecf=f.ED45BC5CE8B43C52981B8853B1E61C0D.d.4DC395F89BBF5B2B6396AD1D925A6755.e.31}], script=arguments[0].apply.border='3px solidgreen }]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 140.0.7339.81, chrome: {chromedriverVersion: 140.0.7339.82 (bc93617e21c3..., userDataDir: C:\Users\ASUS\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:60680}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:60680/devtoo..., se:cdpVersion: 140.0.7339.81, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 96795b83566beb4cc64b48cfb8d2ea34
+2025-09-12 06:03:30 [TestNG-test-OrangeHRMTest1-1] WARN  com.orangehrm.actiondriver.ActionDriver - failed to apply the border to an elememt : javascript error: Invalid or unexpected token
+  (Session info: chrome=140.0.7339.81)
+Build info: version: '4.27.0', revision: 'd6e718d134'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.6'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [96795b83566beb4cc64b48cfb8d2ea34, executeScript {args=[{element-6066-11e4-a52e-4f735466cecf=f.ED45BC5CE8B43C52981B8853B1E61C0D.d.4DC395F89BBF5B2B6396AD1D925A6755.e.31}], script=arguments[0].apply.border='3px solidRed }]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 140.0.7339.81, chrome: {chromedriverVersion: 140.0.7339.82 (bc93617e21c3..., userDataDir: C:\Users\ASUS\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:60680}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:60680/devtoo..., se:cdpVersion: 140.0.7339.81, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 96795b83566beb4cc64b48cfb8d2ea34
+2025-09-12 06:03:35 [TestNG-test-OrangeHRMTest1-1] INFO  com.orangehrm.actiondriver.ActionDriver - Clicked on element: Element with text: Logout
+2025-09-12 06:03:38 [TestNG-test-OrangeHRMTest1-1] INFO  com.orangehrm.base.BaseClass - WebDriver instance is closed
+2025-09-12 06:07:37 [main] INFO  com.orangehrm.base.BaseClass - config.properties file loaded
+2025-09-12 06:07:45 [TestNG-test-OrangeHRMTest1-1] INFO  com.orangehrm.base.BaseClass - WebDriver Initialized and Browser Maximized
+2025-09-12 06:07:45 [TestNG-test-OrangeHRMTest1-1] INFO  com.orangehrm.actiondriver.ActionDriver - WebDriver instance is created
+2025-09-12 06:07:45 [TestNG-test-OrangeHRMTest1-1] INFO  com.orangehrm.base.BaseClass - ActionDriver initialized for thread: 47
+2025-09-12 06:07:45 [TestNG-test-OrangeHRMTest1-1] WARN  com.orangehrm.actiondriver.ActionDriver - failed to apply the border to an elememt : javascript error: Invalid or unexpected token
+  (Session info: chrome=140.0.7339.81)
+Build info: version: '4.27.0', revision: 'd6e718d134'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.6'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [3deb81a593e999a0b27faf740b2c1060, executeScript {script=arguments[0].apply.border='3px solidgreen , args=[{element-6066-11e4-a52e-4f735466cecf=f.311685E89D7F9D78A9A6964FDB14CD5F.d.A0BCC3EBE128C2E134AFF3ECD46550C7.e.3}]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 140.0.7339.81, chrome: {chromedriverVersion: 140.0.7339.82 (bc93617e21c3..., userDataDir: C:\Users\ASUS\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:62522}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:62522/devtoo..., se:cdpVersion: 140.0.7339.81, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 3deb81a593e999a0b27faf740b2c1060
+2025-09-12 06:07:45 [TestNG-test-OrangeHRMTest1-1] INFO  com.orangehrm.actiondriver.ActionDriver - Entered text on Element with name: username-->Admin
+2025-09-12 06:07:45 [TestNG-test-OrangeHRMTest1-1] WARN  com.orangehrm.actiondriver.ActionDriver - failed to apply the border to an elememt : javascript error: Invalid or unexpected token
+  (Session info: chrome=140.0.7339.81)
+Build info: version: '4.27.0', revision: 'd6e718d134'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.6'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [3deb81a593e999a0b27faf740b2c1060, executeScript {script=arguments[0].apply.border='3px solidgreen , args=[{element-6066-11e4-a52e-4f735466cecf=f.311685E89D7F9D78A9A6964FDB14CD5F.d.A0BCC3EBE128C2E134AFF3ECD46550C7.e.4}]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 140.0.7339.81, chrome: {chromedriverVersion: 140.0.7339.82 (bc93617e21c3..., userDataDir: C:\Users\ASUS\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:62522}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:62522/devtoo..., se:cdpVersion: 140.0.7339.81, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 3deb81a593e999a0b27faf740b2c1060
+2025-09-12 06:07:45 [TestNG-test-OrangeHRMTest1-1] INFO  com.orangehrm.actiondriver.ActionDriver - Entered text on Element with name: password-->admin121
+2025-09-12 06:07:45 [TestNG-test-OrangeHRMTest1-1] WARN  com.orangehrm.actiondriver.ActionDriver - failed to apply the border to an elememt : javascript error: Invalid or unexpected token
+  (Session info: chrome=140.0.7339.81)
+Build info: version: '4.27.0', revision: 'd6e718d134'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.6'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [3deb81a593e999a0b27faf740b2c1060, executeScript {script=arguments[0].apply.border='3px solidgreen , args=[{element-6066-11e4-a52e-4f735466cecf=f.311685E89D7F9D78A9A6964FDB14CD5F.d.A0BCC3EBE128C2E134AFF3ECD46550C7.e.9}]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 140.0.7339.81, chrome: {chromedriverVersion: 140.0.7339.82 (bc93617e21c3..., userDataDir: C:\Users\ASUS\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:62522}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:62522/devtoo..., se:cdpVersion: 140.0.7339.81, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 3deb81a593e999a0b27faf740b2c1060
+2025-09-12 06:07:45 [TestNG-test-OrangeHRMTest1-1] WARN  com.orangehrm.actiondriver.ActionDriver - failed to apply the border to an elememt : javascript error: Invalid or unexpected token
+  (Session info: chrome=140.0.7339.81)
+Build info: version: '4.27.0', revision: 'd6e718d134'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.6'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [3deb81a593e999a0b27faf740b2c1060, executeScript {script=arguments[0].apply.border='3px solidRed , args=[{element-6066-11e4-a52e-4f735466cecf=f.311685E89D7F9D78A9A6964FDB14CD5F.d.A0BCC3EBE128C2E134AFF3ECD46550C7.e.9}]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 140.0.7339.81, chrome: {chromedriverVersion: 140.0.7339.82 (bc93617e21c3..., userDataDir: C:\Users\ASUS\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:62522}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:62522/devtoo..., se:cdpVersion: 140.0.7339.81, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 3deb81a593e999a0b27faf740b2c1060
+2025-09-12 06:07:47 [TestNG-test-OrangeHRMTest1-1] INFO  com.orangehrm.actiondriver.ActionDriver - Clicked on element: Element with text: Login
+2025-09-12 06:07:47 [TestNG-test-OrangeHRMTest1-1] INFO  com.orangehrm.actiondriver.ActionDriver - Texts are Matching:Invalid credentials equals Invalid credentials
+2025-09-12 06:07:50 [TestNG-test-OrangeHRMTest1-1] INFO  com.orangehrm.base.BaseClass - WebDriver instance is closed
+2025-09-12 06:07:50 [TestNG-test-OrangeHRMTest1-2] INFO  com.orangehrm.base.BaseClass - WebDriver Initialized and Browser Maximized
+2025-09-12 06:07:50 [TestNG-test-OrangeHRMTest1-2] INFO  com.orangehrm.actiondriver.ActionDriver - WebDriver instance is created
+2025-09-12 06:07:50 [TestNG-test-OrangeHRMTest1-2] INFO  com.orangehrm.base.BaseClass - ActionDriver initialized for thread: 48
+2025-09-12 06:07:50 [TestNG-test-OrangeHRMTest1-2] WARN  com.orangehrm.actiondriver.ActionDriver - failed to apply the border to an elememt : javascript error: Invalid or unexpected token
+  (Session info: chrome=140.0.7339.81)
+Build info: version: '4.27.0', revision: 'd6e718d134'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.6'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [d8c97e0ebf9c2177dd9bc5086de5e266, executeScript {script=arguments[0].apply.border='3px solidgreen , args=[{element-6066-11e4-a52e-4f735466cecf=f.1C82EE1ADDF0897E19F2968C15C1CF98.d.A5A677AF9D9B2BFC1B0EDB01909C2DC4.e.3}]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 140.0.7339.81, chrome: {chromedriverVersion: 140.0.7339.82 (bc93617e21c3..., userDataDir: C:\Users\ASUS\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:62524}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:62524/devtoo..., se:cdpVersion: 140.0.7339.81, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: d8c97e0ebf9c2177dd9bc5086de5e266
+2025-09-12 06:07:50 [TestNG-test-OrangeHRMTest1-2] INFO  com.orangehrm.actiondriver.ActionDriver - Entered text on Element with name: username-->Admin
+2025-09-12 06:07:50 [TestNG-test-OrangeHRMTest1-2] WARN  com.orangehrm.actiondriver.ActionDriver - failed to apply the border to an elememt : javascript error: Invalid or unexpected token
+  (Session info: chrome=140.0.7339.81)
+Build info: version: '4.27.0', revision: 'd6e718d134'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.6'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [d8c97e0ebf9c2177dd9bc5086de5e266, executeScript {script=arguments[0].apply.border='3px solidgreen , args=[{element-6066-11e4-a52e-4f735466cecf=f.1C82EE1ADDF0897E19F2968C15C1CF98.d.A5A677AF9D9B2BFC1B0EDB01909C2DC4.e.4}]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 140.0.7339.81, chrome: {chromedriverVersion: 140.0.7339.82 (bc93617e21c3..., userDataDir: C:\Users\ASUS\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:62524}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:62524/devtoo..., se:cdpVersion: 140.0.7339.81, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: d8c97e0ebf9c2177dd9bc5086de5e266
+2025-09-12 06:07:51 [TestNG-test-OrangeHRMTest1-2] INFO  com.orangehrm.actiondriver.ActionDriver - Entered text on Element with name: password-->admin123
+2025-09-12 06:07:51 [TestNG-test-OrangeHRMTest1-2] WARN  com.orangehrm.actiondriver.ActionDriver - failed to apply the border to an elememt : javascript error: Invalid or unexpected token
+  (Session info: chrome=140.0.7339.81)
+Build info: version: '4.27.0', revision: 'd6e718d134'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.6'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [d8c97e0ebf9c2177dd9bc5086de5e266, executeScript {script=arguments[0].apply.border='3px solidgreen , args=[{element-6066-11e4-a52e-4f735466cecf=f.1C82EE1ADDF0897E19F2968C15C1CF98.d.A5A677AF9D9B2BFC1B0EDB01909C2DC4.e.8}]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 140.0.7339.81, chrome: {chromedriverVersion: 140.0.7339.82 (bc93617e21c3..., userDataDir: C:\Users\ASUS\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:62524}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:62524/devtoo..., se:cdpVersion: 140.0.7339.81, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: d8c97e0ebf9c2177dd9bc5086de5e266
+2025-09-12 06:07:51 [TestNG-test-OrangeHRMTest1-2] WARN  com.orangehrm.actiondriver.ActionDriver - failed to apply the border to an elememt : javascript error: Invalid or unexpected token
+  (Session info: chrome=140.0.7339.81)
+Build info: version: '4.27.0', revision: 'd6e718d134'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.6'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [d8c97e0ebf9c2177dd9bc5086de5e266, executeScript {script=arguments[0].apply.border='3px solidRed , args=[{element-6066-11e4-a52e-4f735466cecf=f.1C82EE1ADDF0897E19F2968C15C1CF98.d.A5A677AF9D9B2BFC1B0EDB01909C2DC4.e.8}]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 140.0.7339.81, chrome: {chromedriverVersion: 140.0.7339.82 (bc93617e21c3..., userDataDir: C:\Users\ASUS\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:62524}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:62524/devtoo..., se:cdpVersion: 140.0.7339.81, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: d8c97e0ebf9c2177dd9bc5086de5e266
+2025-09-12 06:07:52 [TestNG-test-OrangeHRMTest1-2] INFO  com.orangehrm.actiondriver.ActionDriver - Clicked on element: Element with text: Login
+2025-09-12 06:07:53 [TestNG-test-OrangeHRMTest1-2] INFO  com.orangehrm.actiondriver.ActionDriver - Element is displayed Element located using: By.xpath: //div[@class='oxd-brand-banner']//img
+2025-09-12 06:07:55 [TestNG-test-OrangeHRMTest1-2] INFO  com.orangehrm.base.BaseClass - WebDriver instance is closed
+2025-09-12 06:08:05 [TestNG-test-OrangeHRMTest1-1] INFO  com.orangehrm.base.BaseClass - WebDriver Initialized and Browser Maximized
+2025-09-12 06:08:05 [TestNG-test-OrangeHRMTest1-1] INFO  com.orangehrm.actiondriver.ActionDriver - WebDriver instance is created
+2025-09-12 06:08:05 [TestNG-test-OrangeHRMTest1-1] INFO  com.orangehrm.base.BaseClass - ActionDriver initialized for thread: 47
+2025-09-12 06:08:05 [TestNG-test-OrangeHRMTest1-1] WARN  com.orangehrm.actiondriver.ActionDriver - failed to apply the border to an elememt : javascript error: Invalid or unexpected token
+  (Session info: chrome=140.0.7339.81)
+Build info: version: '4.27.0', revision: 'd6e718d134'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.6'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [241637a48016e05446784ed4ef6a1f36, executeScript {script=arguments[0].apply.border='3px solidgreen , args=[{element-6066-11e4-a52e-4f735466cecf=f.8909532A002510AF96B4B43ADFF9EB73.d.870CB373C44C2AFFD23B8429162D6571.e.3}]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 140.0.7339.81, chrome: {chromedriverVersion: 140.0.7339.82 (bc93617e21c3..., userDataDir: C:\Users\ASUS\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58337}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:58337/devtoo..., se:cdpVersion: 140.0.7339.81, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 241637a48016e05446784ed4ef6a1f36
+2025-09-12 06:08:05 [TestNG-test-OrangeHRMTest1-1] INFO  com.orangehrm.actiondriver.ActionDriver - Entered text on Element with name: username-->Admin
+2025-09-12 06:08:05 [TestNG-test-OrangeHRMTest1-1] WARN  com.orangehrm.actiondriver.ActionDriver - failed to apply the border to an elememt : javascript error: Invalid or unexpected token
+  (Session info: chrome=140.0.7339.81)
+Build info: version: '4.27.0', revision: 'd6e718d134'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.6'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [241637a48016e05446784ed4ef6a1f36, executeScript {script=arguments[0].apply.border='3px solidgreen , args=[{element-6066-11e4-a52e-4f735466cecf=f.8909532A002510AF96B4B43ADFF9EB73.d.870CB373C44C2AFFD23B8429162D6571.e.4}]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 140.0.7339.81, chrome: {chromedriverVersion: 140.0.7339.82 (bc93617e21c3..., userDataDir: C:\Users\ASUS\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58337}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:58337/devtoo..., se:cdpVersion: 140.0.7339.81, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 241637a48016e05446784ed4ef6a1f36
+2025-09-12 06:08:06 [TestNG-test-OrangeHRMTest1-1] INFO  com.orangehrm.actiondriver.ActionDriver - Entered text on Element with name: password-->admin123
+2025-09-12 06:08:06 [TestNG-test-OrangeHRMTest1-1] WARN  com.orangehrm.actiondriver.ActionDriver - failed to apply the border to an elememt : javascript error: Invalid or unexpected token
+  (Session info: chrome=140.0.7339.81)
+Build info: version: '4.27.0', revision: 'd6e718d134'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.6'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [241637a48016e05446784ed4ef6a1f36, executeScript {script=arguments[0].apply.border='3px solidgreen , args=[{element-6066-11e4-a52e-4f735466cecf=f.8909532A002510AF96B4B43ADFF9EB73.d.870CB373C44C2AFFD23B8429162D6571.e.8}]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 140.0.7339.81, chrome: {chromedriverVersion: 140.0.7339.82 (bc93617e21c3..., userDataDir: C:\Users\ASUS\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58337}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:58337/devtoo..., se:cdpVersion: 140.0.7339.81, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 241637a48016e05446784ed4ef6a1f36
+2025-09-12 06:08:06 [TestNG-test-OrangeHRMTest1-1] WARN  com.orangehrm.actiondriver.ActionDriver - failed to apply the border to an elememt : javascript error: Invalid or unexpected token
+  (Session info: chrome=140.0.7339.81)
+Build info: version: '4.27.0', revision: 'd6e718d134'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.6'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [241637a48016e05446784ed4ef6a1f36, executeScript {script=arguments[0].apply.border='3px solidRed , args=[{element-6066-11e4-a52e-4f735466cecf=f.8909532A002510AF96B4B43ADFF9EB73.d.870CB373C44C2AFFD23B8429162D6571.e.8}]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 140.0.7339.81, chrome: {chromedriverVersion: 140.0.7339.82 (bc93617e21c3..., userDataDir: C:\Users\ASUS\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58337}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:58337/devtoo..., se:cdpVersion: 140.0.7339.81, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 241637a48016e05446784ed4ef6a1f36
+2025-09-12 06:08:08 [TestNG-test-OrangeHRMTest1-1] INFO  com.orangehrm.actiondriver.ActionDriver - Clicked on element: Element with text: Login
+2025-09-12 06:08:08 [TestNG-test-OrangeHRMTest1-1] INFO  com.orangehrm.actiondriver.ActionDriver - Element is displayed Element with text: Admin
+2025-09-12 06:08:09 [TestNG-test-OrangeHRMTest1-1] WARN  com.orangehrm.actiondriver.ActionDriver - failed to apply the border to an elememt : javascript error: Invalid or unexpected token
+  (Session info: chrome=140.0.7339.81)
+Build info: version: '4.27.0', revision: 'd6e718d134'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.6'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [241637a48016e05446784ed4ef6a1f36, executeScript {script=arguments[0].apply.border='3px solidgreen , args=[{element-6066-11e4-a52e-4f735466cecf=f.8909532A002510AF96B4B43ADFF9EB73.d.77DF4EBCF43571D4D0233484097837BA.e.29}]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 140.0.7339.81, chrome: {chromedriverVersion: 140.0.7339.82 (bc93617e21c3..., userDataDir: C:\Users\ASUS\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58337}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:58337/devtoo..., se:cdpVersion: 140.0.7339.81, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 241637a48016e05446784ed4ef6a1f36
+2025-09-12 06:08:09 [TestNG-test-OrangeHRMTest1-1] WARN  com.orangehrm.actiondriver.ActionDriver - failed to apply the border to an elememt : javascript error: Invalid or unexpected token
+  (Session info: chrome=140.0.7339.81)
+Build info: version: '4.27.0', revision: 'd6e718d134'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.6'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [241637a48016e05446784ed4ef6a1f36, executeScript {script=arguments[0].apply.border='3px solidRed , args=[{element-6066-11e4-a52e-4f735466cecf=f.8909532A002510AF96B4B43ADFF9EB73.d.77DF4EBCF43571D4D0233484097837BA.e.29}]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 140.0.7339.81, chrome: {chromedriverVersion: 140.0.7339.82 (bc93617e21c3..., userDataDir: C:\Users\ASUS\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58337}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:58337/devtoo..., se:cdpVersion: 140.0.7339.81, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 241637a48016e05446784ed4ef6a1f36
+2025-09-12 06:08:09 [TestNG-test-OrangeHRMTest1-1] INFO  com.orangehrm.actiondriver.ActionDriver - Clicked on element: Element with text: other name cespedes
+2025-09-12 06:08:09 [TestNG-test-OrangeHRMTest1-1] WARN  com.orangehrm.actiondriver.ActionDriver - failed to apply the border to an elememt : javascript error: Invalid or unexpected token
+  (Session info: chrome=140.0.7339.81)
+Build info: version: '4.27.0', revision: 'd6e718d134'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.6'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [241637a48016e05446784ed4ef6a1f36, executeScript {script=arguments[0].apply.border='3px solidgreen , args=[{element-6066-11e4-a52e-4f735466cecf=f.8909532A002510AF96B4B43ADFF9EB73.d.77DF4EBCF43571D4D0233484097837BA.e.31}]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 140.0.7339.81, chrome: {chromedriverVersion: 140.0.7339.82 (bc93617e21c3..., userDataDir: C:\Users\ASUS\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58337}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:58337/devtoo..., se:cdpVersion: 140.0.7339.81, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 241637a48016e05446784ed4ef6a1f36
+2025-09-12 06:08:09 [TestNG-test-OrangeHRMTest1-1] WARN  com.orangehrm.actiondriver.ActionDriver - failed to apply the border to an elememt : javascript error: Invalid or unexpected token
+  (Session info: chrome=140.0.7339.81)
+Build info: version: '4.27.0', revision: 'd6e718d134'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.6'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [241637a48016e05446784ed4ef6a1f36, executeScript {script=arguments[0].apply.border='3px solidRed , args=[{element-6066-11e4-a52e-4f735466cecf=f.8909532A002510AF96B4B43ADFF9EB73.d.77DF4EBCF43571D4D0233484097837BA.e.31}]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 140.0.7339.81, chrome: {chromedriverVersion: 140.0.7339.82 (bc93617e21c3..., userDataDir: C:\Users\ASUS\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58337}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:58337/devtoo..., se:cdpVersion: 140.0.7339.81, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 241637a48016e05446784ed4ef6a1f36
+2025-09-12 06:08:12 [TestNG-test-OrangeHRMTest1-1] INFO  com.orangehrm.actiondriver.ActionDriver - Clicked on element: Element with text: Logout
+2025-09-12 06:08:15 [TestNG-test-OrangeHRMTest1-1] INFO  com.orangehrm.base.BaseClass - WebDriver instance is closed
+2025-09-12 06:17:26 [main] INFO  com.orangehrm.base.BaseClass - config.properties file loaded
+2025-09-12 06:17:33 [TestNG-test-OrangeHRMTest1-1] INFO  com.orangehrm.base.BaseClass - WebDriver Initialized and Browser Maximized
+2025-09-12 06:17:33 [TestNG-test-OrangeHRMTest1-1] INFO  com.orangehrm.actiondriver.ActionDriver - WebDriver instance is created
+2025-09-12 06:17:33 [TestNG-test-OrangeHRMTest1-1] INFO  com.orangehrm.base.BaseClass - ActionDriver initialized for thread: 47
+2025-09-12 06:17:35 [TestNG-test-OrangeHRMTest1-1] INFO  com.orangehrm.actiondriver.ActionDriver - Applied the border with color green to element: Element with name: username
+2025-09-12 06:17:35 [TestNG-test-OrangeHRMTest1-1] INFO  com.orangehrm.actiondriver.ActionDriver - Entered text on Element with name: username-->Admin
+2025-09-12 06:17:35 [TestNG-test-OrangeHRMTest1-1] INFO  com.orangehrm.actiondriver.ActionDriver - Applied the border with color green to element: Element with name: password
+2025-09-12 06:17:35 [TestNG-test-OrangeHRMTest1-1] INFO  com.orangehrm.actiondriver.ActionDriver - Entered text on Element with name: password-->admin121
+2025-09-12 06:17:35 [TestNG-test-OrangeHRMTest1-1] INFO  com.orangehrm.actiondriver.ActionDriver - Applied the border with color green  to element: Element with text: Login
+2025-09-12 06:17:36 [TestNG-test-OrangeHRMTest1-1] INFO  com.orangehrm.actiondriver.ActionDriver - Applied the border with color Red  to element: Element with text: Login
+2025-09-12 06:17:36 [TestNG-test-OrangeHRMTest1-2] INFO  com.orangehrm.base.BaseClass - WebDriver Initialized and Browser Maximized
+2025-09-12 06:17:36 [TestNG-test-OrangeHRMTest1-2] INFO  com.orangehrm.actiondriver.ActionDriver - WebDriver instance is created
+2025-09-12 06:17:36 [TestNG-test-OrangeHRMTest1-2] INFO  com.orangehrm.base.BaseClass - ActionDriver initialized for thread: 48
+2025-09-12 06:17:37 [TestNG-test-OrangeHRMTest1-2] INFO  com.orangehrm.actiondriver.ActionDriver - Applied the border with color green to element: Element with name: username
+2025-09-12 06:17:37 [TestNG-test-OrangeHRMTest1-2] INFO  com.orangehrm.actiondriver.ActionDriver - Entered text on Element with name: username-->Admin
+2025-09-12 06:17:37 [TestNG-test-OrangeHRMTest1-1] INFO  com.orangehrm.actiondriver.ActionDriver - Clicked on element: Element with text: Login
+2025-09-12 06:17:37 [TestNG-test-OrangeHRMTest1-2] INFO  com.orangehrm.actiondriver.ActionDriver - Applied the border with color green to element: Element with name: password
+2025-09-12 06:17:37 [TestNG-test-OrangeHRMTest1-2] INFO  com.orangehrm.actiondriver.ActionDriver - Entered text on Element with name: password-->admin123
+2025-09-12 06:17:37 [TestNG-test-OrangeHRMTest1-2] INFO  com.orangehrm.actiondriver.ActionDriver - Applied the border with color green  to element: Element with text: Login
+2025-09-12 06:17:37 [TestNG-test-OrangeHRMTest1-1] INFO  com.orangehrm.actiondriver.ActionDriver - Texts are Matching:Invalid credentials equals Invalid credentials
+2025-09-12 06:17:37 [TestNG-test-OrangeHRMTest1-2] INFO  com.orangehrm.actiondriver.ActionDriver - Applied the border with color Red  to element: Element with text: Login
+2025-09-12 06:17:38 [TestNG-test-OrangeHRMTest1-2] INFO  com.orangehrm.actiondriver.ActionDriver - Clicked on element: Element with text: Login
+2025-09-12 06:17:40 [TestNG-test-OrangeHRMTest1-1] INFO  com.orangehrm.base.BaseClass - WebDriver instance is closed
+2025-09-12 06:17:40 [TestNG-test-OrangeHRMTest1-2] INFO  com.orangehrm.actiondriver.ActionDriver - Element is displayed Element located using: By.xpath: //div[@class='oxd-brand-banner']//img
+2025-09-12 06:17:41 [TestNG-test-OrangeHRMTest1-2] INFO  com.orangehrm.base.BaseClass - WebDriver instance is closed
+2025-09-12 06:17:46 [TestNG-test-OrangeHRMTest1-1] INFO  com.orangehrm.base.BaseClass - WebDriver Initialized and Browser Maximized
+2025-09-12 06:17:46 [TestNG-test-OrangeHRMTest1-1] INFO  com.orangehrm.actiondriver.ActionDriver - WebDriver instance is created
+2025-09-12 06:17:46 [TestNG-test-OrangeHRMTest1-1] INFO  com.orangehrm.base.BaseClass - ActionDriver initialized for thread: 47
+2025-09-12 06:17:46 [TestNG-test-OrangeHRMTest1-1] INFO  com.orangehrm.actiondriver.ActionDriver - Applied the border with color green to element: Element with name: username
+2025-09-12 06:17:47 [TestNG-test-OrangeHRMTest1-1] INFO  com.orangehrm.actiondriver.ActionDriver - Entered text on Element with name: username-->Admin
+2025-09-12 06:17:47 [TestNG-test-OrangeHRMTest1-1] INFO  com.orangehrm.actiondriver.ActionDriver - Applied the border with color green to element: Element with name: password
+2025-09-12 06:17:47 [TestNG-test-OrangeHRMTest1-1] INFO  com.orangehrm.actiondriver.ActionDriver - Entered text on Element with name: password-->admin123
+2025-09-12 06:17:47 [TestNG-test-OrangeHRMTest1-1] INFO  com.orangehrm.actiondriver.ActionDriver - Applied the border with color green  to element: Element with text: Login
+2025-09-12 06:17:47 [TestNG-test-OrangeHRMTest1-1] INFO  com.orangehrm.actiondriver.ActionDriver - Applied the border with color Red  to element: Element with text: Login
+2025-09-12 06:17:47 [TestNG-test-OrangeHRMTest1-1] INFO  com.orangehrm.actiondriver.ActionDriver - Clicked on element: Element with text: Login
+2025-09-12 06:17:49 [TestNG-test-OrangeHRMTest1-1] INFO  com.orangehrm.actiondriver.ActionDriver - Element is displayed Element with text: Admin
+2025-09-12 06:17:49 [TestNG-test-OrangeHRMTest1-1] INFO  com.orangehrm.actiondriver.ActionDriver - Applied the border with color green  to element: Element with text: other name cespedes
+2025-09-12 06:17:49 [TestNG-test-OrangeHRMTest1-1] INFO  com.orangehrm.actiondriver.ActionDriver - Applied the border with color Red  to element: Element with text: other name cespedes
+2025-09-12 06:17:49 [TestNG-test-OrangeHRMTest1-1] INFO  com.orangehrm.actiondriver.ActionDriver - Clicked on element: Element with text: other name cespedes
+2025-09-12 06:17:50 [TestNG-test-OrangeHRMTest1-1] INFO  com.orangehrm.actiondriver.ActionDriver - Applied the border with color green  to element: Element with text: Logout
+2025-09-12 06:17:50 [TestNG-test-OrangeHRMTest1-1] INFO  com.orangehrm.actiondriver.ActionDriver - Applied the border with color Red  to element: Element with text: Logout
+2025-09-12 06:17:51 [TestNG-test-OrangeHRMTest1-1] INFO  com.orangehrm.actiondriver.ActionDriver - Clicked on element: Element located using: By.xpath: //a[text()='Logout']
+2025-09-12 06:17:53 [TestNG-test-OrangeHRMTest1-1] INFO  com.orangehrm.base.BaseClass - WebDriver instance is closed
+2025-09-12 06:24:43 [main] INFO  com.orangehrm.base.BaseClass - config.properties file loaded
+2025-09-12 06:24:50 [TestNG-test-OrangeHRMTest1-2] INFO  com.orangehrm.base.BaseClass - WebDriver Initialized and Browser Maximized
+2025-09-12 06:24:50 [TestNG-test-OrangeHRMTest1-2] INFO  com.orangehrm.actiondriver.ActionDriver - WebDriver instance is created
+2025-09-12 06:24:50 [TestNG-test-OrangeHRMTest1-2] INFO  com.orangehrm.base.BaseClass - ActionDriver initialized for thread: 47
+2025-09-12 06:24:53 [TestNG-test-OrangeHRMTest1-1] INFO  com.orangehrm.base.BaseClass - WebDriver Initialized and Browser Maximized
+2025-09-12 06:24:53 [TestNG-test-OrangeHRMTest1-1] INFO  com.orangehrm.actiondriver.ActionDriver - WebDriver instance is created
+2025-09-12 06:24:53 [TestNG-test-OrangeHRMTest1-1] INFO  com.orangehrm.base.BaseClass - ActionDriver initialized for thread: 46
+2025-09-12 06:24:54 [TestNG-test-OrangeHRMTest1-1] INFO  com.orangehrm.actiondriver.ActionDriver - Applied the border with color green to element: Element with name: username
+2025-09-12 06:24:54 [TestNG-test-OrangeHRMTest1-1] INFO  com.orangehrm.actiondriver.ActionDriver - Entered text on Element with name: username-->Admin
+2025-09-12 06:24:54 [TestNG-test-OrangeHRMTest1-1] INFO  com.orangehrm.actiondriver.ActionDriver - Applied the border with color green to element: Element with name: password
+2025-09-12 06:24:54 [TestNG-test-OrangeHRMTest1-1] INFO  com.orangehrm.actiondriver.ActionDriver - Entered text on Element with name: password-->admin121
+2025-09-12 06:24:54 [TestNG-test-OrangeHRMTest1-2] INFO  com.orangehrm.actiondriver.ActionDriver - Applied the border with color green to element: Element with name: username
+2025-09-12 06:24:54 [TestNG-test-OrangeHRMTest1-1] INFO  com.orangehrm.actiondriver.ActionDriver - Applied the border with color green  to element: Element with text: Login
+2025-09-12 06:24:54 [TestNG-test-OrangeHRMTest1-2] INFO  com.orangehrm.actiondriver.ActionDriver - Entered text on Element with name: username-->Admin
+2025-09-12 06:24:54 [TestNG-test-OrangeHRMTest1-1] INFO  com.orangehrm.actiondriver.ActionDriver - Applied the border with color Red  to element: Element with text: Login
+2025-09-12 06:24:54 [TestNG-test-OrangeHRMTest1-1] INFO  com.orangehrm.actiondriver.ActionDriver - Clicked on element: Element with text: Login
+2025-09-12 06:24:54 [TestNG-test-OrangeHRMTest1-2] INFO  com.orangehrm.actiondriver.ActionDriver - Applied the border with color green to element: Element with name: password
+2025-09-12 06:24:55 [TestNG-test-OrangeHRMTest1-2] INFO  com.orangehrm.actiondriver.ActionDriver - Entered text on Element with name: password-->admin123
+2025-09-12 06:24:55 [TestNG-test-OrangeHRMTest1-2] INFO  com.orangehrm.actiondriver.ActionDriver - Applied the border with color green  to element: Element with text: Login
+2025-09-12 06:24:55 [TestNG-test-OrangeHRMTest1-2] INFO  com.orangehrm.actiondriver.ActionDriver - Applied the border with color Red  to element: Element with text: Login
+2025-09-12 06:24:56 [TestNG-test-OrangeHRMTest1-1] INFO  com.orangehrm.actiondriver.ActionDriver - Texts are Matching:Invalid credentials equals Invalid credentials
+2025-09-12 06:24:58 [TestNG-test-OrangeHRMTest1-2] INFO  com.orangehrm.actiondriver.ActionDriver - Clicked on element: Element with text: Login
+2025-09-12 06:24:59 [TestNG-test-OrangeHRMTest1-2] INFO  com.orangehrm.actiondriver.ActionDriver - Element is displayed Element located using: By.xpath: //div[@class='oxd-brand-banner']//img
+2025-09-12 06:24:59 [TestNG-test-OrangeHRMTest1-1] INFO  com.orangehrm.base.BaseClass - WebDriver instance is closed
+2025-09-12 06:25:00 [TestNG-test-OrangeHRMTest1-2] INFO  com.orangehrm.base.BaseClass - WebDriver instance is closed
+2025-09-12 06:25:07 [TestNG-test-OrangeHRMTest1-1] INFO  com.orangehrm.base.BaseClass - WebDriver Initialized and Browser Maximized
+2025-09-12 06:25:07 [TestNG-test-OrangeHRMTest1-1] INFO  com.orangehrm.actiondriver.ActionDriver - WebDriver instance is created
+2025-09-12 06:25:07 [TestNG-test-OrangeHRMTest1-1] INFO  com.orangehrm.base.BaseClass - ActionDriver initialized for thread: 46
+2025-09-12 06:25:07 [TestNG-test-OrangeHRMTest1-1] INFO  com.orangehrm.actiondriver.ActionDriver - Applied the border with color green to element: Element with name: username
+2025-09-12 06:25:07 [TestNG-test-OrangeHRMTest1-1] INFO  com.orangehrm.actiondriver.ActionDriver - Entered text on Element with name: username-->Admin
+2025-09-12 06:25:07 [TestNG-test-OrangeHRMTest1-1] INFO  com.orangehrm.actiondriver.ActionDriver - Applied the border with color green to element: Element with name: password
+2025-09-12 06:25:08 [TestNG-test-OrangeHRMTest1-1] INFO  com.orangehrm.actiondriver.ActionDriver - Entered text on Element with name: password-->admin123
+2025-09-12 06:25:08 [TestNG-test-OrangeHRMTest1-1] INFO  com.orangehrm.actiondriver.ActionDriver - Applied the border with color green  to element: Element with text: Login
+2025-09-12 06:25:08 [TestNG-test-OrangeHRMTest1-1] INFO  com.orangehrm.actiondriver.ActionDriver - Applied the border with color Red  to element: Element with text: Login
+2025-09-12 06:25:08 [TestNG-test-OrangeHRMTest1-1] INFO  com.orangehrm.actiondriver.ActionDriver - Clicked on element: Element with text: Login
+2025-09-12 06:25:10 [TestNG-test-OrangeHRMTest1-1] INFO  com.orangehrm.actiondriver.ActionDriver - Element is displayed Element with text: Admin
+2025-09-12 06:25:10 [TestNG-test-OrangeHRMTest1-1] INFO  com.orangehrm.actiondriver.ActionDriver - Applied the border with color green  to element: Element with text: other name cespedes
+2025-09-12 06:25:10 [TestNG-test-OrangeHRMTest1-1] INFO  com.orangehrm.actiondriver.ActionDriver - Applied the border with color Red  to element: Element with text: other name cespedes
+2025-09-12 06:25:10 [TestNG-test-OrangeHRMTest1-1] INFO  com.orangehrm.actiondriver.ActionDriver - Clicked on element: Element with text: other name cespedes
+2025-09-12 06:25:11 [TestNG-test-OrangeHRMTest1-1] INFO  com.orangehrm.actiondriver.ActionDriver - Applied the border with color green  to element: Element with text: Logout
+2025-09-12 06:25:11 [TestNG-test-OrangeHRMTest1-1] INFO  com.orangehrm.actiondriver.ActionDriver - Applied the border with color Red  to element: Element with text: Logout
+2025-09-12 06:25:12 [TestNG-test-OrangeHRMTest1-1] INFO  com.orangehrm.actiondriver.ActionDriver - Clicked on element: Element located using: By.xpath: //a[text()='Logout']
+2025-09-12 06:25:14 [TestNG-test-OrangeHRMTest1-1] INFO  com.orangehrm.base.BaseClass - WebDriver instance is closed
+2025-09-12 06:41:25 [main] INFO  com.orangehrm.base.BaseClass - config.properties file loaded
+2025-09-12 06:41:32 [TestNG-test-OrangeHRMTest1-2] INFO  com.orangehrm.base.BaseClass - WebDriver Initialized and Browser Maximized
+2025-09-12 06:41:32 [TestNG-test-OrangeHRMTest1-2] INFO  com.orangehrm.actiondriver.ActionDriver - WebDriver instance is created
+2025-09-12 06:41:32 [TestNG-test-OrangeHRMTest1-2] INFO  com.orangehrm.base.BaseClass - ActionDriver initialized for thread: 47
+2025-09-12 06:41:32 [TestNG-test-OrangeHRMTest1-1] INFO  com.orangehrm.base.BaseClass - WebDriver Initialized and Browser Maximized
+2025-09-12 06:41:32 [TestNG-test-OrangeHRMTest1-1] INFO  com.orangehrm.actiondriver.ActionDriver - WebDriver instance is created
+2025-09-12 06:41:32 [TestNG-test-OrangeHRMTest1-1] INFO  com.orangehrm.base.BaseClass - ActionDriver initialized for thread: 46
+2025-09-12 06:41:33 [TestNG-test-OrangeHRMTest1-2] INFO  com.orangehrm.actiondriver.ActionDriver - Applied the border with color green to element: Element with name: username
+2025-09-12 06:41:33 [TestNG-test-OrangeHRMTest1-2] INFO  com.orangehrm.actiondriver.ActionDriver - Entered text on Element with name: username-->Admin
+2025-09-12 06:41:33 [TestNG-test-OrangeHRMTest1-2] INFO  com.orangehrm.actiondriver.ActionDriver - Applied the border with color green to element: Element with name: password
+2025-09-12 06:41:34 [TestNG-test-OrangeHRMTest1-2] INFO  com.orangehrm.actiondriver.ActionDriver - Entered text on Element with name: password-->admin121
+2025-09-12 06:41:34 [TestNG-test-OrangeHRMTest1-2] INFO  com.orangehrm.actiondriver.ActionDriver - Applied the border with color green  to element: Element with text: Login
+2025-09-12 06:41:34 [TestNG-test-OrangeHRMTest1-2] INFO  com.orangehrm.actiondriver.ActionDriver - Applied the border with color Red  to element: Element with text: Login
+2025-09-12 06:41:35 [TestNG-test-OrangeHRMTest1-1] INFO  com.orangehrm.actiondriver.ActionDriver - Applied the border with color green to element: Element with name: username
+2025-09-12 06:41:35 [TestNG-test-OrangeHRMTest1-1] INFO  com.orangehrm.actiondriver.ActionDriver - Entered text on Element with name: username-->Admin
+2025-09-12 06:41:35 [TestNG-test-OrangeHRMTest1-1] INFO  com.orangehrm.actiondriver.ActionDriver - Applied the border with color green to element: Element with name: password
+2025-09-12 06:41:35 [TestNG-test-OrangeHRMTest1-2] INFO  com.orangehrm.actiondriver.ActionDriver - Clicked on element: Element with text: Login
+2025-09-12 06:41:35 [TestNG-test-OrangeHRMTest1-1] INFO  com.orangehrm.actiondriver.ActionDriver - Entered text on Element with name: password-->admin121
+2025-09-12 06:41:35 [TestNG-test-OrangeHRMTest1-1] INFO  com.orangehrm.actiondriver.ActionDriver - Applied the border with color green  to element: Element with text: Login
+2025-09-12 06:41:35 [TestNG-test-OrangeHRMTest1-1] INFO  com.orangehrm.actiondriver.ActionDriver - Applied the border with color Red  to element: Element with text: Login
+2025-09-12 06:41:37 [TestNG-test-OrangeHRMTest1-1] INFO  com.orangehrm.actiondriver.ActionDriver - Clicked on element: Element with text: Login
+2025-09-12 06:41:37 [TestNG-test-OrangeHRMTest1-1] INFO  com.orangehrm.actiondriver.ActionDriver - Texts are Matching:Invalid credentials equals Invalid credentials
+2025-09-12 06:41:40 [TestNG-test-OrangeHRMTest1-1] INFO  com.orangehrm.base.BaseClass - WebDriver instance is closed
+2025-09-12 06:42:00 [TestNG-test-OrangeHRMTest1-1] INFO  com.orangehrm.base.BaseClass - WebDriver Initialized and Browser Maximized
+2025-09-12 06:42:00 [TestNG-test-OrangeHRMTest1-1] INFO  com.orangehrm.actiondriver.ActionDriver - WebDriver instance is created
+2025-09-12 06:42:00 [TestNG-test-OrangeHRMTest1-1] INFO  com.orangehrm.base.BaseClass - ActionDriver initialized for thread: 46
+2025-09-12 06:42:00 [TestNG-test-OrangeHRMTest1-1] INFO  com.orangehrm.actiondriver.ActionDriver - Applied the border with color green to element: Element with name: username
+2025-09-12 06:42:00 [TestNG-test-OrangeHRMTest1-1] INFO  com.orangehrm.actiondriver.ActionDriver - Entered text on Element with name: username-->Admin
+2025-09-12 06:42:00 [TestNG-test-OrangeHRMTest1-1] INFO  com.orangehrm.actiondriver.ActionDriver - Applied the border with color green to element: Element with name: password
+2025-09-12 06:42:00 [TestNG-test-OrangeHRMTest1-1] INFO  com.orangehrm.actiondriver.ActionDriver - Entered text on Element with name: password-->admin123
+2025-09-12 06:42:00 [TestNG-test-OrangeHRMTest1-1] INFO  com.orangehrm.actiondriver.ActionDriver - Applied the border with color green  to element: Element with text: Login
+2025-09-12 06:42:00 [TestNG-test-OrangeHRMTest1-1] INFO  com.orangehrm.actiondriver.ActionDriver - Applied the border with color Red  to element: Element with text: Login
+2025-09-12 06:42:01 [TestNG-test-OrangeHRMTest1-1] INFO  com.orangehrm.actiondriver.ActionDriver - Clicked on element: Element with text: Login
+2025-09-12 06:42:02 [TestNG-test-OrangeHRMTest1-1] INFO  com.orangehrm.actiondriver.ActionDriver - Element is displayed Element with text: Admin
+2025-09-12 06:42:03 [TestNG-test-OrangeHRMTest1-1] INFO  com.orangehrm.actiondriver.ActionDriver - Applied the border with color green  to element: Element with text: other name Akki
+2025-09-12 06:42:03 [TestNG-test-OrangeHRMTest1-1] INFO  com.orangehrm.actiondriver.ActionDriver - Applied the border with color Red  to element: Element with text: other name Akki
+2025-09-12 06:42:03 [TestNG-test-OrangeHRMTest1-1] INFO  com.orangehrm.actiondriver.ActionDriver - Clicked on element: Element with text: other name Akki
+2025-09-12 06:42:03 [TestNG-test-OrangeHRMTest1-1] INFO  com.orangehrm.actiondriver.ActionDriver - Applied the border with color green  to element: Element with text: Logout
+2025-09-12 06:42:04 [TestNG-test-OrangeHRMTest1-1] INFO  com.orangehrm.actiondriver.ActionDriver - Applied the border with color Red  to element: Element with text: Logout
+2025-09-12 06:42:08 [TestNG-test-OrangeHRMTest1-1] INFO  com.orangehrm.actiondriver.ActionDriver - Clicked on element: Element with text: Logout
+2025-09-12 06:42:10 [TestNG-test-OrangeHRMTest1-1] INFO  com.orangehrm.base.BaseClass - WebDriver instance is closed
+2025-09-12 06:42:16 [TestNG-test-OrangeHRMTest1-2] INFO  com.orangehrm.actiondriver.ActionDriver - Element is displayed Unable to describe element due to error: no such element: Unable to locate element: {"method":"xpath","selector":"//div[@class='oxd-brand-banner']//img"}
+  (Session info: chrome=140.0.7339.81)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.27.0', revision: 'd6e718d134'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.6'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [ebabeaa2cd826b1334588359b9744373, findElement {using=xpath, value=//div[@class='oxd-brand-banner']//img}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 140.0.7339.81, chrome: {chromedriverVersion: 140.0.7339.82 (bc93617e21c3..., userDataDir: C:\Users\ASUS\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50218}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50218/devtoo..., se:cdpVersion: 140.0.7339.81, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: ebabeaa2cd826b1334588359b9744373
+2025-09-12 06:42:57 [TestNG-test-OrangeHRMTest1-2] INFO  com.orangehrm.base.BaseClass - WebDriver instance is closed
+2025-09-12 06:48:40 [main] INFO  com.orangehrm.base.BaseClass - config.properties file loaded
+2025-09-12 06:48:47 [TestNG-test-OrangeHRMTest1-2] INFO  com.orangehrm.base.BaseClass - WebDriver Initialized and Browser Maximized
+2025-09-12 06:48:47 [TestNG-test-OrangeHRMTest1-2] INFO  com.orangehrm.actiondriver.ActionDriver - WebDriver instance is created
+2025-09-12 06:48:47 [TestNG-test-OrangeHRMTest1-2] INFO  com.orangehrm.base.BaseClass - ActionDriver initialized for thread: 48
+2025-09-12 06:48:48 [TestNG-test-OrangeHRMTest1-2] INFO  com.orangehrm.actiondriver.ActionDriver - Applied the border with color green to element: Element with name: username
+2025-09-12 06:48:49 [TestNG-test-OrangeHRMTest1-2] INFO  com.orangehrm.actiondriver.ActionDriver - Entered text on Element with name: username-->Admin
+2025-09-12 06:48:49 [TestNG-test-OrangeHRMTest1-2] INFO  com.orangehrm.actiondriver.ActionDriver - Applied the border with color green to element: Element with name: password
+2025-09-12 06:48:49 [TestNG-test-OrangeHRMTest1-2] INFO  com.orangehrm.actiondriver.ActionDriver - Entered text on Element with name: password-->admin123
+2025-09-12 06:48:49 [TestNG-test-OrangeHRMTest1-2] INFO  com.orangehrm.actiondriver.ActionDriver - Applied the border with color green to element: Element with text: Login
+2025-09-12 06:48:49 [TestNG-test-OrangeHRMTest1-2] INFO  com.orangehrm.actiondriver.ActionDriver - Clicked on element: Element with text: Login
+2025-09-12 06:48:51 [TestNG-test-OrangeHRMTest1-1] INFO  com.orangehrm.base.BaseClass - WebDriver Initialized and Browser Maximized
+2025-09-12 06:48:51 [TestNG-test-OrangeHRMTest1-1] INFO  com.orangehrm.actiondriver.ActionDriver - WebDriver instance is created
+2025-09-12 06:48:51 [TestNG-test-OrangeHRMTest1-1] INFO  com.orangehrm.base.BaseClass - ActionDriver initialized for thread: 47
+2025-09-12 06:48:51 [TestNG-test-OrangeHRMTest1-1] INFO  com.orangehrm.actiondriver.ActionDriver - Applied the border with color green to element: Element with name: username
+2025-09-12 06:48:51 [TestNG-test-OrangeHRMTest1-2] INFO  com.orangehrm.actiondriver.ActionDriver - Applied the border with color green to element: Element located using: By.xpath: //div[@class='oxd-brand-banner']//img
+2025-09-12 06:48:51 [TestNG-test-OrangeHRMTest1-2] INFO  com.orangehrm.actiondriver.ActionDriver - Element is displayed Element located using: By.xpath: //div[@class='oxd-brand-banner']//img
+2025-09-12 06:48:51 [TestNG-test-OrangeHRMTest1-1] INFO  com.orangehrm.actiondriver.ActionDriver - Entered text on Element with name: username-->Admin
+2025-09-12 06:48:51 [TestNG-test-OrangeHRMTest1-1] INFO  com.orangehrm.actiondriver.ActionDriver - Applied the border with color green to element: Element with name: password
+2025-09-12 06:48:52 [TestNG-test-OrangeHRMTest1-1] INFO  com.orangehrm.actiondriver.ActionDriver - Entered text on Element with name: password-->admin121
+2025-09-12 06:48:52 [TestNG-test-OrangeHRMTest1-1] INFO  com.orangehrm.actiondriver.ActionDriver - Applied the border with color green to element: Element with text: Login
+2025-09-12 06:48:52 [TestNG-test-OrangeHRMTest1-1] INFO  com.orangehrm.actiondriver.ActionDriver - Clicked on element: Element with text: Login
+2025-09-12 06:48:52 [TestNG-test-OrangeHRMTest1-2] INFO  com.orangehrm.base.BaseClass - WebDriver instance is closed
+2025-09-12 06:48:55 [TestNG-test-OrangeHRMTest1-1] INFO  com.orangehrm.actiondriver.ActionDriver - Texts are Matching:Invalid credentials equals Invalid credentials
+2025-09-12 06:48:57 [TestNG-test-OrangeHRMTest1-1] INFO  com.orangehrm.base.BaseClass - WebDriver instance is closed
+2025-09-12 06:49:06 [TestNG-test-OrangeHRMTest1-1] INFO  com.orangehrm.base.BaseClass - WebDriver Initialized and Browser Maximized
+2025-09-12 06:49:06 [TestNG-test-OrangeHRMTest1-1] INFO  com.orangehrm.actiondriver.ActionDriver - WebDriver instance is created
+2025-09-12 06:49:06 [TestNG-test-OrangeHRMTest1-1] INFO  com.orangehrm.base.BaseClass - ActionDriver initialized for thread: 47
+2025-09-12 06:49:07 [TestNG-test-OrangeHRMTest1-1] INFO  com.orangehrm.actiondriver.ActionDriver - Applied the border with color green to element: Element with name: username
+2025-09-12 06:49:07 [TestNG-test-OrangeHRMTest1-1] INFO  com.orangehrm.actiondriver.ActionDriver - Entered text on Element with name: username-->Admin
+2025-09-12 06:49:07 [TestNG-test-OrangeHRMTest1-1] INFO  com.orangehrm.actiondriver.ActionDriver - Applied the border with color green to element: Element with name: password
+2025-09-12 06:49:07 [TestNG-test-OrangeHRMTest1-1] INFO  com.orangehrm.actiondriver.ActionDriver - Entered text on Element with name: password-->admin123
+2025-09-12 06:49:07 [TestNG-test-OrangeHRMTest1-1] INFO  com.orangehrm.actiondriver.ActionDriver - Applied the border with color green to element: Element with text: Login
+2025-09-12 06:49:09 [TestNG-test-OrangeHRMTest1-1] INFO  com.orangehrm.actiondriver.ActionDriver - Clicked on element: Element with text: Login
+2025-09-12 06:49:09 [TestNG-test-OrangeHRMTest1-1] INFO  com.orangehrm.actiondriver.ActionDriver - Applied the border with color green to element: Element with text: Admin
+2025-09-12 06:49:09 [TestNG-test-OrangeHRMTest1-1] INFO  com.orangehrm.actiondriver.ActionDriver - Element is displayed Element with text: Admin
+2025-09-12 06:49:10 [TestNG-test-OrangeHRMTest1-1] INFO  com.orangehrm.actiondriver.ActionDriver - Applied the border with color green to element: Element with text: other name Akki
+2025-09-12 06:49:10 [TestNG-test-OrangeHRMTest1-1] INFO  com.orangehrm.actiondriver.ActionDriver - Clicked on element: Element with text: other name Akki
+2025-09-12 06:49:10 [TestNG-test-OrangeHRMTest1-1] INFO  com.orangehrm.actiondriver.ActionDriver - Applied the border with color green to element: Element with text: Logout
+2025-09-12 06:49:16 [TestNG-test-OrangeHRMTest1-1] INFO  com.orangehrm.actiondriver.ActionDriver - Clicked on element: Element with text: Logout
+2025-09-12 06:49:19 [TestNG-test-OrangeHRMTest1-1] INFO  com.orangehrm.base.BaseClass - WebDriver instance is closed
+2025-09-12 13:41:46 [main] INFO  com.orangehrm.base.BaseClass - config.properties file loaded
+2025-09-12 13:41:56 [TestNG-test-OrangeHRMTest1-2] INFO  com.orangehrm.base.BaseClass - WebDriver Initialized and Browser Maximized
+2025-09-12 13:41:56 [TestNG-test-OrangeHRMTest1-2] INFO  com.orangehrm.actiondriver.ActionDriver - WebDriver instance is created
+2025-09-12 13:41:56 [TestNG-test-OrangeHRMTest1-2] INFO  com.orangehrm.base.BaseClass - ActionDriver initialized for thread: 47
+2025-09-12 13:41:56 [TestNG-test-OrangeHRMTest1-2] INFO  com.orangehrm.actiondriver.ActionDriver - Applied the border with color green to element: Element with name: username
+2025-09-12 13:41:56 [TestNG-test-OrangeHRMTest1-1] INFO  com.orangehrm.base.BaseClass - WebDriver Initialized and Browser Maximized
+2025-09-12 13:41:56 [TestNG-test-OrangeHRMTest1-1] INFO  com.orangehrm.actiondriver.ActionDriver - WebDriver instance is created
+2025-09-12 13:41:56 [TestNG-test-OrangeHRMTest1-1] INFO  com.orangehrm.base.BaseClass - ActionDriver initialized for thread: 46
+2025-09-12 13:41:57 [TestNG-test-OrangeHRMTest1-1] INFO  com.orangehrm.actiondriver.ActionDriver - Applied the border with color green to element: Element with name: username
+2025-09-12 13:41:57 [TestNG-test-OrangeHRMTest1-2] INFO  com.orangehrm.actiondriver.ActionDriver - Entered text on Element with name: username-->Admin
+2025-09-12 13:41:57 [TestNG-test-OrangeHRMTest1-2] INFO  com.orangehrm.actiondriver.ActionDriver - Applied the border with color green to element: Element with name: password
+2025-09-12 13:41:57 [TestNG-test-OrangeHRMTest1-1] INFO  com.orangehrm.actiondriver.ActionDriver - Entered text on Element with name: username-->Admin
+2025-09-12 13:41:57 [TestNG-test-OrangeHRMTest1-1] INFO  com.orangehrm.actiondriver.ActionDriver - Applied the border with color green to element: Element with name: password
+2025-09-12 13:41:57 [TestNG-test-OrangeHRMTest1-2] INFO  com.orangehrm.actiondriver.ActionDriver - Entered text on Element with name: password-->admin123
+2025-09-12 13:41:57 [TestNG-test-OrangeHRMTest1-1] INFO  com.orangehrm.actiondriver.ActionDriver - Entered text on Element with name: password-->admin121
+2025-09-12 13:41:57 [TestNG-test-OrangeHRMTest1-2] INFO  com.orangehrm.actiondriver.ActionDriver - Applied the border with color green to element: Element with text: Login
+2025-09-12 13:41:57 [TestNG-test-OrangeHRMTest1-2] INFO  com.orangehrm.actiondriver.ActionDriver - Clicked on element: Element with text: Login
+2025-09-12 13:41:57 [TestNG-test-OrangeHRMTest1-1] INFO  com.orangehrm.actiondriver.ActionDriver - Applied the border with color green to element: Element with text: Login
+2025-09-12 13:41:57 [TestNG-test-OrangeHRMTest1-1] INFO  com.orangehrm.actiondriver.ActionDriver - Clicked on element: Element with text: Login
+2025-09-12 13:41:59 [TestNG-test-OrangeHRMTest1-2] INFO  com.orangehrm.actiondriver.ActionDriver - Applied the border with color green to element: Element located using: By.xpath: //div[@class='oxd-brand-banner']//img
+2025-09-12 13:41:59 [TestNG-test-OrangeHRMTest1-2] INFO  com.orangehrm.actiondriver.ActionDriver - Element is displayed Element located using: By.xpath: //div[@class='oxd-brand-banner']//img
+2025-09-12 13:41:59 [TestNG-test-OrangeHRMTest1-1] INFO  com.orangehrm.actiondriver.ActionDriver - Texts are Matching:Invalid credentials equals Invalid credentials
+2025-09-12 13:41:59 [TestNG-test-OrangeHRMTest1-2] INFO  com.orangehrm.base.BaseClass - WebDriver instance is closed
+2025-09-12 13:42:01 [TestNG-test-OrangeHRMTest1-1] INFO  com.orangehrm.base.BaseClass - WebDriver instance is closed
+2025-09-12 13:42:09 [TestNG-test-OrangeHRMTest1-1] INFO  com.orangehrm.base.BaseClass - WebDriver Initialized and Browser Maximized
+2025-09-12 13:42:09 [TestNG-test-OrangeHRMTest1-1] INFO  com.orangehrm.actiondriver.ActionDriver - WebDriver instance is created
+2025-09-12 13:42:09 [TestNG-test-OrangeHRMTest1-1] INFO  com.orangehrm.base.BaseClass - ActionDriver initialized for thread: 46
+2025-09-12 13:42:09 [TestNG-test-OrangeHRMTest1-1] INFO  com.orangehrm.actiondriver.ActionDriver - Applied the border with color green to element: Element with name: username
+2025-09-12 13:42:09 [TestNG-test-OrangeHRMTest1-1] INFO  com.orangehrm.actiondriver.ActionDriver - Entered text on Element with name: username-->Admin
+2025-09-12 13:42:09 [TestNG-test-OrangeHRMTest1-1] INFO  com.orangehrm.actiondriver.ActionDriver - Applied the border with color green to element: Element with name: password
+2025-09-12 13:42:09 [TestNG-test-OrangeHRMTest1-1] INFO  com.orangehrm.actiondriver.ActionDriver - Entered text on Element with name: password-->admin123
+2025-09-12 13:42:09 [TestNG-test-OrangeHRMTest1-1] INFO  com.orangehrm.actiondriver.ActionDriver - Applied the border with color green to element: Element with text: Login
+2025-09-12 13:42:09 [TestNG-test-OrangeHRMTest1-1] INFO  com.orangehrm.actiondriver.ActionDriver - Clicked on element: Element with text: Login
+2025-09-12 13:42:11 [TestNG-test-OrangeHRMTest1-1] INFO  com.orangehrm.actiondriver.ActionDriver - Applied the border with color green to element: Element with text: Admin
+2025-09-12 13:42:11 [TestNG-test-OrangeHRMTest1-1] INFO  com.orangehrm.actiondriver.ActionDriver - Element is displayed Element with text: Admin
+2025-09-12 13:42:11 [TestNG-test-OrangeHRMTest1-1] INFO  com.orangehrm.actiondriver.ActionDriver - Applied the border with color green to element: Element with text: manda user
+2025-09-12 13:42:11 [TestNG-test-OrangeHRMTest1-1] INFO  com.orangehrm.actiondriver.ActionDriver - Clicked on element: Element with text: manda user
+2025-09-12 13:42:11 [TestNG-test-OrangeHRMTest1-1] INFO  com.orangehrm.actiondriver.ActionDriver - Applied the border with color green to element: Element located using: By.xpath: //a[text()='Logout']
+2025-09-12 13:42:14 [TestNG-test-OrangeHRMTest1-1] INFO  com.orangehrm.actiondriver.ActionDriver - Clicked on element: Element located using: By.xpath: //a[text()='Logout']
+2025-09-12 13:42:17 [TestNG-test-OrangeHRMTest1-1] INFO  com.orangehrm.base.BaseClass - WebDriver instance is closed
+2025-09-12 15:43:58 [main] INFO  com.orangehrm.base.BaseClass - config.properties file loaded
+2025-09-12 15:44:44 [TestNG-test-OrangeHRMTest1-2] INFO  com.orangehrm.base.BaseClass - WebDriver Initialized and Browser Maximized
+2025-09-12 15:44:44 [TestNG-test-OrangeHRMTest1-2] INFO  com.orangehrm.actiondriver.ActionDriver - WebDriver instance is created
+2025-09-12 15:44:44 [TestNG-test-OrangeHRMTest1-2] INFO  com.orangehrm.base.BaseClass - ActionDriver initialized for thread: 48
+2025-09-12 15:44:44 [TestNG-test-OrangeHRMTest1-2] INFO  com.orangehrm.actiondriver.ActionDriver - Applied the border with color green to element: Element with name: username
+2025-09-12 15:44:44 [TestNG-test-OrangeHRMTest1-2] INFO  com.orangehrm.actiondriver.ActionDriver - Entered text on Element with name: username-->Admin
+2025-09-12 15:44:44 [TestNG-test-OrangeHRMTest1-2] INFO  com.orangehrm.actiondriver.ActionDriver - Applied the border with color green to element: Element with name: password
+2025-09-12 15:44:44 [TestNG-test-OrangeHRMTest1-2] INFO  com.orangehrm.actiondriver.ActionDriver - Entered text on Element with name: password-->admin123
+2025-09-12 15:44:45 [TestNG-test-OrangeHRMTest1-2] INFO  com.orangehrm.actiondriver.ActionDriver - Applied the border with color green to element: Element with text: Login
+2025-09-12 15:44:45 [TestNG-test-OrangeHRMTest1-2] INFO  com.orangehrm.actiondriver.ActionDriver - Clicked on element: Element with text: Login
+2025-09-12 15:44:50 [TestNG-test-OrangeHRMTest1-2] INFO  com.orangehrm.actiondriver.ActionDriver - Applied the border with color green to element: Element located using: By.xpath: //div[@class='oxd-brand-banner']//img
+2025-09-12 15:44:50 [TestNG-test-OrangeHRMTest1-2] INFO  com.orangehrm.actiondriver.ActionDriver - Element is displayed Element located using: By.xpath: //div[@class='oxd-brand-banner']//img
+2025-09-12 15:44:53 [TestNG-test-OrangeHRMTest1-2] INFO  com.orangehrm.base.BaseClass - WebDriver instance is closed
+2025-09-12 15:46:06 [main] INFO  com.orangehrm.base.BaseClass - config.properties file loaded
+2025-09-12 15:46:20 [TestNG-test-OrangeHRMTest1-2] INFO  com.orangehrm.base.BaseClass - WebDriver Initialized and Browser Maximized
+2025-09-12 15:46:20 [TestNG-test-OrangeHRMTest1-2] INFO  com.orangehrm.actiondriver.ActionDriver - WebDriver instance is created
+2025-09-12 15:46:20 [TestNG-test-OrangeHRMTest1-2] INFO  com.orangehrm.base.BaseClass - ActionDriver initialized for thread: 48
+2025-09-12 15:46:20 [TestNG-test-OrangeHRMTest1-2] INFO  com.orangehrm.actiondriver.ActionDriver - Applied the border with color green to element: Element with name: username
+2025-09-12 15:46:21 [TestNG-test-OrangeHRMTest1-2] INFO  com.orangehrm.actiondriver.ActionDriver - Entered text on Element with name: username-->Admin
+2025-09-12 15:46:21 [TestNG-test-OrangeHRMTest1-2] INFO  com.orangehrm.actiondriver.ActionDriver - Applied the border with color green to element: Element with name: password
+2025-09-12 15:46:21 [TestNG-test-OrangeHRMTest1-2] INFO  com.orangehrm.actiondriver.ActionDriver - Entered text on Element with name: password-->admin123
+2025-09-12 15:46:21 [TestNG-test-OrangeHRMTest1-2] INFO  com.orangehrm.actiondriver.ActionDriver - Applied the border with color green to element: Element with text: Login
+2025-09-12 15:46:24 [TestNG-test-OrangeHRMTest1-2] INFO  com.orangehrm.actiondriver.ActionDriver - Clicked on element: Element with text: Login
+2025-09-12 15:46:25 [TestNG-test-OrangeHRMTest1-2] INFO  com.orangehrm.actiondriver.ActionDriver - Applied the border with color green to element: Element located using: By.xpath: //div[@class='oxd-brand-banner']//img
+2025-09-12 15:46:25 [TestNG-test-OrangeHRMTest1-2] INFO  com.orangehrm.actiondriver.ActionDriver - Element is displayed Element located using: By.xpath: //div[@class='oxd-brand-banner']//img
+2025-09-12 15:46:27 [TestNG-test-OrangeHRMTest1-2] INFO  com.orangehrm.base.BaseClass - WebDriver instance is closed
+2025-09-12 15:49:47 [main] INFO  com.orangehrm.base.BaseClass - config.properties file loaded
+2025-09-12 15:52:39 [main] INFO  com.orangehrm.base.BaseClass - config.properties file loaded
+2025-09-12 16:03:57 [main] INFO  com.orangehrm.base.BaseClass - config.properties file loaded
+2025-09-12 16:05:08 [main] INFO  com.orangehrm.base.BaseClass - config.properties file loaded
+2025-09-12 16:08:09 [main] INFO  com.orangehrm.base.BaseClass - config.properties file loaded
+2025-09-12 16:13:22 [main] INFO  com.orangehrm.base.BaseClass - config.properties file loaded
+2025-09-12 16:13:51 [main] INFO  com.orangehrm.base.BaseClass - config.properties file loaded
+2025-09-12 16:26:30 [main] INFO  com.orangehrm.base.BaseClass - config.properties file loaded
+2025-09-12 16:34:33 [main] INFO  com.orangehrm.base.BaseClass - config.properties file loaded
+2025-09-12 16:36:19 [main] INFO  com.orangehrm.base.BaseClass - config.properties file loaded
+2025-09-12 16:39:39 [main] INFO  com.orangehrm.base.BaseClass - config.properties file loaded
+2025-09-12 16:42:48 [main] INFO  com.orangehrm.base.BaseClass - config.properties file loaded
+2025-09-12 17:49:26 [main] INFO  com.orangehrm.base.BaseClass - config.properties file loaded
+2025-09-12 17:50:22 [main] INFO  com.orangehrm.base.BaseClass - config.properties file loaded
+2025-09-12 17:50:37 [main] INFO  com.orangehrm.base.BaseClass - WebDriver Initialized and Browser Maximized
+2025-09-12 17:50:37 [main] INFO  com.orangehrm.actiondriver.ActionDriver - WebDriver instance is created
+2025-09-12 17:50:37 [main] INFO  com.orangehrm.base.BaseClass - ActionDriver initialized for thread: 1
+2025-09-12 17:50:37 [main] INFO  com.orangehrm.actiondriver.ActionDriver - Applied the border with color green to element: Element with name: username
+2025-09-12 17:50:37 [main] INFO  com.orangehrm.actiondriver.ActionDriver - Entered text on Element with name: username-->Admin
+2025-09-12 17:50:37 [main] INFO  com.orangehrm.actiondriver.ActionDriver - Applied the border with color green to element: Element with name: password
+2025-09-12 17:50:37 [main] INFO  com.orangehrm.actiondriver.ActionDriver - Entered text on Element with name: password-->admin123
+2025-09-12 17:50:37 [main] INFO  com.orangehrm.actiondriver.ActionDriver - Applied the border with color green to element: Element with text: Login
+2025-09-12 17:50:37 [main] INFO  com.orangehrm.actiondriver.ActionDriver - Clicked on element: Element with text: Login
+2025-09-12 17:50:39 [main] INFO  com.orangehrm.actiondriver.ActionDriver - Applied the border with color green to element: Element located using: By.xpath: //div[@class='oxd-brand-banner']//img
+2025-09-12 17:50:39 [main] INFO  com.orangehrm.actiondriver.ActionDriver - Element is displayed Element located using: By.xpath: //div[@class='oxd-brand-banner']//img
+2025-09-12 17:50:41 [main] INFO  com.orangehrm.base.BaseClass - WebDriver instance is closed
+2025-09-12 18:13:53 [main] INFO  com.orangehrm.base.BaseClass - config.properties file loaded
+2025-09-12 18:14:07 [main] INFO  com.orangehrm.base.BaseClass - WebDriver Initialized and Browser Maximized
+2025-09-12 18:14:07 [main] INFO  com.orangehrm.actiondriver.ActionDriver - WebDriver instance is created
+2025-09-12 18:14:07 [main] INFO  com.orangehrm.base.BaseClass - ActionDriver initialized for thread: 1
+2025-09-12 18:14:07 [main] INFO  com.orangehrm.actiondriver.ActionDriver - Applied the border with color green to element: Element with name: username
+2025-09-12 18:14:07 [main] INFO  com.orangehrm.actiondriver.ActionDriver - Entered text on Element with name: username-->Admin
+2025-09-12 18:14:07 [main] INFO  com.orangehrm.actiondriver.ActionDriver - Applied the border with color green to element: Element with name: password
+2025-09-12 18:14:07 [main] INFO  com.orangehrm.actiondriver.ActionDriver - Entered text on Element with name: password-->admin123
+2025-09-12 18:14:07 [main] INFO  com.orangehrm.actiondriver.ActionDriver - Applied the border with color green to element: Element with text: Login
+2025-09-12 18:14:07 [main] INFO  com.orangehrm.actiondriver.ActionDriver - Clicked on element: Element with text: Login
+2025-09-12 18:14:13 [main] INFO  com.orangehrm.actiondriver.ActionDriver - Applied the border with color green to element: Element located using: By.xpath: //div[@class='oxd-brand-banner']//img
+2025-09-12 18:14:13 [main] INFO  com.orangehrm.actiondriver.ActionDriver - Element is displayed Element located using: By.xpath: //div[@class='oxd-brand-banner']//img
+2025-09-12 18:14:15 [main] INFO  com.orangehrm.base.BaseClass - WebDriver instance is closed
+2025-09-12 18:14:15 [main] INFO  com.orangehrm.base.BaseClass - WebDriver is not initialized
+2025-09-12 19:22:51 [main] INFO  com.orangehrm.base.BaseClass - config.properties file loaded
+2025-09-12 19:23:13 [main] INFO  com.orangehrm.base.BaseClass - WebDriver Initialized and Browser Maximized
+2025-09-12 19:23:13 [main] INFO  com.orangehrm.actiondriver.ActionDriver - WebDriver instance is created
+2025-09-12 19:23:13 [main] INFO  com.orangehrm.base.BaseClass - ActionDriver initialized for thread: 1
+2025-09-12 19:23:13 [main] INFO  com.orangehrm.actiondriver.ActionDriver - Applied the border with color green to element: Element with name: username
+2025-09-12 19:23:13 [main] INFO  com.orangehrm.actiondriver.ActionDriver - Entered text on Element with name: username-->Admin
+2025-09-12 19:23:13 [main] INFO  com.orangehrm.actiondriver.ActionDriver - Applied the border with color green to element: Element with name: password
+2025-09-12 19:23:13 [main] INFO  com.orangehrm.actiondriver.ActionDriver - Entered text on Element with name: password-->admin123
+2025-09-12 19:23:13 [main] INFO  com.orangehrm.actiondriver.ActionDriver - Applied the border with color green to element: Element with text: Login
+2025-09-12 19:23:13 [main] INFO  com.orangehrm.actiondriver.ActionDriver - Clicked on element: Element with text: Login
+2025-09-12 19:23:16 [main] INFO  com.orangehrm.actiondriver.ActionDriver - Applied the border with color green to element: Element located using: By.xpath: //div[@class='oxd-brand-banner']//img
+2025-09-12 19:23:16 [main] INFO  com.orangehrm.actiondriver.ActionDriver - Element is displayed Element located using: By.xpath: //div[@class='oxd-brand-banner']//img
+2025-09-12 19:23:17 [main] INFO  com.orangehrm.base.BaseClass - WebDriver instance is closed
+2025-09-12 19:23:17 [main] INFO  com.orangehrm.base.BaseClass - WebDriver is not initialized
+2025-09-12 19:23:43 [main] INFO  com.orangehrm.base.BaseClass - config.properties file loaded
+2025-09-12 19:25:23 [main] INFO  com.orangehrm.base.BaseClass - config.properties file loaded
+2025-09-12 19:25:37 [main] INFO  com.orangehrm.base.BaseClass - WebDriver Initialized and Browser Maximized
+2025-09-12 19:25:37 [main] INFO  com.orangehrm.actiondriver.ActionDriver - WebDriver instance is created
+2025-09-12 19:25:37 [main] INFO  com.orangehrm.base.BaseClass - ActionDriver initialized for thread: 1
+2025-09-12 19:25:37 [main] INFO  com.orangehrm.actiondriver.ActionDriver - Applied the border with color green to element: Element with name: username
+2025-09-12 19:25:37 [main] INFO  com.orangehrm.actiondriver.ActionDriver - Entered text on Element with name: username-->Admin
+2025-09-12 19:25:37 [main] INFO  com.orangehrm.actiondriver.ActionDriver - Applied the border with color green to element: Element with name: password
+2025-09-12 19:25:37 [main] INFO  com.orangehrm.actiondriver.ActionDriver - Entered text on Element with name: password-->admin123
+2025-09-12 19:25:37 [main] INFO  com.orangehrm.actiondriver.ActionDriver - Applied the border with color green to element: Element with text: Login
+2025-09-12 19:25:40 [main] INFO  com.orangehrm.actiondriver.ActionDriver - Clicked on element: Element with text: Login
+2025-09-12 19:26:21 [main] INFO  com.orangehrm.base.BaseClass - WebDriver instance is closed
+2025-09-12 19:26:33 [main] INFO  com.orangehrm.base.BaseClass - WebDriver Initialized and Browser Maximized
+2025-09-12 19:26:33 [main] INFO  com.orangehrm.actiondriver.ActionDriver - WebDriver instance is created
+2025-09-12 19:26:33 [main] INFO  com.orangehrm.base.BaseClass - ActionDriver initialized for thread: 1
+2025-09-12 19:26:33 [main] INFO  com.orangehrm.actiondriver.ActionDriver - Applied the border with color green to element: Element with name: username
+2025-09-12 19:26:33 [main] INFO  com.orangehrm.actiondriver.ActionDriver - Entered text on Element with name: username-->Admin
+2025-09-12 19:26:33 [main] INFO  com.orangehrm.actiondriver.ActionDriver - Applied the border with color green to element: Element with name: password
+2025-09-12 19:26:33 [main] INFO  com.orangehrm.actiondriver.ActionDriver - Entered text on Element with name: password-->admin123
+2025-09-12 19:26:33 [main] INFO  com.orangehrm.actiondriver.ActionDriver - Applied the border with color green to element: Element with text: Login
+2025-09-12 19:26:33 [main] INFO  com.orangehrm.actiondriver.ActionDriver - Clicked on element: Element with text: Login
+2025-09-12 19:26:37 [main] INFO  com.orangehrm.actiondriver.ActionDriver - Applied the border with color green to element: Element with text: Admin
+2025-09-12 19:26:37 [main] INFO  com.orangehrm.actiondriver.ActionDriver - Element is displayed Element with text: Admin
+2025-09-12 19:26:37 [main] INFO  com.orangehrm.actiondriver.ActionDriver - Applied the border with color green to element: Element with text: Aditi Shrivastava
+2025-09-12 19:26:37 [main] INFO  com.orangehrm.actiondriver.ActionDriver - Clicked on element: Element with text: Aditi Shrivastava
+2025-09-12 19:26:37 [main] INFO  com.orangehrm.actiondriver.ActionDriver - Applied the border with color green to element: Element with text: Logout
+2025-09-12 19:26:47 [main] INFO  com.orangehrm.actiondriver.ActionDriver - Clicked on element: Element with text: Logout
+2025-09-12 19:26:50 [main] INFO  com.orangehrm.base.BaseClass - WebDriver instance is closed
+2025-09-12 19:27:41 [main] INFO  com.orangehrm.base.BaseClass - config.properties file loaded
+2025-09-12 19:28:00 [main] INFO  com.orangehrm.base.BaseClass - WebDriver Initialized and Browser Maximized
+2025-09-12 19:28:00 [main] INFO  com.orangehrm.actiondriver.ActionDriver - WebDriver instance is created
+2025-09-12 19:28:00 [main] INFO  com.orangehrm.base.BaseClass - ActionDriver initialized for thread: 1
+2025-09-12 19:28:00 [main] INFO  com.orangehrm.actiondriver.ActionDriver - Applied the border with color green to element: Element with name: username
+2025-09-12 19:28:00 [main] INFO  com.orangehrm.actiondriver.ActionDriver - Entered text on Element with name: username-->Admin
+2025-09-12 19:28:00 [main] INFO  com.orangehrm.actiondriver.ActionDriver - Applied the border with color green to element: Element with name: password
+2025-09-12 19:28:00 [main] INFO  com.orangehrm.actiondriver.ActionDriver - Entered text on Element with name: password-->admin121
+2025-09-12 19:28:00 [main] INFO  com.orangehrm.actiondriver.ActionDriver - Applied the border with color green to element: Element with text: Login
+2025-09-12 19:28:00 [main] INFO  com.orangehrm.actiondriver.ActionDriver - Clicked on element: Element with text: Login
+2025-09-12 19:28:07 [main] INFO  com.orangehrm.actiondriver.ActionDriver - Texts are Matching:Invalid credentials equals Invalid credentials
+2025-09-12 19:28:10 [main] INFO  com.orangehrm.base.BaseClass - WebDriver instance is closed
+2025-09-12 19:28:21 [main] INFO  com.orangehrm.base.BaseClass - WebDriver Initialized and Browser Maximized
+2025-09-12 19:28:21 [main] INFO  com.orangehrm.actiondriver.ActionDriver - WebDriver instance is created
+2025-09-12 19:28:21 [main] INFO  com.orangehrm.base.BaseClass - ActionDriver initialized for thread: 1
+2025-09-12 19:28:21 [main] INFO  com.orangehrm.actiondriver.ActionDriver - Applied the border with color green to element: Element with name: username
+2025-09-12 19:28:21 [main] INFO  com.orangehrm.actiondriver.ActionDriver - Entered text on Element with name: username-->Admin
+2025-09-12 19:28:21 [main] INFO  com.orangehrm.actiondriver.ActionDriver - Applied the border with color green to element: Element with name: password
+2025-09-12 19:28:22 [main] INFO  com.orangehrm.actiondriver.ActionDriver - Entered text on Element with name: password-->admin123
+2025-09-12 19:28:22 [main] INFO  com.orangehrm.actiondriver.ActionDriver - Applied the border with color green to element: Element with text: Login
+2025-09-12 19:28:22 [main] INFO  com.orangehrm.actiondriver.ActionDriver - Clicked on element: Element with text: Login
+2025-09-12 19:28:25 [main] INFO  com.orangehrm.actiondriver.ActionDriver - Applied the border with color green to element: Element with text: Admin
+2025-09-12 19:28:25 [main] INFO  com.orangehrm.actiondriver.ActionDriver - Element is displayed Element with text: Admin
+2025-09-12 19:28:25 [main] INFO  com.orangehrm.actiondriver.ActionDriver - Applied the border with color green to element: Element with text: Test 88 Shrivastava
+2025-09-12 19:28:25 [main] INFO  com.orangehrm.actiondriver.ActionDriver - Clicked on element: Element with text: Test 88 Shrivastava
+2025-09-12 19:28:25 [main] INFO  com.orangehrm.actiondriver.ActionDriver - Applied the border with color green to element: Element with text: Logout
+2025-09-12 19:28:30 [main] INFO  com.orangehrm.actiondriver.ActionDriver - Clicked on element: Element with text: Logout
+2025-09-12 19:28:32 [main] INFO  com.orangehrm.base.BaseClass - WebDriver instance is closed

@@ -15,22 +15,15 @@ import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.BeforeSuite;
 import com.orangehrm.actiondriver.ActionDriver;
+import com.orangehrm.utilities.ExtentManager;
 import com.orangehrm.utilities.LoggerManager;
 
 public class BaseClass {
 
 	protected static Properties prop;	
-	//protected static WebDriver driver;
-	//protected static ActionDriver actionDriver;	
 	
-	/*
-	 * this is done for parallel exicution ;
-	 * we have created ThreadLocal type Variables
-	 */
 	private static ThreadLocal<WebDriver> driver = new ThreadLocal<>();
 	private static ThreadLocal<ActionDriver> actionDriver = new ThreadLocal<>(); 
-	
-	
 	public static final Logger logger = LoggerManager.getLogger(BaseClass.class);
 
 	/*
@@ -42,6 +35,9 @@ public class BaseClass {
 		FileInputStream fis = new FileInputStream("./src/main/resources/config.properties");
 		prop.load(fis);
 		logger.info("config.properties file loaded");
+		
+		// Start the Extent Report
+		// ExtentManager.getReporter(); --> This has been implemented in TestListner
 	}
 	
 /*
@@ -79,12 +75,15 @@ public class BaseClass {
 		if (browser.equalsIgnoreCase("chrome")) {
 			//driver = new ChromeDriver();  
 			driver.set(new ChromeDriver());
+			ExtentManager.registerDriver(getDriver());
 		} else if (browser.equalsIgnoreCase("edge")) {
 			//driver = new EdgeDriver(); 
 			driver.set(new EdgeDriver());
+			ExtentManager.registerDriver(getDriver());
 		} else if (browser.equalsIgnoreCase("firefox")) {
 			//driver = new FirefoxDriver(); 
 			driver.set(new FirefoxDriver());
+			ExtentManager.registerDriver(getDriver());
 		} else {
 			throw new IllegalArgumentException("Browser Not Supported:" + browser);
 		}
@@ -126,14 +125,12 @@ public class BaseClass {
 		logger.info("WebDriver instance is closed");
 		driver.remove();
 		actionDriver.remove();
-		//driver = null;
-		//actionDriver = null;
 	}
 	
 	/*
 	 * getter method for WebDriver
 	 */
-	public WebDriver getDriver() {
+	public static WebDriver getDriver() {
 	/*	
 		if(driver==null) {
 			logger.info("WebDriver is not initialized");

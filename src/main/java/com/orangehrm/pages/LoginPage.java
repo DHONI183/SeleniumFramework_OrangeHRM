@@ -14,7 +14,7 @@ public class LoginPage {
 	
 	private By userNameField = By.name("username");
 	private By passworField = By.cssSelector("input[type='password']");
-	private By loginButton = By.xpath("//button[text()=' Login ']");
+	private By loginButton = By.xpath("//button[@type='submit']");
 	private By errorMessageTF = By.xpath("//p[text()='Invalid credentials']");
 	
 	//Initialize the ActionDriver object by passing WebDriver instance

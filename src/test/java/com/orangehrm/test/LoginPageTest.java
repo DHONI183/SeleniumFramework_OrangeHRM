@@ -6,6 +6,8 @@ import org.testng.annotations.Test;
 import com.orangehrm.base.BaseClass;
 import com.orangehrm.pages.HomePage;
 import com.orangehrm.pages.LoginPage;
+import com.orangehrm.utilities.DataProviders;
+import com.orangehrm.utilities.ExtentManager;
 
 public class LoginPageTest extends BaseClass{
 
@@ -20,15 +22,20 @@ public class LoginPageTest extends BaseClass{
 	
 	@Test
 	public void verifyValidLoginTest() {
-		loginPage.login("admin", "admin123");
+		ExtentManager.logStep("Navigating to Login Page entering username and password");
+		loginPage.login("Admin", "admin123");
+		ExtentManager.logStep("Verifying Admin tab is Visible or Not");
 		Assert.assertTrue(homePage.isAdminTabVisible() , "Admin tab should be visible after successfull login");
+		ExtentManager.logStep("Validation Successfull");
 		homePage.logout();
+		ExtentManager.logStep("Logged out Successfully!");
 		staticWait(2);
 	}
 		
 	@Test
 	public void inValidLoginTest() {
-		loginPage.login("admin", "admin");
+
+		loginPage.login("Admin", "admin121");
 		String expectedErrorMessage = "Invalid credentials";
 		Assert.assertTrue(loginPage.verifyErrorMessage(expectedErrorMessage) , "Error message is not shown in the error message area");
 		staticWait(2);
