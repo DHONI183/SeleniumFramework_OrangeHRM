@@ -6,8 +6,8 @@
 </listeners>
 	<test name="OrangeHRMTest1">
 		<classes>
-			<class name="com.orangehrm.test.DBVerificationTest" ></class>
-			
+			<class name="com.orangehrm.test.LoginPageTest" ></class>
+			<class name="com.orangehrm.test.HomePageTest" ></class>
 		</classes>
 	</test>
 </suite>
