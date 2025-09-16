@@ -14,6 +14,8 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.BeforeSuite;
+import org.testng.asserts.SoftAssert;
+
 import com.orangehrm.actiondriver.ActionDriver;
 import com.orangehrm.utilities.ExtentManager;
 import com.orangehrm.utilities.LoggerManager;
@@ -26,6 +28,9 @@ public class BaseClass {
 	private static ThreadLocal<ActionDriver> actionDriver = new ThreadLocal<>(); 
 	public static final Logger logger = LoggerManager.getLogger(BaseClass.class);
 
+	protected ThreadLocal<SoftAssert> softAssert = ThreadLocal.withInitial(SoftAssert::new);
+	
+	
 	/*
 	 * Load the Configuration File
 	 */
@@ -39,6 +44,11 @@ public class BaseClass {
 		// Start the Extent Report
 		// ExtentManager.getReporter(); --> This has been implemented in TestListner
 	}
+	
+	// Getter method for soft assert
+		public SoftAssert getSoftAssert() {
+			return softAssert.get();
+		}
 	
 /*
  * 

@@ -20,10 +20,11 @@ public class LoginPageTest extends BaseClass{
 		homePage = new HomePage(getDriver());
 	}
 	
-	@Test
-	public void verifyValidLoginTest() {
+	
+	@Test(dataProvider="validLoginData",dataProviderClass=DataProviders.class)
+	public void verifyValidLoginTest(String username , String password) {
 		ExtentManager.logStep("Navigating to Login Page entering username and password");
-		loginPage.login("Admin", "admin123");
+		loginPage.login(username, password);
 		ExtentManager.logStep("Verifying Admin tab is Visible or Not");
 		Assert.assertTrue(homePage.isAdminTabVisible() , "Admin tab should be visible after successfull login");
 		ExtentManager.logStep("Validation Successfull");
@@ -32,10 +33,10 @@ public class LoginPageTest extends BaseClass{
 		staticWait(2);
 	}
 		
-	@Test
-	public void inValidLoginTest() {
+	@Test(dataProvider="inValidLoginData",dataProviderClass=DataProviders.class)
+	public void inValidLoginTest(String username , String password) {
 
-		loginPage.login("Admin", "admin121");
+		loginPage.login(username, password);
 		String expectedErrorMessage = "Invalid credentials";
 		Assert.assertTrue(loginPage.verifyErrorMessage(expectedErrorMessage) , "Error message is not shown in the error message area");
 		staticWait(2);

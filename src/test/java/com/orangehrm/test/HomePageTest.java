@@ -9,6 +9,7 @@ import com.orangehrm.pages.HomePage;
 import com.orangehrm.pages.LoginPage;
 import com.orangehrm.utilities.DataProviders;
 import com.orangehrm.utilities.ExtentManager;
+import com.orangehrm.utilities.RetryAnalyzer;
 
 public class HomePageTest extends BaseClass{
 
@@ -21,10 +22,10 @@ public class HomePageTest extends BaseClass{
 		homePage = new HomePage(getDriver());
 	}
 	
-	@Test
-	public void verifyOrangeHRMLogo() {
+	@Test(dataProvider="validLoginData",dataProviderClass=DataProviders.class  )
+	public void verifyOrangeHRMLogo(String username , String password) {
 		ExtentManager.logStep("Navigating to Login Page entering username and password");
-		loginPage.login("Admin", "admin123");
+		loginPage.login(username, password);
 		Assert.assertTrue(homePage.verifyOrangeHRMlogo() , "This is not HomePage");
 		ExtentManager.logStep("Validation Successful");
 		ExtentManager.logStep("logged out Successfully!");

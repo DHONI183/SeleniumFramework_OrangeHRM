@@ -57,9 +57,9 @@ function toggleAllBoxes() {
 <tr>
 <td>Tests passed/Failed/Skipped:</td><td>0/1/0</td>
 </tr><tr>
-<td>Started on:</td><td>Fri Sep 12 06:01:30 IST 2025</td>
+<td>Started on:</td><td>Mon Sep 15 19:18:32 IST 2025</td>
 </tr>
-<tr><td>Total time:</td><td>16 seconds (16136 ms)</td>
+<tr><td>Total time:</td><td>0 seconds (291 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -76,17 +76,15 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='com.orangehrm.test.HomePageTest.verifyOrangeHRMLogo()'><b>verifyOrangeHRMLogo</b><br>Test class: com.orangehrm.test.HomePageTest</td>
-<td><div><pre>java.lang.NullPointerException: Cannot invoke &quot;com.aventstack.extentreports.ExtentTest.info(String)&quot; because the return value of &quot;com.orangehrm.utilities.ExtentManager.getTest()&quot; is null
-	at com.orangehrm.utilities.ExtentManager.logStep(ExtentManager.java:75)
-	at com.orangehrm.test.HomePageTest.verifyOrangeHRMLogo(HomePageTest.java:25)
-	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
-	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
-	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+<td title='com.orangehrm.test.DBVerificationTest.verifyEmployeeNameVerificationFromDB()'><b>verifyEmployeeNameVerificationFromDB</b><br>Test class: com.orangehrm.test.DBVerificationTest</td>
+<td><div><pre>java.lang.RuntimeException: java.lang.IllegalArgumentException: Sheet emplVerfication doesn&apos;t exists
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodNoCheckedException(MethodInvocationHelper.java:58)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeDataProvider(MethodInvocationHelper.java:159)
+	at org.testng.internal.Parameters.handleParameters(Parameters.java:809)
+	at org.testng.internal.Parameters.handleParameters(Parameters.java:734)
+	at org.testng.internal.invokers.ParameterHandler.handleParameters(ParameterHandler.java:72)
+	at org.testng.internal.invokers.ParameterHandler.createParameters(ParameterHandler.java:51)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:949)
 	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
 	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
 	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
@@ -106,17 +104,25 @@ function toggleAllBoxes() {
 	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
-</pre></div><a href='#' onClick='toggleBox("stack-trace1467977993", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1467977993'><pre>java.lang.NullPointerException: Cannot invoke &quot;com.aventstack.extentreports.ExtentTest.info(String)&quot; because the return value of &quot;com.orangehrm.utilities.ExtentManager.getTest()&quot; is null
-	at com.orangehrm.utilities.ExtentManager.logStep(ExtentManager.java:75)
-	at com.orangehrm.test.HomePageTest.verifyOrangeHRMLogo(HomePageTest.java:25)
+Caused by: java.lang.IllegalArgumentException: Sheet emplVerfication doesn&apos;t exists
+	at com.orangehrm.utilities.ExcelReaderUtility.getSheetData(ExcelReaderUtility.java:26)
+	at com.orangehrm.utilities.DataProviders.getSheetData(DataProviders.java:30)
+	at com.orangehrm.utilities.DataProviders.emplVerfication(DataProviders.java:24)
 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
 	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
-	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
-	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodNoCheckedException(MethodInvocationHelper.java:54)
+	... 25 more
+</pre></div><a href='#' onClick='toggleBox("stack-trace2026371507", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace2026371507'><pre>java.lang.RuntimeException: java.lang.IllegalArgumentException: Sheet emplVerfication doesn&apos;t exists
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodNoCheckedException(MethodInvocationHelper.java:58)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeDataProvider(MethodInvocationHelper.java:159)
+	at org.testng.internal.Parameters.handleParameters(Parameters.java:809)
+	at org.testng.internal.Parameters.handleParameters(Parameters.java:734)
+	at org.testng.internal.invokers.ParameterHandler.handleParameters(ParameterHandler.java:72)
+	at org.testng.internal.invokers.ParameterHandler.createParameters(ParameterHandler.java:51)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:949)
 	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
 	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
 	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
@@ -136,9 +142,19 @@ function toggleAllBoxes() {
 	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+Caused by: java.lang.IllegalArgumentException: Sheet emplVerfication doesn&apos;t exists
+	at com.orangehrm.utilities.ExcelReaderUtility.getSheetData(ExcelReaderUtility.java:26)
+	at com.orangehrm.utilities.DataProviders.getSheetData(DataProviders.java:30)
+	at com.orangehrm.utilities.DataProviders.emplVerfication(DataProviders.java:24)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodNoCheckedException(MethodInvocationHelper.java:54)
+	... 25 more
 </pre></div></td>
 <td>0</td>
-<td>com.orangehrm.test.HomePageTest@6138e79a</td></tr>
+<td>com.orangehrm.test.DBVerificationTest@6138e79a</td></tr>
 </table><p>
 </body>
 </html>

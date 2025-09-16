@@ -18,12 +18,12 @@ public class DataProviders {
 	public static Object[][] inValidLoginData(){
 		return getSheetData("inValidLoginData");
 	}
-	/*
+	
 	@DataProvider(name="emplVerification")
 	public static Object[][] emplVerfication(){
-		return getSheetData("emplVerfication");
+		return getSheetData("emplVerification");
 	}
-	*/
+	
 	
 	
 	private static Object[][] getSheetData(String sheetName) {

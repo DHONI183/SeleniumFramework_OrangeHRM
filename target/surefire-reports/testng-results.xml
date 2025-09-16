@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-09-16T02:05:31 IST" name="OrangeHRMSuite" finished-at="2025-09-16T02:05:40 IST" duration-ms="9579">
+    <groups>
+    </groups>
+    <test started-at="2025-09-16T02:05:31 IST" name="OrangeHRMTest1" finished-at="2025-09-16T02:05:40 IST" duration-ms="9579">
+      <class name="com.orangehrm.test.DBVerificationTest">
+        <test-method is-config="true" signature="loadConfig()[pri:0, instance:com.orangehrm.test.DBVerificationTest@b4711e2]" started-at="2025-09-16T02:05:31 IST" name="loadConfig" finished-at="2025-09-16T02:05:31 IST" duration-ms="10" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loadConfig -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.orangehrm.test.DBVerificationTest@b4711e2]" started-at="2025-09-16T02:05:31 IST" name="setup" finished-at="2025-09-16T02:05:35 IST" duration-ms="4340" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="setupPages()[pri:0, instance:com.orangehrm.test.DBVerificationTest@b4711e2]" started-at="2025-09-16T02:05:35 IST" name="setupPages" finished-at="2025-09-16T02:05:35 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupPages -->
+        <test-method signature="verifyEmployeeNameVerificationFromDB(java.lang.String,java.lang.String)[pri:0, instance:com.orangehrm.test.DBVerificationTest@b4711e2]" started-at="2025-09-16T02:05:35 IST" name="verifyEmployeeNameVerificationFromDB" data-provider="emplVerification" finished-at="2025-09-16T02:05:40 IST" duration-ms="4611" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Manish]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyEmployeeNameVerificationFromDB -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.orangehrm.test.DBVerificationTest@b4711e2]" started-at="2025-09-16T02:05:40 IST" name="tearDown" finished-at="2025-09-16T02:05:40 IST" duration-ms="126" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.orangehrm.test.DBVerificationTest -->
+    </test> <!-- OrangeHRMTest1 -->
+  </suite> <!-- OrangeHRMSuite -->
+</testng-results>
