@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('Checkout') {
             steps {
-                git branch: 'main','https://github.com/DHONI183/SeleniumFramework_OrangeHRM.git'
+                git branch: 'main', url: 'https://github.com/DHONI183/SeleniumFramework_OrangeHRM.git'
             }
         }
         stage('Build') {
@@ -11,7 +11,7 @@ pipeline {
                 bat 'mvn clean install'
             }
         }
-         stage('Test') {
+        stage('Test') {
             steps {
                 bat 'mvn test'
             }
@@ -28,12 +28,12 @@ pipeline {
         }
     }
     
-     post {
+    post {
         always {
             archiveArtifacts artifacts: '**/src/test/resources/ExtentReport/*.html', fingerprint: true
             junit 'target/surefire-reports/*.xml'
         }
-         success {
+        success {
             emailext (
                 to: 'manish17nov95@gmail.com',
                 subject: "Build Success: ${env.JOB_NAME} #${env.BUILD_NUMBER}",
@@ -82,6 +82,4 @@ pipeline {
             )
         }
     }
-        
-        
 }
