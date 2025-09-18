@@ -19,16 +19,16 @@ pipeline {
                 bat 'mvn test'
             }
         }
-        stage('Publish Report') {
-            steps {
-                publishHTML(target: [
-                    reportDir: 'target/extent-reports',
-                    reportFiles: 'index.html',
-                    keepAll: true,
-                    reportName: 'Extent Report'
-                ])
-            }
-        }
+      stage('Publish Report') {
+    steps {
+        publishHTML(target: [
+            reportDir: 'src/test/resources/ExtentReport',
+            reportFiles: 'ExtentReport.html',
+            keepAll: true,
+            reportName: 'Extent Report'
+        ])
+    }
+}
     }
     
     post {

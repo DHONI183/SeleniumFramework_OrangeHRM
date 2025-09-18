@@ -21,7 +21,7 @@ public class LoginPageTest extends BaseClass{
 	}
 	
 	
-	@Test(dataProvider="validLoginData",dataProviderClass=DataProviders.class)
+	@Test
 	public void verifyValidLoginTest(String username , String password) {
 		ExtentManager.logStep("Navigating to Login Page entering username and password");
 		loginPage.login(username, password);
