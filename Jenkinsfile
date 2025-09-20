@@ -21,7 +21,7 @@ pipeline {
                 }
             }
         }
-    stages {
+    
         stage('Checkout') {
             steps {
                 git branch: 'main', url: 'https://github.com/DHONI183/SeleniumFramework_OrangeHRM.git'
