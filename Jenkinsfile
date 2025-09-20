@@ -77,7 +77,7 @@ pipeline {
     always {
         archiveArtifacts artifacts: '**/src/test/resources/ExtentReport/*.html', fingerprint: true
         junit 'target/surefire-reports/*.xml'
-   
+           } 
         success {
             emailext (
                 to: 'manish17nov95@gmail.com',
