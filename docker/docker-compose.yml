@@ -9,6 +9,7 @@ services:
       - "4443:4443"
       - "4444:4444"
 
+
   chrome:
     image: selenium/node-chrome:4.34.0
     shm_size: 2g
