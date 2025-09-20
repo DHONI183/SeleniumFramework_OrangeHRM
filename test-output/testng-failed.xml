@@ -4,6 +4,21 @@
   <listeners>
     <listener class-name="com.orangehrm.listeners.TestListener"/>
   </listeners>
+  <test thread-count="8" parallel="tests" name="OrangeHRMTest_firefox(failed)">
+    <parameter name="browser" value="firefox"/>
+    <classes>
+      <class name="com.orangehrm.test.LoginPageTest">
+        <methods>
+          <include name="setup"/>
+          <include name="tearDown"/>
+          <include name="loadConfig"/>
+          <include name="verifyValidLoginTest"/>
+          <include name="inValidLoginTest"/>
+          <include name="setupPages"/>
+        </methods>
+      </class> <!-- com.orangehrm.test.LoginPageTest -->
+    </classes>
+  </test> <!-- OrangeHRMTest_firefox(failed) -->
   <test thread-count="8" parallel="tests" name="OrangeHRMTest_chrome(failed)">
     <parameter name="browser" value="chrome"/>
     <classes>
@@ -13,7 +28,7 @@
           <include name="tearDown"/>
           <include name="loadConfig"/>
           <include name="setupPages"/>
-          <include name="verifyOrangeHRMLogo" invocation-numbers="0"/>
+          <include name="verifyOrangeHRMLogo"/>
         </methods>
       </class> <!-- com.orangehrm.test.HomePageTest -->
     </classes>

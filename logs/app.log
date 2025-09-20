@@ -41,3 +41,5 @@
 2025-09-20 05:59:08 [TestNG-tests-2] INFO  com.orangehrm.actiondriver.ActionDriver - Applied the border with color green to element: Element with text: Logout
 2025-09-20 05:59:10 [TestNG-tests-2] INFO  com.orangehrm.actiondriver.ActionDriver - Clicked on element: Element with text: Logout
 2025-09-20 05:59:12 [TestNG-tests-2] INFO  com.orangehrm.base.BaseClass - WebDriver instance is closed
+2025-09-20 15:23:20 [main] INFO  com.orangehrm.base.BaseClass - config.properties file loaded
+2025-09-20 15:25:58 [main] INFO  com.orangehrm.base.BaseClass - config.properties file loaded
