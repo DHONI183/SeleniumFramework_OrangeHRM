@@ -55,10 +55,10 @@ pipeline {
                                     allowEmptyArchive: true
                     
                     // Publish test results
-                    if (fileExists('target/surefire-reports')) {
+               /*     if (fileExists('target/surefire-reports')) {
                         publishTestResults testResultsPattern: 'target/surefire-reports/*.xml',
                                           allowEmptyResults: true
-                    }
+                    }*/
                 }
             }
         }
