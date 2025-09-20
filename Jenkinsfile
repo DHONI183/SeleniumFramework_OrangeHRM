@@ -3,6 +3,14 @@ pipeline {
     options {
         skipDefaultCheckout()
     }
+      tools {
+        maven 'maven-3.9.9' 
+    }
+
+ environment {
+        COMPOSE_PATH = "${WORKSPACE}/docker" // 🔁 Adjust if compose file is elsewhere
+        SELENIUM_GRID = "true"
+    }
     stages {
         stage('Checkout') {
             steps {
