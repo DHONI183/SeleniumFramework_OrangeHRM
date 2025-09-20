@@ -6,7 +6,7 @@ pipeline {
     }
 
     environment {
-        COMPOSE_PATH = "${WORKSPACE}/docker" // 🔁 Adjust if compose file is elsewhere
+        COMPOSE_PATH = "${WORKSPACE}/docker"
         SELENIUM_GRID = "true"
     }
 
@@ -17,7 +17,7 @@ pipeline {
                     echo "Starting Selenium Grid with Docker Compose..."
                     bat "docker compose -f ${COMPOSE_PATH}\\docker-compose.yml up -d"
                     echo "Waiting for Selenium Grid to be ready..."
-                    sleep 30 // Add a wait if needed
+                    sleep 30
                 }
             }
         }
@@ -54,7 +54,7 @@ pipeline {
                 publishHTML(target: [
                     reportDir: 'src/test/resources/ExtentReport',  
                     reportFiles: 'SparkReport.html',  
-                    reportName: 'Extent Report'
+                    reportName: 'ExtentReport'
                 ])
             }
         }
@@ -62,8 +62,10 @@ pipeline {
 
     post {
         always {
-            archiveArtifacts artifacts: '**/src/test/resources/ExtentReport/*.html', fingerprint: true
-            junit 'target/surefire-reports/*.xml'
+            node { // ✅ Ensure workspace context
+                archiveArtifacts artifacts: '**/src/test/resources/ExtentReport/*.html', fingerprint: true
+                junit 'target/surefire-reports/*.xml'
+            }
         }
 
         success {
