@@ -1,15 +1,15 @@
 pipeline {
-    agent any
-    options {
-        skipDefaultCheckout()
-    }
-      
+    agent any  
 
- environment {
+    tools {
+        maven 'MVN_Home' 
+    }
+
+    environment {
         COMPOSE_PATH = "${WORKSPACE}/docker" // 🔁 Adjust if compose file is elsewhere
         SELENIUM_GRID = "true"
     }
-    
+
     stages {
         stage('Start Selenium Grid via Docker Compose') {
             steps {
@@ -21,24 +21,26 @@ pipeline {
                 }
             }
         }
-    
+
         stage('Checkout') {
             steps {
                 git branch: 'main', url: 'https://github.com/DHONI183/SeleniumFramework_OrangeHRM.git'
             }
         }
+
         stage('Build') {
             steps {
-                bat 'mvn clean install'
+                bat 'mvn clean install -DseleniumGrid=true'
             }
         }
+
         stage('Test') {
             steps {
-                bat 'mvn test'
+                bat "mvn clean test -DseleniumGrid=true"
             }
         }
-        
-         stage('Stop Selenium Grid') {
+
+        stage('Stop Selenium Grid') {
             steps {
                 script {
                     echo "Stopping Selenium Grid..."
@@ -46,30 +48,29 @@ pipeline {
                 }
             }
         }
-      stage('Publish Report') {
-    steps {
-        publishHTML(target: [
-            reportDir: 'src/test/resources/ExtentReport',
-            reportFiles: 'ExtentReport.html',
-            keepAll: true,
-            reportName: 'Extent Report'
-        ])
-    }
-}
-    }
-    
-    post {
-        always {
-            script {
-                archiveArtifacts artifacts: '**/src/test/resources/ExtentReport/*.html', fingerprint: true
-                junit 'target/surefire-reports/*.xml'
+
+        stage('Reports') {
+            steps {
+                publishHTML(target: [
+                    reportDir: 'src/test/resources/ExtentReport',  
+                    reportFiles: 'SparkReport.html',  
+                    reportName: 'Extent Report'
+                ])
             }
         }
+    }
+
+    post {
+        always {
+            archiveArtifacts artifacts: '**/src/test/resources/ExtentReport/*.html', fingerprint: true
+            junit 'target/surefire-reports/*.xml'
+        }
+
         success {
             emailext (
                 to: 'manish17nov95@gmail.com',
                 subject: "Build Success: ${env.JOB_NAME} #${env.BUILD_NUMBER}",
-                 body: """
+                body: """
                 <html>
                 <body>
                 <p>Hello Team,</p>
@@ -78,7 +79,7 @@ pipeline {
                 <p><b>Build Number:</b> #${env.BUILD_NUMBER}</p>
                 <p><b>Build Status:</b> <span style="color: green;"><b>SUCCESS</b></span></p>
                 <p><b>Build URL:</b> <a href="${env.BUILD_URL}">${env.BUILD_URL}</a></p>
-                <p><b>Extent Report:</b> <a href="http://localhost:8080/job/OrangeHRM_Pipeline_Job/7/artifact/src/test/resources/ExtentReport/ExtentReport.html">Click here</a></p>
+                <p><b>Extent Report:</b> <a href="http://localhost:8080/job/${env.JOB_NAME}/HTML_20Extent_20Report/">Click here</a></p>
                 <p>Best regards,</p>
                 <p><b>Automation Team</b></p>
                 </body>
@@ -88,11 +89,12 @@ pipeline {
                 attachLog: true
             )
         }
+
         failure {
             emailext (
-                to: 'manish17nov95@gmail.com',
+                to: 'manish17nov@gmail.com',
                 subject: "Build Failed: ${env.JOB_NAME} #${env.BUILD_NUMBER}",
-                 body: """
+                body: """
                 <html>
                 <body>
                 <p>Hello Team,</p>
