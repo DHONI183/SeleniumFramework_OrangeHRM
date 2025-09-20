@@ -1,4 +1,4 @@
-package com.orangehrm.listners;
+package com.orangehrm.listeners;
 
 import org.testng.IAnnotationTransformer;
 import org.testng.ITestContext;
